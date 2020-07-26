@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 17:59-0300\n"
-"PO-Revision-Date: 2020-07-26 14:27+0100\n"
+"PO-Revision-Date: 2020-07-26 14:54+0100\n"
 "Language-Team: NetMdP <esteban@netmdp.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1027,7 +1027,7 @@ msgstr ""
 
 #: wpematico/app/campaign_edit_functions.php:1062
 msgid "Add Feed"
-msgstr ""
+msgstr "Ajouter un Flux"
 
 #: wpematico/app/campaign_edit_functions.php:1063
 msgid "Check all feeds"
@@ -1051,15 +1051,15 @@ msgstr ""
 
 #: wpematico/app/campaign_edit_functions.php:1108
 msgid "Change the sizes of the video frames."
-msgstr ""
+msgstr "Change les tailles du cadre de la video"
 
 #: wpematico/app/campaign_edit_functions.php:1110
 msgid "Width:"
-msgstr ""
+msgstr "Largeur:"
 
 #: wpematico/app/campaign_edit_functions.php:1111
 msgid "Height:"
-msgstr ""
+msgstr "Hauteur:"
 
 #: wpematico/app/campaign_edit_functions.php:1113
 msgid "Ignore:"
@@ -1067,11 +1067,11 @@ msgstr "Ignorer:"
 
 #: wpematico/app/campaign_edit_functions.php:1115
 msgid "Image"
-msgstr ""
+msgstr "Image"
 
 #: wpematico/app/campaign_edit_functions.php:1117
 msgid "Use only as featured image"
-msgstr ""
+msgstr "Utiliser comme image mise en avant"
 
 #: wpematico/app/campaign_edit_functions.php:1119
 msgid "Hide description"
@@ -1082,6 +1082,8 @@ msgid ""
 "You shouldn't use this campaign type if you don't have installed and "
 "activated the bbPress Plugin"
 msgstr ""
+"Vous ne pouvez pas utilisr cette campagne si vous n'avez pas installé et "
+"activé l'extension bbPress"
 
 #: wpematico/app/campaign_edit_functions.php:1132
 msgid ""
@@ -1089,38 +1091,43 @@ msgid ""
 "\" page, \"Add New\", then install and activate the bbPress Plugin from "
 "Automattic."
 msgstr ""
+"Pour installer l'extensions Forums dans votre site web, aller à la page "
+"\"Extensions\" , \"Ajouter\", puis installer et activer l'extension bbPress "
+"d'Automattic."
 
 #: wpematico/app/campaign_edit_functions.php:1134
 msgid ""
 "If you do not select a forum, this will create new forums. Otherwise, this "
 "will create new topics in the selected forum."
 msgstr ""
+"Si vous ne sélectionnez pas de forum, cela créera de nouveaux forums. Sinon, "
+"cela créera de nouveaux sujets dans le forum sélectionné."
 
 #: wpematico/app/campaign_edit_functions.php:1136
 #: wpematico/app/campaign_edit_functions.php:1137
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: wpematico/app/campaign_edit_functions.php:1150
 msgid "&mdash; Create new forums &mdash;"
-msgstr ""
+msgstr "&mdash; Créer nouveaux forums &mdash;"
 
 #: wpematico/app/campaign_edit_functions.php:1157
 #: wpematico/app/campaign_edit_functions.php:1158
 msgid "Topic"
-msgstr ""
+msgstr "Sujets"
 
 #: wpematico/app/campaign_edit_functions.php:1171
 msgid "&mdash; Create new topics &mdash;"
-msgstr ""
+msgstr "&mdash; Créer de nouveaux sujets &mdash;"
 
 #: wpematico/app/campaign_edit_functions.php:1188
 msgid "E-Mail-Adress:"
-msgstr ""
+msgstr "Adresse E-Mail"
 
 #: wpematico/app/campaign_edit_functions.php:1190
 msgid "Send only E-Mail on errors."
-msgstr ""
+msgstr "Envoyer un e-mail seulement en cas d'erreurs."
 
 #: wpematico/app/campaign_edit_functions.php:1200
 msgid "Tags:"
@@ -1128,7 +1135,7 @@ msgstr "Étiquettes:"
 
 #: wpematico/app/campaign_edit_functions.php:1202
 msgid "Enter comma separated list of Tags."
-msgstr ""
+msgstr "Entrez une liste d'étiquette séparées par des virgules."
 
 #: wpematico/app/campaign_edit_functions.php:1226
 msgid "Add auto Categories"
