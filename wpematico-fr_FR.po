@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 17:59-0300\n"
-"PO-Revision-Date: 2020-07-26 14:54+0100\n"
+"PO-Revision-Date: 2020-07-26 23:56+0100\n"
 "Language-Team: NetMdP <esteban@netmdp.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #: wpematico/app/addons_page.php:92 wpematico/app/addons_page.php:101
 msgid "Add-ons"
-msgstr "Extensions"
+msgstr "Modules complémentaires"
 
 #: wpematico/app/addons_page.php:93 wpematico/app/lib/welcome.php:657
 msgid "WPeMatico Add-ons"
@@ -507,15 +507,15 @@ msgstr ""
 #: wpematico/app/campaign_edit_functions.php:424
 #: wpematico/app/campaign_help.php:279
 msgid "The feed item title."
-msgstr "Le titre de l'élément de flux"
+msgstr "Le titre de l'élément de Flux."
 
 #: wpematico/app/campaign_edit_functions.php:425
 msgid "The parsed post content."
-msgstr "Le contenu de l'article parsé"
+msgstr "Le contenu de l'article parsé."
 
 #: wpematico/app/campaign_edit_functions.php:426
 msgid "The feed item description."
-msgstr "La description de l'élément de flux"
+msgstr "La description de l'élément de Flux."
 
 #: wpematico/app/campaign_edit_functions.php:427
 #: wpematico/app/campaign_help.php:280
@@ -525,7 +525,7 @@ msgstr "Mettez l'image mise en avant dans le contenu."
 #: wpematico/app/campaign_edit_functions.php:428
 #: wpematico/app/campaign_help.php:281
 msgid "The feed item author."
-msgstr "L'auteur de l'élément de flux"
+msgstr "L'auteur de l'élément de Flux."
 
 #: wpematico/app/campaign_edit_functions.php:429
 #: wpematico/app/campaign_help.php:282
@@ -535,27 +535,27 @@ msgstr "Le lien de l'auteur de l'élément de flux (S'il existe)."
 #: wpematico/app/campaign_edit_functions.php:430
 #: wpematico/app/campaign_help.php:283
 msgid "The feed item permalink."
-msgstr "Le permalien de l'élément de flux"
+msgstr "Le permalien de l'élément de Flux."
 
 #: wpematico/app/campaign_edit_functions.php:431
 #: wpematico/app/campaign_help.php:284
 msgid "The feed URL."
-msgstr "L'URL du Flux"
+msgstr "L'URL du Flux."
 
 #: wpematico/app/campaign_edit_functions.php:432
 #: wpematico/app/campaign_help.php:285
 msgid "The feed title."
-msgstr "Le titre du Flux"
+msgstr "Le titre du Flux."
 
 #: wpematico/app/campaign_edit_functions.php:433
 #: wpematico/app/campaign_help.php:286
 msgid "The description of the feed."
-msgstr "La description du Flux"
+msgstr "La description du Flux."
 
 #: wpematico/app/campaign_edit_functions.php:434
 #: wpematico/app/campaign_help.php:287
 msgid "The feed's logo image URL."
-msgstr "L'URL du Logo du Flux"
+msgstr "L'URL du Logo du Flux."
 
 #: wpematico/app/campaign_edit_functions.php:435
 #: wpematico/app/campaign_help.php:288
@@ -578,7 +578,7 @@ msgstr "Le temps de l'élément de la publication."
 #: wpematico/app/campaign_edit_functions.php:441
 #: wpematico/app/campaign_help.php:291
 msgid "Examples:"
-msgstr "Exemples"
+msgstr "Exemples:"
 
 #: wpematico/app/campaign_edit_functions.php:443
 #: wpematico/app/campaign_help.php:293
@@ -609,7 +609,7 @@ msgstr ""
 #: wpematico/app/campaign_edit_functions.php:445
 #: wpematico/app/campaign_help.php:295
 msgid "with the original author of the feed item."
-msgstr "avec l'auteur propriétaire de l'élément de Flux"
+msgstr "avec l'auteur propriétaire de l'élément de Flux."
 
 #: wpematico/app/campaign_edit_functions.php:446
 #: wpematico/app/campaign_help.php:296
@@ -663,7 +663,7 @@ msgstr "Définir la première image dans le contenu comme image mise en avant."
 #: wpematico/app/campaign_help.php:160 wpematico/app/settings_help.php:57
 #: wpematico/app/settings_page.php:349
 msgid "Use Featured Image from URL."
-msgstr "Utiliser image mise en avant de l'URL"
+msgstr "Utiliser image mise en avant de l'URL."
 
 #: wpematico/app/campaign_edit_functions.php:510
 #: wpematico/app/campaign_help.php:166
@@ -843,7 +843,7 @@ msgstr "Le contenu de la publication est non filtré."
 #: wpematico/app/campaign_edit_functions.php:779
 #: wpematico/app/campaign_help.php:40
 msgid "Post title links to source."
-msgstr "Titre de la publication pointe vers la source"
+msgstr "Titre de la publication pointe vers la source."
 
 #: wpematico/app/campaign_edit_functions.php:780
 msgid "Feature deactivated on Settings. Needs Metadata."
@@ -898,16 +898,16 @@ msgid ""
 "\">Cron</a> job schedule:"
 msgstr ""
 "Travailler en tant que <a href=\"http://wikipedia.org/wiki/Cron\" target="
-"\"_blank\">Tâche</a> planifiée"
+"\"_blank\">Tâche</a> planifiée:"
 
 #: wpematico/app/campaign_edit_functions.php:893
 msgid "Next runtime:"
-msgstr "Prochaine environnement d'exécution"
+msgstr "Prochaine environnement d'exécution:"
 
 #: wpematico/app/campaign_edit_functions.php:898
 #: wpematico/app/campaign_help.php:128
 msgid "Preselected schedules."
-msgstr "Tâches planifiées présélectionnées"
+msgstr "Tâches planifiées présélectionnées."
 
 #: wpematico/app/campaign_edit_functions.php:902
 msgid "Select an option to change the values."
@@ -1019,11 +1019,11 @@ msgstr "Samedi"
 
 #: wpematico/app/campaign_edit_functions.php:1035
 msgid "Update Campaign to save Feeds order"
-msgstr ""
+msgstr "Mettre à jour la campagne pour enregistrer le classement des flux"
 
 #: wpematico/app/campaign_edit_functions.php:1050
 msgid "Check if this feed works"
-msgstr ""
+msgstr "Vérifiez si ce flux fonctionne"
 
 #: wpematico/app/campaign_edit_functions.php:1062
 msgid "Add Feed"
@@ -1031,27 +1031,28 @@ msgstr "Ajouter un Flux"
 
 #: wpematico/app/campaign_edit_functions.php:1063
 msgid "Check all feeds"
-msgstr ""
+msgstr "Vérifiez tous les Flux"
 
 #: wpematico/app/campaign_edit_functions.php:1067
 msgid "Displaying"
-msgstr ""
+msgstr "Affichage"
 
 #: wpematico/app/campaign_edit_functions.php:1068
 msgid "Display all feeds"
-msgstr ""
+msgstr "Afficher tous les Flux"
 
 #: wpematico/app/campaign_edit_functions.php:1068
 msgid "Scroll feeds list."
-msgstr ""
+msgstr "Faire défiler la liste des Flux."
 
 #: wpematico/app/campaign_edit_functions.php:1107
 msgid "Use [embed] WP shortcode instead Youtube shared iframe."
 msgstr ""
+"Utilisez le code court [embed] de WP à la place du cadre partagé par YouTube."
 
 #: wpematico/app/campaign_edit_functions.php:1108
 msgid "Change the sizes of the video frames."
-msgstr "Change les tailles du cadre de la video"
+msgstr "Change les tailles du cadre de la video."
 
 #: wpematico/app/campaign_edit_functions.php:1110
 msgid "Width:"
@@ -1123,7 +1124,7 @@ msgstr "&mdash; Créer de nouveaux sujets &mdash;"
 
 #: wpematico/app/campaign_edit_functions.php:1188
 msgid "E-Mail-Adress:"
-msgstr "Adresse E-Mail"
+msgstr "Adresse E-Mail:"
 
 #: wpematico/app/campaign_edit_functions.php:1190
 msgid "Send only E-Mail on errors."
@@ -1139,23 +1140,23 @@ msgstr "Entrez une liste d'étiquette séparées par des virgules."
 
 #: wpematico/app/campaign_edit_functions.php:1226
 msgid "Add auto Categories"
-msgstr ""
+msgstr "Ajouter des catégories automatiques"
 
 #: wpematico/app/campaign_edit_functions.php:1230
 msgid "Parent category to auto categories"
-msgstr ""
+msgstr "Catégorie parente aux catégories automatiques"
 
 #: wpematico/app/campaign_edit_functions.php:1235
 msgid "No parent category"
-msgstr ""
+msgstr "Aucune catégorie parent"
 
 #: wpematico/app/campaign_edit_functions.php:1259
 msgid "Current Categories"
-msgstr ""
+msgstr "Catégories actuelles"
 
 #: wpematico/app/campaign_edit_functions.php:1274
 msgid "Quick add"
-msgstr ""
+msgstr "Ajout rapide"
 
 #: wpematico/app/campaign_edit_functions.php:1291
 #: wpematico/app/campaign_preview.php:331 wpematico/app/campaigns_list.php:960
@@ -1164,29 +1165,30 @@ msgstr ""
 #: wpematico/app/lib/licenses_handlers.php:533
 #: wpematico/app/lib/licenses_handlers.php:535
 msgid "Status"
-msgstr ""
+msgstr "Statut"
 
 #: wpematico/app/campaign_edit_functions.php:1320
 #: wpematico/app/campaigns_list.php:940
 msgid "Post type"
-msgstr ""
+msgstr "Type de publication"
 
 #: wpematico/app/campaign_edit_functions.php:1351
 msgid "CAMPAIGN WIZARD"
-msgstr ""
+msgstr "ASSISTANT DE CAMPAGNE"
 
 #: wpematico/app/campaign_edit_functions.php:1356
 msgid "Prev"
-msgstr ""
+msgstr "Précédent"
 
 #: wpematico/app/campaign_edit_functions.php:1359
 msgid "Next"
-msgstr ""
+msgstr "Suivant"
 
 #: wpematico/app/campaign_fetch.php:92
 #, php-format
 msgid "PHP Safe Mode is on!!! Max exec time is %1$d sec."
 msgstr ""
+"Le mode sans échec est activé!!! Le temps maximum d'exécution est %1$d sec."
 
 #: wpematico/app/campaign_fetch.php:96
 #, php-format
@@ -1194,6 +1196,8 @@ msgid ""
 "Memory limit set to %1$s ,because can not use PHP: memory_get_usage() "
 "function to dynamically increase the Memory!"
 msgstr ""
+"La mémoire limite est définie à %1$s,parceque la fonction : "
+"memory_get_usage() ne peut pas accroître la mémoire dynamiquement!"
 
 #: wpematico/app/campaign_fetch.php:106
 #, php-format
@@ -2698,16 +2702,22 @@ msgstr ""
 #: wpematico/app/campaigns_list_help.php:13
 msgid "The given name. Hover it to display the Quick actions below the name."
 msgstr ""
+"Le nom donné. Passez la souris au-dessus pour afficher les actions rapides "
+"sous le nom."
 
 #: wpematico/app/campaigns_list_help.php:14
 msgid "Post type and Post Status that will be used for the new entries."
 msgstr ""
+"Type et statut de publication qui seront utilisés pour les nouvelles entrées."
 
 #: wpematico/app/campaigns_list_help.php:15
 msgid ""
 "Useful when you have more campaign types from Addons. You can hide the "
 "column in Screen Options Tab."
 msgstr ""
+"Utile lorsque vous avez plus de types de campagnes à partir de modules "
+"complémentaires. Vous pouvez masquer la colonne dans l'onglet Options "
+"d'écran."
 
 #: wpematico/app/campaigns_list_help.php:16
 msgid ""
@@ -2730,7 +2740,7 @@ msgstr ""
 
 #: wpematico/app/campaigns_list_help.php:23
 msgid "Quick Actions in every Row."
-msgstr ""
+msgstr "Actions rapides dans chaque Ligne."
 
 #: wpematico/app/campaigns_list_help.php:25
 msgid "Like clicking in the name, open the campaign to edit its details."
@@ -2738,7 +2748,7 @@ msgstr ""
 
 #: wpematico/app/campaigns_list_help.php:26
 msgid "Quick Edit"
-msgstr ""
+msgstr "Modification Rapide"
 
 #: wpematico/app/campaigns_list_help.php:26
 msgid "Edit some main fields, without enter in the campaign editor."
@@ -2774,7 +2784,7 @@ msgstr ""
 #: wpematico/app/campaigns_list_help.php:32
 #: wpematico_professional/wpematicopro.php:548
 msgid "Export"
-msgstr ""
+msgstr "Exportation"
 
 #: wpematico/app/campaigns_list_help.php:32
 msgid ""
@@ -2784,7 +2794,7 @@ msgstr ""
 
 #: wpematico/app/campaigns_list_help.php:37
 msgid "Run Multiple Campaigns at once."
-msgstr ""
+msgstr "Lancer plusieurs campagnes à la fois."
 
 #: wpematico/app/campaigns_list_help.php:39
 msgid ""
@@ -2805,7 +2815,7 @@ msgstr ""
 
 #: wpematico/app/campaigns_list_help.php:46
 msgid "Bulk actions."
-msgstr ""
+msgstr "Actions groupées."
 
 #: wpematico/app/campaigns_list_help.php:48
 msgid ""
@@ -2828,7 +2838,7 @@ msgstr ""
 #: wpematico/app/cron_functions.php:19 wpematico/app/lib/welcome.php:168
 #: wpematico/app/lib/welcome.php:170 wpematico/wpematico_class.php:254
 msgid "WPeMatico"
-msgstr ""
+msgstr "WPeMatico"
 
 #: wpematico/app/debug_page.php:54 wpematico/app/wpematico_functions.php:1254
 #, php-format
@@ -2837,12 +2847,12 @@ msgstr ""
 
 #: wpematico/app/debug_page.php:56 wpematico/app/debug_page.php:83
 msgid "Headers."
-msgstr ""
+msgstr "En-têtes."
 
 #: wpematico/app/debug_page.php:63
 #, php-format
 msgid "The feed %s cannot be obtained."
-msgstr ""
+msgstr "Le Flux %s ne peut pas être récupéré."
 
 #: wpematico/app/debug_page.php:72
 msgid "Obtaining URL Contents with WP Remote Request."
@@ -2860,35 +2870,36 @@ msgstr ""
 
 #: wpematico/app/debug_page.php:85
 msgid "ERROR Headers."
-msgstr ""
+msgstr "Erreur des en-têtes."
 
 #: wpematico/app/debug_page.php:94
 msgid "ERROR. See below for details"
-msgstr ""
+msgstr "ERREUR.Voir ci-dessous pour plus de détails"
 
 #: wpematico/app/debug_page.php:128
 msgid "Paste a feed link here and the content will be shown on the textarea."
 msgstr ""
+"Collez un lien de Flux ici et le contenu sera affiché sur la zone de texte."
 
 #: wpematico/app/debug_page.php:175
 msgid "Feed URL."
-msgstr ""
+msgstr "L'URL du Flux."
 
 #: wpematico/app/debug_page.php:177
 msgid "Get Feed"
-msgstr ""
+msgstr "Récupérer le Flux"
 
 #: wpematico/app/debug_page.php:185
 msgid "Get Feed and see here its contents."
-msgstr ""
+msgstr "Récupérer le Flux et voir son content."
 
 #: wpematico/app/debug_page.php:189 wpematico/app/debug_page.php:332
 msgid "SELECT ALL"
-msgstr ""
+msgstr "SELECTIONNER TOUT"
 
 #: wpematico/app/debug_page.php:223
 msgid "Debug Mode"
-msgstr ""
+msgstr "Mode débogage"
 
 #: wpematico/app/debug_page.php:224
 msgid "Activate Debug Logs in Campaigns"
@@ -2962,11 +2973,11 @@ msgstr ""
 #: wpematico_fullcontent/inc/settings.php:100
 #: wpematico_professional/includes/prosettings.php:70
 msgid "About"
-msgstr ""
+msgstr "A porpos"
 
 #: wpematico/app/debug_page.php:365 wpematico/app/settings_page.php:169
 msgid "Go to the new WPeMatico WebSite"
-msgstr ""
+msgstr "Accédez au nouveau site Web WPeMatico"
 
 #: wpematico/app/debug_page.php:368 wpematico/app/settings_page.php:172
 msgid "Comments & Tutorials"
@@ -3032,7 +3043,7 @@ msgstr "Tu peux"
 
 #: wpematico/app/debug_page.php:426 wpematico/app/settings_page.php:283
 msgid "contact us"
-msgstr "Contacter nous"
+msgstr "contacter nous"
 
 #: wpematico/app/debug_page.php:426 wpematico/app/settings_page.php:283
 msgid "with customization requests and suggestions."
@@ -3229,7 +3240,7 @@ msgstr ""
 
 #: wpematico/app/debug_page.php:885
 msgid "cURL (php.net/curl):"
-msgstr ""
+msgstr "cURL (php.net/curl):"
 
 #: wpematico/app/debug_page.php:886
 msgid ""
@@ -3239,76 +3250,76 @@ msgstr ""
 
 #: wpematico/app/debug_page.php:890
 msgid "ZipArchive:"
-msgstr ""
+msgstr "ArchiveZip:"
 
 #: wpematico/app/debug_page.php:895
 msgid "DOMDocument:"
-msgstr ""
+msgstr "DOMDocument:"
 
 #: wpematico/app/debug_page.php:896
 #, php-format
 msgid "%s is recommended by %s."
-msgstr ""
+msgstr "%s est recommandé par %s."
 
 #: wpematico/app/debug_page.php:900
 msgid "GD Library:"
-msgstr ""
+msgstr "Librairie GD:"
 
 #: wpematico/app/debug_page.php:905
 msgid "XML (php.net/xml):"
-msgstr ""
+msgstr "XML (php.net/xml):"
 
 #: wpematico/app/debug_page.php:910
 msgid "PCRE (php.net/pcre):"
-msgstr ""
+msgstr "PCRE (php.net/pcre):"
 
 #: wpematico/app/debug_page.php:915
 msgid "Zlib (php.net/zlib):"
-msgstr ""
+msgstr "Zlib (php.net/zlib):"
 
 #: wpematico/app/debug_page.php:920
 msgid "php.net/mbstring:"
-msgstr ""
+msgstr "php.net/mbstring:"
 
 #: wpematico/app/debug_page.php:925
 msgid "iconv (php.net/iconv):"
-msgstr ""
+msgstr "iconv (php.net/iconv):"
 
 #: wpematico/app/debug_page.php:930
 msgid "OpenSSL (php.net/openssl):"
-msgstr ""
+msgstr "OpenSSL (php.net/openssl):"
 
 #: wpematico/app/debug_page.php:935
 msgid "mcrypt (php.net/mcrypt):"
-msgstr ""
+msgstr "mcrypt (php.net/mcrypt):"
 
 #: wpematico/app/debug_page.php:982
 msgid "$_SESSION enabled:"
-msgstr ""
+msgstr "$_SESSION est activé:"
 
 #: wpematico/app/debug_page.php:988
 msgid "Session Name:"
-msgstr ""
+msgstr "Le nom de la session:"
 
 #: wpematico/app/debug_page.php:993
 msgid "Cookie Path:"
-msgstr ""
+msgstr "Chemin du Cookie:"
 
 #: wpematico/app/debug_page.php:998
 msgid "Save Path:"
-msgstr ""
+msgstr "Sauvegarder le chemin:"
 
 #: wpematico/app/debug_page.php:1003
 msgid "Use Cookies:"
-msgstr ""
+msgstr "Utiliser les Cookies:"
 
 #: wpematico/app/debug_page.php:1008
 msgid "Use Only Cookies:"
-msgstr ""
+msgstr "Utiliser seulement les Cookies:"
 
 #: wpematico/app/debug_page.php:1017 wpematico/app/debug_page.php:1021
 msgid "WordPress Environment"
-msgstr ""
+msgstr "L'environnement de WordPress"
 
 #: wpematico/app/debug_page.php:1026
 msgid "User Browser:"
@@ -3316,19 +3327,19 @@ msgstr ""
 
 #: wpematico/app/debug_page.php:1031
 msgid "Home URL:"
-msgstr ""
+msgstr "L'URL de la page d'accueil:"
 
 #: wpematico/app/debug_page.php:1036
 msgid "Site URL:"
-msgstr ""
+msgstr "l'URL du site web:"
 
 #: wpematico/app/debug_page.php:1041
 msgid "WP Version:"
-msgstr ""
+msgstr "La version du PHP:"
 
 #: wpematico/app/debug_page.php:1046
 msgid "WP Multisite:"
-msgstr ""
+msgstr "Multisite WordPress:"
 
 #: wpematico/app/debug_page.php:1050
 msgid ""
@@ -3340,7 +3351,7 @@ msgstr ""
 #: wpematico/app/debug_page.php:1052 wpematico/app/wpematico_functions.php:92
 #: wpematico_professional/includes/functions.php:235
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: wpematico/app/debug_page.php:1058
 msgid "Language WPLANG:"
@@ -3413,7 +3424,7 @@ msgstr ""
 
 #: wpematico/app/debug_page.php:1168
 msgid "WP Cron:"
-msgstr ""
+msgstr "Tâche "
 
 #: wpematico/app/debug_page.php:1178
 msgid "WP Cron Lock Timeout:"
@@ -3460,7 +3471,7 @@ msgstr ""
 
 #: wpematico/app/debug_page.php:1295 wpematico/app/debug_page.php:1542
 msgid "Hook"
-msgstr ""
+msgstr "Crochet"
 
 #: wpematico/app/debug_page.php:1329
 msgid "Actions to Uninstall saved."
@@ -3510,7 +3521,7 @@ msgstr ""
 
 #: wpematico/app/lib/licenses_handlers.php:527
 msgid "Valid"
-msgstr ""
+msgstr "Valide"
 
 #: wpematico/app/lib/licenses_handlers.php:529
 msgid "Deactivate License"
@@ -3518,7 +3529,7 @@ msgstr ""
 
 #: wpematico/app/lib/licenses_handlers.php:531
 msgid "Invalid"
-msgstr ""
+msgstr "Invalide"
 
 #: wpematico/app/lib/licenses_handlers.php:533
 msgid "Expired"
@@ -3530,11 +3541,11 @@ msgstr ""
 
 #: wpematico/app/lib/licenses_handlers.php:545
 msgid " License"
-msgstr ""
+msgstr "Licence"
 
 #: wpematico/app/lib/licenses_handlers.php:553
 msgid "License Key"
-msgstr ""
+msgstr "La clé de la licence"
 
 #: wpematico/app/lib/licenses_handlers.php:555
 msgid "Enter your license key"
@@ -3556,7 +3567,7 @@ msgstr ""
 
 #: wpematico/app/lib/licenses_handlers.php:585
 msgid "Activations"
-msgstr ""
+msgstr "Activations"
 
 #: wpematico/app/lib/licenses_handlers.php:588
 msgid "Expires on"
@@ -3577,7 +3588,7 @@ msgstr ""
 
 #: wpematico/app/lib/welcome.php:56
 msgid "WPeMatico About"
-msgstr ""
+msgstr "A propos de WPeMatico"
 
 #: wpematico/app/lib/welcome.php:64 wpematico/app/lib/welcome.php:65
 msgid "WPeMatico Changelog"
@@ -3589,7 +3600,7 @@ msgstr ""
 
 #: wpematico/app/lib/welcome.php:82 wpematico/app/lib/welcome.php:83
 msgid "WPeMatico Privacy"
-msgstr ""
+msgstr "Politique de confidentialité de WPeMatico"
 
 #: wpematico/app/lib/welcome.php:162
 msgid ""
@@ -3621,7 +3632,7 @@ msgstr ""
 
 #: wpematico/app/lib/welcome.php:209
 msgid "Privacy"
-msgstr ""
+msgstr "Politique de confidentialité"
 
 #: wpematico/app/lib/welcome.php:245
 msgid "Choose Media Mime Types."
