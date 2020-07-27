@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 17:59-0300\n"
-"PO-Revision-Date: 2020-07-26 23:56+0100\n"
+"PO-Revision-Date: 2020-07-27 00:22+0100\n"
 "Language-Team: NetMdP <esteban@netmdp.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4392,7 +4392,7 @@ msgstr ""
 #: wpematico/app/settings_help.php:93 wpematico/app/settings_help.php:95
 #: wpematico/app/settings_help.php:124 wpematico/app/settings_help.php:126
 msgid "Note"
-msgstr ""
+msgstr "Remarque"
 
 #: wpematico/app/settings_help.php:40
 msgid ""
@@ -4415,7 +4415,7 @@ msgstr ""
 
 #: wpematico/app/settings_help.php:54
 msgid "Post Thumbnails"
-msgstr ""
+msgstr "Miniatures de la publication"
 
 #: wpematico/app/settings_help.php:60
 msgid ""
@@ -5517,12 +5517,12 @@ msgstr ""
 
 #: wpematico/app/wp-backend-helpers.php:236
 msgid "See All"
-msgstr ""
+msgstr "Voir Tout"
 
 #: wpematico/app/wp-backend-helpers.php:242
 #: wpematico/app/wp-backend-helpers.php:271 wpematico/wpematico_class.php:142
 msgid "Edit Campaign"
-msgstr ""
+msgstr "Modifier la campagne"
 
 #: wpematico/app/wp-backend-helpers.php:252
 #: wpematico/app/wp-backend-helpers.php:254
@@ -5537,7 +5537,7 @@ msgstr ""
 #: wpematico/app/wpematico_functions.php:92
 #: wpematico_professional/includes/functions.php:235
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: wpematico/app/wpematico_functions.php:93
 #: wpematico_professional/includes/functions.php:235
@@ -5587,11 +5587,11 @@ msgstr ""
 
 #: wpematico/app/wpematico_functions.php:1255
 msgid "Feed Title:"
-msgstr ""
+msgstr "Titre du Flux"
 
 #: wpematico/app/wpematico_functions.php:1256
 msgid "Generator:"
-msgstr ""
+msgstr "Générateur:"
 
 #: wpematico/app/wpematico_functions.php:1257
 msgid "Charset Enconding:"
@@ -5691,7 +5691,7 @@ msgstr ""
 
 #: wpematico/app/xml-importer.php:384
 msgid "Properties"
-msgstr ""
+msgstr "Propriétés"
 
 #: wpematico/app/xml-importer.php:385
 msgid "Elements of XML"
@@ -5699,15 +5699,15 @@ msgstr ""
 
 #: wpematico/app/xml-importer.php:386
 msgid "Parent Element"
-msgstr ""
+msgstr "L'élément parent"
 
 #: wpematico/app/xml-importer.php:390
 msgid "Post title"
-msgstr ""
+msgstr "Titre de la publication"
 
 #: wpematico/app/xml-importer.php:395
 msgid "Post content"
-msgstr ""
+msgstr "Contenu de la publication"
 
 #: wpematico/app/xml-importer.php:402
 msgid "Post permalink"
