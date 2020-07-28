@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 17:59-0300\n"
-"PO-Revision-Date: 2020-07-27 00:22+0100\n"
+"PO-Revision-Date: 2020-07-28 01:44+0100\n"
 "Language-Team: NetMdP <esteban@netmdp.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1188,7 +1188,7 @@ msgstr "Suivant"
 #, php-format
 msgid "PHP Safe Mode is on!!! Max exec time is %1$d sec."
 msgstr ""
-"Le mode sans échec est activé!!! Le temps maximum d'exécution est %1$d sec."
+"Le mode sans échec est activé!!! Le temps maximum d'exécution est %1$d s."
 
 #: wpematico/app/campaign_fetch.php:96
 #, php-format
@@ -1202,396 +1202,411 @@ msgstr ""
 #: wpematico/app/campaign_fetch.php:106
 #, php-format
 msgid "Ending feed, reached running timeout at %1$d sec."
-msgstr ""
+msgstr "Terminaison du Flux, délai d’expiration atteint à %1$d s."
 
 #: wpematico/app/campaign_fetch.php:147
 #, php-format
 msgid "Processing feed %1s."
-msgstr ""
+msgstr "Flux en cours de traitement %1s."
 
 #: wpematico/app/campaign_fetch.php:216 wpematico/app/campaign_preview.php:125
 #, php-format
 msgid "Found duplicated hash '%1s'"
-msgstr ""
+msgstr "Un hachage dupliqué est trouvé '%1s'"
 
 #: wpematico/app/campaign_fetch.php:218 wpematico/app/campaign_fetch.php:238
 #: wpematico/app/campaign_preview.php:127
 #: wpematico/app/campaign_preview.php:141
 msgid "Filtering duplicated posts."
-msgstr ""
+msgstr "Filtrage des publications en double."
 
 #: wpematico/app/campaign_fetch.php:221 wpematico/app/campaign_fetch.php:229
 #: wpematico/app/campaign_fetch.php:241 wpematico/app/campaign_preview.php:131
 #: wpematico/app/campaign_preview.php:145
 msgid "Jumping duplicated post. Continuing."
-msgstr ""
+msgstr "Sauter les publications en double. Continue."
 
 #: wpematico/app/campaign_fetch.php:228
 #, php-format
 msgid "Found duplicated hash of item '%1s'"
-msgstr ""
+msgstr "Un hachage dupliqué est trouvé de l'élément '%1s'"
 
 #: wpematico/app/campaign_fetch.php:236 wpematico/app/campaign_preview.php:139
 #, php-format
 msgid "Found duplicated title '%1s'"
-msgstr ""
+msgstr "Titre dupliqué est trouvé '%1s'"
 
 #: wpematico/app/campaign_fetch.php:250 wpematico/app/campaign_preview.php:164
 #, php-format
 msgid "Campaign fetch limit reached at %1s."
-msgstr ""
+msgstr "Limite de récupération de la campagne est atteinte à %1s."
 
 #: wpematico/app/campaign_fetch.php:261
 #, php-format
 msgid "Reached running timeout at %1$d sec."
-msgstr ""
+msgstr "Délai d’expiration est atteint à %1$d s."
 
 #: wpematico/app/campaign_fetch.php:288
 #, php-format
 msgid "%s posts added"
-msgstr ""
+msgstr "%s publications ajoutées"
 
 #: wpematico/app/campaign_fetch.php:302
 #, php-format
 msgid "Processing item %1s"
-msgstr ""
+msgstr "Traitement de l'élément %1s"
 
 #: wpematico/app/campaign_fetch.php:319
 msgid "Assigning original date to post."
-msgstr ""
+msgstr "Attribution de la date d'origine à la publication."
 
 #: wpematico/app/campaign_fetch.php:322
 msgid "Original date out of range.  Assigning current date to post."
 msgstr ""
+"Date d'origine est horsl' intervalle. Attribution de la date actuelle à la "
+"publication."
 
 #: wpematico/app/campaign_fetch.php:326
 msgid "Forced original date to post."
-msgstr ""
+msgstr "Date d'origine forcée à publier."
 
 #: wpematico/app/campaign_fetch.php:451
 msgid "Assigning Auto Categories."
-msgstr ""
+msgstr "Attribution des catégories automatiques."
 
 #: wpematico/app/campaign_fetch.php:458
 msgid "Category exist: "
-msgstr ""
+msgstr "La catégorie existe:"
 
 #: wpematico/app/campaign_fetch.php:460
 msgid "Adding Category: "
-msgstr ""
+msgstr "Ajout de catégorie:"
 
 #: wpematico/app/campaign_fetch.php:465
 msgid "Auto Added by WPeMatico"
-msgstr ""
+msgstr "Ajout automatique par WPeMatico"
 
 #: wpematico/app/campaign_fetch.php:625
 msgid "** Adding unfiltered content **"
-msgstr ""
+msgstr "** Ajout de contenu non filtré **"
 
 #: wpematico/app/campaign_fetch.php:634
 msgid "Processing item pingbacks"
-msgstr ""
+msgstr "Traitement des pings d'article"
 
 #: wpematico/app/campaign_fetch.php:697
 msgid "Categories added: "
-msgstr ""
+msgstr "Catégories ajoutées:"
 
 #: wpematico/app/campaign_fetch.php:709
 msgid "Tags added: "
-msgstr ""
+msgstr "Etiquettes ajoutées"
 
 #: wpematico/app/campaign_fetch.php:721
 msgid "Post format added: "
-msgstr ""
+msgstr "Format de publication ajouté:"
 
 #: wpematico/app/campaign_fetch.php:740
 msgid "Skip Featured Image."
-msgstr ""
+msgstr "Passer l'image mise en avant."
 
 #: wpematico/app/campaign_fetch.php:742
 msgid "Featuring Image Into Post."
-msgstr ""
+msgstr "Figurer l'image dans la publication."
 
 #: wpematico/app/campaign_fetch.php:804
 msgid "The post has no a featured image."
-msgstr ""
+msgstr "L'article ne dispose pas d'image mise en avant."
 
 #: wpematico/app/campaign_fetch.php:811
 msgid "Attaching images"
-msgstr ""
+msgstr "Joindre des images"
 
 #: wpematico/app/campaign_fetch.php:828
 msgid "Attaching audios"
-msgstr ""
+msgstr "Joindre des audios"
 
 #: wpematico/app/campaign_fetch.php:844
 msgid "Attaching videos"
-msgstr ""
+msgstr "Joindre des vidéos"
 
 #: wpematico/app/campaign_fetch.php:869 wpematico/app/campaign_fetch.php:927
 #, php-format
 msgid "Campaign fetched in %1s sec."
-msgstr ""
+msgstr "Campagne récupérée dans %1s s."
 
 #: wpematico/app/campaign_fetch.php:897
 msgid "WPeMatico Log "
-msgstr ""
+msgstr "Journal de WPeMatico"
 
 #: wpematico/app/campaign_fetch.php:900
 msgid "Campaign Name:"
-msgstr ""
+msgstr "Nom de la campagne:"
 
 #: wpematico/app/campaign_fetch.php:902
 msgid "Errors:"
-msgstr ""
+msgstr "Erreurs: "
 
 #: wpematico/app/campaign_fetch.php:904
 msgid "Warnings:"
-msgstr ""
+msgstr "Avertissements:"
 
 #: wpematico/app/campaign_fetch.php:908
 msgid "WPeMatico by <a href='https://etruel.com'>etruel</a>"
-msgstr ""
+msgstr "WPeMatico par <a href='https://etruel.com'>etruel</a>"
 
 #: wpematico/app/campaign_fetch.php:927
 #: wpematico/app/wp-backend-helpers.php:247
 #: wpematico/app/wp-backend-helpers.php:249
 #, php-format
 msgid "Processed Posts: %1s"
-msgstr ""
+msgstr "Publications traitées: %1s"
 
 #: wpematico/app/campaign_fetch.php:928
 msgid "Show detailed Log"
-msgstr ""
+msgstr "Afficher le journal détaillié"
 
 #: wpematico/app/campaign_fetch.php:942 wpematico/app/campaign_fetch.php:945
 #, php-format
 msgid "Trying to set %1$s = %2$s: <strong>%3$s</strong> - Old value:%4$s."
 msgstr ""
+"Essaye d'affecter %1$s = %2$s: <strong>%3$s</strong> - Ancienne value:%4$s."
 
 #: wpematico/app/campaign_fetch.php:942 wpematico/app/campaign_fetch.php:945
 msgid "Failed"
-msgstr ""
+msgstr "Echec"
 
 #: wpematico/app/campaign_fetch.php:942 wpematico/app/campaign_fetch.php:945
 msgid "Success"
-msgstr ""
+msgstr "Réussie"
 
 #: wpematico/app/campaign_fetch_functions.php:80
 #, php-format
 msgid "Deleting html tags: %1s"
-msgstr ""
+msgstr "Suppression des balises html: %1s"
 
 #: wpematico/app/campaign_fetch_functions.php:85
 msgid "Cleaning Links from content."
-msgstr ""
+msgstr "Nettoyage des liens du content. "
 
 #: wpematico/app/campaign_fetch_functions.php:91
 msgid "Parsing Post template."
-msgstr ""
+msgstr "Analyser le modèle de la publication."
 
 #: wpematico/app/campaign_fetch_functions.php:98
 msgid "Can't find the featured image to add to the content."
-msgstr ""
+msgstr "Impossible de trouver l'image mise en avant pour l'ajouter au contenu."
 
 #: wpematico/app/campaign_fetch_functions.php:210
 #, php-format
 msgid "Processing Words to Category %1s"
-msgstr ""
+msgstr "Traitement des mots en catégorie %1s"
 
 #: wpematico/app/campaign_fetch_functions.php:239
 #, php-format
 msgid "Found!: word %1s to Cat_id %2s"
-msgstr ""
+msgstr "Trouvé!: mot %1s à Cat_id %2s"
 
 #: wpematico/app/campaign_fetch_functions.php:243
 #: wpematico_professional/includes/campaign_fetch.php:740
 #, php-format
 msgid "Not found word %1s"
-msgstr ""
+msgstr "Mot non trouvé %1s"
 
 #: wpematico/app/campaign_fetch_functions.php:250
 msgid "Searching the category with more words."
-msgstr ""
+msgstr "Recherche la catégorie avec plus de mots."
 
 #: wpematico/app/campaign_fetch_functions.php:265
 #, php-format
 msgid "The category with more words in content: %1s"
-msgstr ""
+msgstr "Catégorie avec plus de mots dans le contenu: %1s"
 
 #: wpematico/app/campaign_fetch_functions.php:271
 #, php-format
 msgid "Assign the first category: %1s"
-msgstr ""
+msgstr "Attribuer la première catégorie: %1s"
 
 #: wpematico/app/campaign_fetch_functions.php:412
 msgid "Looking for images in content."
-msgstr ""
+msgstr "Recherche d'images dans le contenu."
 
 #: wpematico/app/campaign_fetch_functions.php:421
 #: wpematico/app/campaign_fetch_functions.php:956
 #: wpematico/app/campaign_fetch_functions.php:1107
 msgid "Uploading media..."
-msgstr ""
+msgstr "Téléversement du médias..."
 
 #: wpematico/app/campaign_fetch_functions.php:452
 #: wpematico/app/campaign_fetch_functions.php:467
 #: wpematico/app/campaign_fetch_functions.php:1003
 #: wpematico/app/campaign_fetch_functions.php:1155
 msgid "Upload file failed:"
-msgstr ""
+msgstr "Le téléchargement du fichier a échoué:"
 
 #: wpematico/app/campaign_fetch_functions.php:476
 #: wpematico/app/campaign_fetch_functions.php:1010
 #: wpematico/app/campaign_fetch_functions.php:1162
 msgid "Extension not allowed: "
-msgstr ""
+msgstr "Extension non autorisée:"
 
 #: wpematico/app/campaign_fetch_functions.php:478
 #: wpematico/app/campaign_fetch_functions.php:1012
 #: wpematico/app/campaign_fetch_functions.php:1164
 msgid "Stripped src."
-msgstr ""
+msgstr "Resource décapée."
 
 #: wpematico/app/campaign_fetch_functions.php:489
 msgid "Using remotely linked images in content. No changes."
 msgstr ""
+"Utilisation d'images liées à distance dans le contenu. Aucun changement."
 
 #: wpematico/app/campaign_fetch_functions.php:524
 #: wpematico_professional/includes/functions.php:320
 msgid "Attaching file:"
-msgstr ""
+msgstr "Fichier attaché:"
 
 #: wpematico/app/campaign_fetch_functions.php:527
 #: wpematico_professional/includes/functions.php:323
 msgid "Sorry, your attach could not be inserted. Something wrong happened."
 msgstr ""
+"Désolé, votre pièce jointe n'a pas pu être insérée. Quelque chose s'est mal "
+"passé."
 
 #: wpematico/app/campaign_fetch_functions.php:561
 msgid "Executing featured image selector..."
-msgstr ""
+msgstr "Exécution du sélecteur d'image mise en avant..."
 
 #: wpematico/app/campaign_fetch_functions.php:564
 #, php-format
 msgid "Featured image \"%s\": %s"
-msgstr ""
+msgstr "Image mise en avant \"%s\": %s"
 
 #: wpematico/app/campaign_fetch_functions.php:567
 msgid "No image was found according to the selected index."
-msgstr ""
+msgstr "Aucune image n'a été trouvée selon l'index sélectionné."
 
 #: wpematico/app/campaign_fetch_functions.php:572
 msgid "The first image was not found in the content."
-msgstr ""
+msgstr "La première image n'a pas été trouvée dans le contenu."
 
 #: wpematico/app/campaign_fetch_functions.php:574
 msgid "Using first image as the featured image."
-msgstr ""
+msgstr "Utilisation de la première image comme image de mise en avant."
 
 #: wpematico/app/campaign_fetch_functions.php:580
 msgid "The last image was not found in the content."
-msgstr ""
+msgstr "La dernière image n'a pas été trouvée dans le contenu."
 
 #: wpematico/app/campaign_fetch_functions.php:582
 msgid "Using last image as the featured image."
-msgstr ""
+msgstr "Utilisation de la dernière image comme image mise en avant."
 
 #: wpematico/app/campaign_fetch_functions.php:654
 msgid "Getting srcset attribute..."
-msgstr ""
+msgstr "Obtention de l'attribut srcset ..."
 
 #: wpematico/app/campaign_fetch_functions.php:680
 #, php-format
 msgid "Overriding src attribute with value: %s from srcset."
 msgstr ""
+"Remplacer l'attribut src par la valeur :%s à partir de l'attribut srcset."
 
 #: wpematico/app/campaign_fetch_functions.php:723
 #: wpematico/app/campaign_fetch_functions.php:929
 #: wpematico/app/campaign_fetch_functions.php:1080
 #, php-format
 msgid "Removing: %s from content."
-msgstr ""
+msgstr "Suppression: %s du contenu."
 
 #: wpematico/app/campaign_fetch_functions.php:731
 msgid "Link with image URI not found in src."
-msgstr ""
+msgstr "Lien URI de l'image est introuvable dans l'attribut src."
 
 #: wpematico/app/campaign_fetch_functions.php:734
 msgid "Successfully removed with anchor link."
-msgstr ""
+msgstr "Suppression réussie avec lien d'ancre."
 
 #: wpematico/app/campaign_fetch_functions.php:740
 msgid "Image URI not found in src."
-msgstr ""
+msgstr "URI de l'image introuvable dans l'attribut src."
 
 #: wpematico/app/campaign_fetch_functions.php:743
 msgid "Successfully removed."
-msgstr ""
+msgstr "Supprimé avec succès."
 
 #: wpematico/app/campaign_fetch_functions.php:754
 msgid "Setting up Featured Image From Url"
-msgstr ""
+msgstr "Configurer l'image mise en avant sélectionnée à partir de l'URL"
 
 #: wpematico/app/campaign_fetch_functions.php:757
 msgid "Adding featured image post meta: "
-msgstr ""
+msgstr "Ajout de métadonnée de publication d'image mise en avant:"
 
 #: wpematico/app/campaign_fetch_functions.php:786
 msgid "Fifu save set attachment from URL."
-msgstr ""
+msgstr "Fifu sauvegarde la pièce jointe à partir de l'URL."
 
 #: wpematico/app/campaign_fetch_functions.php:842
 msgid "Parsing Youtube video and feed item contents."
-msgstr ""
+msgstr "Analyse du contenu des vidéos YouTube et les éléments de Flux."
 
 #: wpematico/app/campaign_fetch_functions.php:952
 msgid "Looking for audios in content."
-msgstr ""
+msgstr "Recherche des audios dans le contenu."
 
 #: wpematico/app/campaign_fetch_functions.php:1021
 msgid "Using remotely linked audios in content. No changes."
 msgstr ""
+"Utilisation à distance d'audios liés dans le contenu. Aucun changement."
 
 #: wpematico/app/campaign_fetch_functions.php:1103
 msgid "Looking for videos in content."
-msgstr ""
+msgstr "Recherche des vidéos dans le contenu."
 
 #: wpematico/app/campaign_fetch_functions.php:1173
 msgid "Using remotely linked videos in content. No changes."
 msgstr ""
+"Utilisation à distance de videos liés dans le contenu. Aucun changement."
 
 #: wpematico/app/campaign_help.php:12
 msgid "Feeds URLs."
-msgstr ""
+msgstr "URLs des FLux."
 
 #: wpematico/app/campaign_help.php:13
 msgid "You must type at least one feed url."
-msgstr ""
+msgstr "Vous devez saisir au moins une URL de Flux."
 
 #: wpematico/app/campaign_help.php:14
 msgid "(Less feeds equal less used resources when fetching)."
 msgstr ""
+"(Moins de Flux équivaut à moins de ressources utilisées lors de la "
+"récupération)."
 
 #: wpematico/app/campaign_help.php:15
 msgid "Type the domain name to try to autodetect the feed url."
 msgstr ""
+"Tapez le nom de domaine pour essayer de détecter automatiquement l'URL du "
+"Flux."
 
 #: wpematico/app/campaign_help.php:18
 msgid "Max items per Fetch."
-msgstr ""
+msgstr "Nombre maximal d’éléments par récupération."
 
 #: wpematico/app/campaign_help.php:19
 msgid "Items to fetch PER every feed above."
-msgstr ""
+msgstr "Articles à récupérer pour chaque Flux ci-dessus."
 
 #: wpematico/app/campaign_help.php:20
 msgid ""
 "Recommended values are between 3 and 5 fetching more times to not lose items."
 msgstr ""
+"Les valeurs recommandées sont comprises entre 3 et 5 fois aus plus de "
+"récupération pour ne pas perdre d'éléments."
 
 #: wpematico/app/campaign_help.php:21
 msgid "Set it to 0 for unlimited."
-msgstr ""
+msgstr "Réglez-le sur 0 pour un nombre illimité."
 
 #: wpematico/app/campaign_help.php:25
 msgid ""
@@ -1599,34 +1614,46 @@ msgid ""
 "can lose some items if the feed are not ordered by date from newest to "
 "oldest."
 msgstr ""
+"Il est recommandé de n'utiliser que si les Flux ne sont pas classés par "
+"date. La campagne peut perdre certains éléments si le flux n'est pas trié "
+"par date du plus récent au plus ancien."
 
 #: wpematico/app/campaign_help.php:29
 msgid ""
 "Use the original date from the post instead of the time the post is created "
 "by WPeMatico."
 msgstr ""
+"Utiliser la date d'origine de la publication au lieu de l'heure à laquelle "
+"la publication est créée par WPeMatico."
 
 #: wpematico/app/campaign_help.php:30
 msgid ""
 "To avoid incoherent dates due to lousy setup feeds, WPeMatico will use the "
 "feed date only if these conditions are met:"
 msgstr ""
+"Pour éviter les dates incohérentes dues à des Flux de configuration "
+"médiocres, WPeMatico utilisera la date de Flux uniquement si ces conditions "
+"sont remplies:"
 
 #: wpematico/app/campaign_help.php:32
 msgid ""
 "The feed item date is not too far in the past (specifically, as much time as "
 "the campaign frequency)."
 msgstr ""
+"La date de l'élément de flux n'est pas trop éloignée du passé (en "
+"particulier, autant de temps que la fréquence de la campagne)."
 
 #: wpematico/app/campaign_help.php:33
 msgid "The fetched feed item date is not in the future."
-msgstr ""
+msgstr "La date de l'élément de Flux récupéré n'est pas dans le futur."
 
 #: wpematico/app/campaign_help.php:37
 msgid ""
 "Use the feed item date ignoring incoherent dates like past posts published "
 "after new ones."
 msgstr ""
+"Utilisez la date de l'élément de fil en ignorant les dates incohérentes, "
+"comme les publications antérieures publiées après les nouvelles."
 
 #: wpematico/app/campaign_help.php:41
 msgid "This option make the title permalink to original URL."
@@ -3331,7 +3358,7 @@ msgstr "L'URL de la page d'accueil:"
 
 #: wpematico/app/debug_page.php:1036
 msgid "Site URL:"
-msgstr "l'URL du site web:"
+msgstr "L'URL du site web:"
 
 #: wpematico/app/debug_page.php:1041
 msgid "WP Version:"
@@ -3424,7 +3451,7 @@ msgstr ""
 
 #: wpematico/app/debug_page.php:1168
 msgid "WP Cron:"
-msgstr "Tâche "
+msgstr "Tâche planifiée WP:"
 
 #: wpematico/app/debug_page.php:1178
 msgid "WP Cron Lock Timeout:"
@@ -3541,7 +3568,7 @@ msgstr ""
 
 #: wpematico/app/lib/licenses_handlers.php:545
 msgid " License"
-msgstr "Licence"
+msgstr " Licence"
 
 #: wpematico/app/lib/licenses_handlers.php:553
 msgid "License Key"
@@ -5587,7 +5614,7 @@ msgstr ""
 
 #: wpematico/app/wpematico_functions.php:1255
 msgid "Feed Title:"
-msgstr "Titre du Flux"
+msgstr "Titre du Flux:"
 
 #: wpematico/app/wpematico_functions.php:1256
 msgid "Generator:"
