@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 17:59-0300\n"
-"PO-Revision-Date: 2020-07-31 00:19+0100\n"
+"PO-Revision-Date: 2020-07-31 01:10+0100\n"
 "Language-Team: NetMdP <esteban@netmdp.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3271,7 +3271,7 @@ msgstr "Merci d'avoir utiliser et tester cette extension."
 
 #: wpematico/app/debug_page.php:378 wpematico/app/settings_page.php:182
 msgid "If you like this plugin, you can write a 5 star review on Wordpress."
-msgstr "Si vous aimez ce extension, vous pouvez noter 5 étoiles sur WordPress"
+msgstr "Si vous aimez ce extension, vous pouvez noter 5 étoiles sur WordPress."
 
 #: wpematico/app/debug_page.php:386
 msgid "Buy PRO version online"
@@ -3382,15 +3382,15 @@ msgstr "WPeMatico nécessite une version PHP >= 5.3."
 
 #: wpematico/app/debug_page.php:747
 msgid "Disk Total Space:"
-msgstr ""
+msgstr "Espace total disque:"
 
 #: wpematico/app/debug_page.php:753
 msgid "Disk Free Space:"
-msgstr ""
+msgstr "Espace libre sur le disque:"
 
 #: wpematico/app/debug_page.php:758
 msgid "Mod Rewrite:"
-msgstr ""
+msgstr "Le mode de Réécriture:"
 
 #: wpematico/app/debug_page.php:759 wpematico/app/debug_page.php:764
 #: wpematico/app/debug_page.php:769 wpematico/app/debug_page.php:886
@@ -3399,7 +3399,7 @@ msgstr ""
 #: wpematico/app/debug_page.php:931 wpematico/app/debug_page.php:936
 #, php-format
 msgid "%s is required by %s."
-msgstr ""
+msgstr "%s est requis par %s."
 
 #: wpematico/app/debug_page.php:760 wpematico/app/debug_page.php:765
 #: wpematico/app/debug_page.php:770 wpematico/app/debug_page.php:887
@@ -3411,18 +3411,19 @@ msgstr ""
 #, php-format
 msgid "%s is not installed on your server, but is recommended by %s."
 msgstr ""
+"%s n'est pas installé sur votre serveur, mais il est recommandé par %s."
 
 #: wpematico/app/debug_page.php:763
 msgid "Mod Mime:"
-msgstr ""
+msgstr "Le mode du Mime Type:"
 
 #: wpematico/app/debug_page.php:768
 msgid "Mod Deflate:"
-msgstr ""
+msgstr "Le mode dégonflé:"
 
 #: wpematico/app/debug_page.php:776 wpematico/app/debug_page.php:780
 msgid "PHP Environment"
-msgstr ""
+msgstr "L'environement PHP"
 
 #: wpematico/app/debug_page.php:786
 msgid "PHP Post Max Size:"
@@ -3604,7 +3605,7 @@ msgstr "L'environnement de WordPress"
 
 #: wpematico/app/debug_page.php:1026
 msgid "User Browser:"
-msgstr ""
+msgstr "Navigateur utilisateur:"
 
 #: wpematico/app/debug_page.php:1031
 msgid "Home URL:"
@@ -3980,7 +3981,7 @@ msgstr ""
 
 #: wpematico/app/lib/welcome.php:267
 msgid "Create Post Excerpt Automatically."
-msgstr ""
+msgstr "Créer un extrait de l'article automatiquement."
 
 #: wpematico/app/lib/welcome.php:269
 msgid ""
@@ -3988,28 +3989,34 @@ msgid ""
 "content, WPeMatico allows to create them using the description tag of the "
 "items in the feed."
 msgstr ""
+"Par défaut, WordPress crée les extraits \"à la volée\" à partir du contenu "
+"de l'article, WPeMatico permet de les créer en utilisant la balise de "
+"description des éléments dans le fil."
 
 #: wpematico/app/lib/welcome.php:271
 msgid "Custom Posts Statuses."
-msgstr ""
+msgstr "Statuts des articles personnalisés."
 
 #: wpematico/app/lib/welcome.php:273
 msgid "Post status allows you to organize your Posts."
-msgstr ""
+msgstr "Le statut de l'article vous permet d'organiser vos publications."
 
 #: wpematico/app/lib/welcome.php:275
 msgid ""
 "Post status is an very useful editorial tool that allows you to organize "
 "your Posts based on their respective stages during the editorial workflow."
 msgstr ""
+"Le statut des articles est un outil éditorial très utile qui vous permet "
+"d'organiser vos articles en fonction de leurs étapes respectives au cours du "
+"Flux de travail éditorial."
 
 #: wpematico/app/lib/welcome.php:292
 msgid "A new Campaign Type for XML feeds."
-msgstr ""
+msgstr "Un nouveau type de campagne pour les flux XML."
 
 #: wpematico/app/lib/welcome.php:294
 msgid "XML Campaign type to parse and fetch XML feeds"
-msgstr ""
+msgstr "Type de campagne XML pour analyser et récupérer les flux XML"
 
 #: wpematico/app/lib/welcome.php:296
 msgid ""
@@ -4017,28 +4024,39 @@ msgid ""
 "found in the XML tags.  A very important addition that will allow to import "
 "almost anything that come in XML format to WordPress Posts (types)."
 msgstr ""
+"Cette fonctionnalité vous permet de configurer chaque campagne avec les "
+"champs qui se trouvent dans les balises XML. Un ajout très important qui "
+"permettra d'importer presque tout ce qui vient au format XML dans les "
+"articles WordPress (types)."
 
 #: wpematico/app/lib/welcome.php:298
 msgid ""
 "An option in Settings enables the upload of XML files in the WordPress Media "
 "Library in order to use its URL in the campaigns."
 msgstr ""
+"Une option dans Paramètres permet de télécharger des fichiers XML dans la "
+"médiathèque WordPress afin d'utiliser son URL dans les campagnes."
 
 #: wpematico/app/lib/welcome.php:300
 msgid ""
 "Also, using the addons as the Professional will allow overwriting the data "
 "of a campaign and add the author, categories and tags also from the XML tags."
 msgstr ""
+"Aussi, l'utilisation des modules complémentaires en tant que professionnel "
+"permettra d'écraser les données d'une campagne et d'ajouter l'auteur, les "
+"catégories et les étiquittes également à partir des balises XML."
 
 #: wpematico/app/lib/welcome.php:306
 msgid "A new preview for the YouTube campaign."
-msgstr ""
+msgstr "Un nouvel aperçu pour la campagne YouTube."
 
 #: wpematico/app/lib/welcome.php:308
 msgid ""
 "This feature shows how the posts fetched from YouTube will look before that "
 "are created."
 msgstr ""
+"Cette fonctionnalité montre à quoi ressembleront les publications récupérées "
+"de YouTube avant leur création."
 
 #: wpematico/app/lib/welcome.php:310
 msgid ""
@@ -4046,31 +4064,41 @@ msgid ""
 "will be included in the post, the image, the featured image or the "
 "description, the preview section in the metabox will show you in real time."
 msgstr ""
+"Vous avez maintenant la possibilité de choisir quels éléments des flux "
+"YouTube seront inclus dans la publication, l'image, l'image de mise en avant "
+"ou la description, la section d'aperçu dans la métabox vous montrera en "
+"temps réel."
 
 #: wpematico/app/lib/welcome.php:312
 msgid ""
 "You can mark the selection options to see the possible results of the Post "
 "Template."
 msgstr ""
+"Vous pouvez marquer les options de sélection pour voir les résultats "
+"possibles du modèle de publication."
 
 #: wpematico/app/lib/welcome.php:329
 msgid "A new Campaign Fetch Preview."
-msgstr ""
+msgstr "Un nouvel aperçu de la récupération de la campagne."
 
 #: wpematico/app/lib/welcome.php:331
 msgid "Introducing the Campaign Preview Feature"
-msgstr ""
+msgstr "Présentation de la fonctionnalité d'aperçu de la campagne"
 
 #: wpematico/app/lib/welcome.php:333
 msgid ""
 "The most visible change in version 1.9 is certainly the Campaign Preview."
 msgstr ""
+"Le changement le plus visible de la version 1.9 est certainement l'aperçu de "
+"la campagne."
 
 #: wpematico/app/lib/welcome.php:334
 msgid ""
 "This new feature lets you view the list of the posts the campaign will fetch "
 "the next time it runs."
 msgstr ""
+"Cette nouvelle fonctionnalité vous permet d'afficher la liste des "
+"publications que la campagne récupérera lors de sa prochaine exécution."
 
 #: wpematico/app/lib/welcome.php:335
 msgid ""
@@ -4078,10 +4106,13 @@ msgid ""
 "click in the title to see all its content like it will bring by WPeMatico "
 "plugin."
 msgstr ""
+"Vous pouvez voir le titre, l'image et un extrait de son contenu, mais vous "
+"pouvez cliquer dans le titre pour voir tout son contenu comme il le fera "
+"avec l'extension WPeMatico."
 
 #: wpematico/app/lib/welcome.php:337
 msgid "Using the Campaign Preview."
-msgstr ""
+msgstr "Utilisation de l'aperçue de la campagne."
 
 #: wpematico/app/lib/welcome.php:339
 msgid ""
@@ -4089,6 +4120,10 @@ msgid ""
 "to fetch.  This allow you to see if the campaign has pending items to "
 "publish from any feed inside it."
 msgstr ""
+"Lorsque vous cliquez sur l'icône 'œil', une fenêtre flottante s'ouvrira pour "
+"vous montrer les prochains éléments à récupérer. Cela vous permet de voir si "
+"la campagne a des éléments en attente à publier à partir de n'importe quel "
+"flux qu'elle contient."
 
 #: wpematico/app/lib/welcome.php:346
 msgid "More Tweaks and Improvements."
@@ -4317,12 +4352,18 @@ msgid ""
 "for the operation of the plugin and the global options for campaigns, "
 "advanced options and tools."
 msgstr ""
+"Le menu Paramètres de WPeMatico &rarr; est l'endroit où vous définissez tous "
+"les aspects globaux du fonctionnement de l'xtension et les options globales "
+"pour les campagnes, les options avancées et les outils."
 
 #: wpematico/app/lib/welcome.php:577
 msgid ""
 "There are also here the tests and the configuration options for the "
 "SimplePie library to get differnet behaviour when fetch the feed items."
 msgstr ""
+"Il y a aussi ici les tests et les options de configuration de la "
+"bibliothèque SimplePie pour obtenir un comportement différent lors de la "
+"récupération des éléments de fil."
 
 #: wpematico/app/lib/welcome.php:578
 msgid ""
