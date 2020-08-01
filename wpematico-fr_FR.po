@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 17:59-0300\n"
-"PO-Revision-Date: 2020-08-01 15:38+0100\n"
+"PO-Revision-Date: 2020-08-01 16:29+0100\n"
 "Language-Team: NetMdP <esteban@netmdp.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3652,6 +3652,9 @@ msgid ""
 "comments on the <a href=\"https://wordpress.org/support/plugin/wpematico/\" "
 "target=\"_blank\">forums</a>"
 msgstr ""
+"WPeMatico n'a pas été entièrement testé en mode Multi site. Testez-le et "
+"faites-nous part de vos commentaires sur les <a href=\"https://wordpress.org/"
+"support/plugin/wpematico/\" target=\"_blank\"> forums </a>"
 
 #: wpematico/app/debug_page.php:1052 wpematico/app/wpematico_functions.php:92
 #: wpematico_professional/includes/functions.php:235
@@ -3660,39 +3663,39 @@ msgstr "Non"
 
 #: wpematico/app/debug_page.php:1058
 msgid "Language WPLANG:"
-msgstr ""
+msgstr "Langage de WPLANG:"
 
 #: wpematico/app/debug_page.php:1063
 msgid "Language Setting:"
-msgstr ""
+msgstr "Paramètres de la langue:"
 
 #: wpematico/app/debug_page.php:1069
 msgid "Permalink Structure:"
-msgstr ""
+msgstr "Structure des liens permanents:"
 
 #: wpematico/app/debug_page.php:1074
 msgid "Active Theme:"
-msgstr ""
+msgstr "Thème actif:"
 
 #: wpematico/app/debug_page.php:1079
 msgid "Show On Front:"
-msgstr ""
+msgstr "Afficher sur le site:"
 
 #: wpematico/app/debug_page.php:1092
 msgid "WP Remote Get:"
-msgstr ""
+msgstr "Commande Get de WP:"
 
 #: wpematico/app/debug_page.php:1097
 msgid "WP Remote Post:"
-msgstr ""
+msgstr "Comande Post de WP:"
 
 #: wpematico/app/debug_page.php:1102
 msgid "Table Prefix:"
-msgstr ""
+msgstr "Préfixe de Table:"
 
 #: wpematico/app/debug_page.php:1107
 msgid "WP Memory Limit:"
-msgstr ""
+msgstr "Mémoire limite WP:"
 
 #: wpematico/app/debug_page.php:1111
 #, php-format
@@ -3702,30 +3705,34 @@ msgid ""
 "how, see: <a href=\"%s\" target=\"_blank\">Increasing memory allocated to "
 "PHP.</a>"
 msgstr ""
+"%s - Nous vous recommandons de définir la mémoire sur au moins <strong> 128 "
+"Mo </strong>. <br /> Veuillez définir la limite de mémoire dans le fichier "
+"<strong> wp-config.php </strong>. Pour savoir comment procéder, consultez: "
+"<a href=\"%s\" target=\"_blank\"> Augmenter la mémoire allouée à PHP. </a>"
 
 #: wpematico/app/debug_page.php:1118
 msgid "WP Max Upload Size:"
-msgstr ""
+msgstr "Taille Max Téléchargement de WP:"
 
 #: wpematico/app/debug_page.php:1123
 msgid "Registered Post Stati:"
-msgstr ""
+msgstr "Statut de la l'article enregistrée:"
 
 #: wpematico/app/debug_page.php:1128
 msgid "FileSystem Method:"
-msgstr ""
+msgstr "Méthode du système de fichier:"
 
 #: wpematico/app/debug_page.php:1138
 msgid "WP Debug Mode:"
-msgstr ""
+msgstr "Mode débogage de WP:"
 
 #: wpematico/app/debug_page.php:1148
 msgid "WP Debug Log Mode:"
-msgstr ""
+msgstr "Journal du mode de débogage de WP:"
 
 #: wpematico/app/debug_page.php:1158
 msgid "WP Debug Mode Display:"
-msgstr ""
+msgstr "Affichage du mode de débogage de WP:"
 
 #: wpematico/app/debug_page.php:1168
 msgid "WP Cron:"
@@ -3733,19 +3740,19 @@ msgstr "Tâche planifiée WP:"
 
 #: wpematico/app/debug_page.php:1178
 msgid "WP Cron Lock Timeout:"
-msgstr ""
+msgstr "Délai de verrouillage de tâche planifiée WP:"
 
 #: wpematico/app/debug_page.php:1188
 msgid "Alternate WP Cron:"
-msgstr ""
+msgstr "Autre tache planifiée de WP :"
 
 #: wpematico/app/debug_page.php:1201 wpematico/app/debug_page.php:1205
 msgid "Must-Use Plugins"
-msgstr ""
+msgstr "Extension de type Must-Use"
 
 #: wpematico/app/debug_page.php:1222 wpematico/app/debug_page.php:1264
 msgid "Visit plugin homepage"
-msgstr ""
+msgstr "Visiter la page d'accueille de l'extension"
 
 #: wpematico/app/debug_page.php:1229 wpematico/app/debug_page.php:1271
 #, php-format
@@ -6397,16 +6404,16 @@ msgstr ""
 
 #: wpematico_fullcontent/inc/functions.php:275
 msgid "Path"
-msgstr ""
+msgstr "Chemin"
 
 #: wpematico_fullcontent/inc/functions.php:279
 #: wpematico_fullcontent/inc/functions.php:291
 msgid "(Not writable)"
-msgstr ""
+msgstr "(Non inscriptible)"
 
 #: wpematico_fullcontent/inc/functions.php:289
 msgid "Click to edit"
-msgstr ""
+msgstr "Cliquer pour modifier"
 
 #: wpematico_fullcontent/inc/getcontent.php:117
 #, php-format
@@ -6484,7 +6491,7 @@ msgstr ""
 
 #: wpematico_fullcontent/inc/settings.php:41
 msgid "Full Content"
-msgstr ""
+msgstr "Contenu complet"
 
 #: wpematico_fullcontent/inc/settings.php:51
 msgid "There was an error loading file!"
@@ -6498,11 +6505,11 @@ msgstr ""
 
 #: wpematico_fullcontent/inc/settings.php:53
 msgid "File loaded!"
-msgstr ""
+msgstr "Fichier chargé!"
 
 #: wpematico_fullcontent/inc/settings.php:54
 msgid "File saved!"
-msgstr ""
+msgstr "Fichier sauvegardé!"
 
 #: wpematico_fullcontent/inc/settings.php:55
 msgid "Type new domain name (without \".txt\") and click \"Save as\" again!"
@@ -6522,7 +6529,7 @@ msgstr ""
 
 #: wpematico_fullcontent/inc/settings.php:60
 msgid "Files Moved!"
-msgstr ""
+msgstr "Fichiers déplacés!"
 
 #: wpematico_fullcontent/inc/settings.php:61
 msgid "Reload the page before continue."
@@ -6602,7 +6609,7 @@ msgstr ""
 
 #: wpematico_fullcontent/inc/settings.php:219
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: wpematico_fullcontent/inc/settings.php:220
 msgid "Meta data"
@@ -6626,7 +6633,7 @@ msgstr ""
 
 #: wpematico_fullcontent/inc/settings.php:298
 msgid "Help and Tips"
-msgstr ""
+msgstr "Aide et astuces"
 
 #: wpematico_fullcontent/inc/settings.php:299
 msgid "How to's Full content Addon."
@@ -6642,7 +6649,7 @@ msgstr ""
 
 #: wpematico_fullcontent/inc/settings.php:310
 msgid "XPath Tutorial"
-msgstr ""
+msgstr "Tutoriel d'XPath"
 
 #: wpematico_fullcontent/inc/settings.php:311
 msgid "XPath as filesystem addressing."
@@ -6655,7 +6662,7 @@ msgstr ""
 #: wpematico_fullcontent/wpematico_fullcontent.php:211
 #: wpematico_professional/wpematicopro.php:310
 msgid "etruel Store"
-msgstr ""
+msgstr "Boutique etruel"
 
 #: wpematico_fullcontent/wpematico_fullcontent.php:237
 msgid "You are using WPeMatico Full Content."
@@ -6663,12 +6670,12 @@ msgstr ""
 
 #: wpematico_fullcontent/wpematico_fullcontent.php:238
 msgid "Plugins <b>WPeMatico</b> must be activated!"
-msgstr ""
+msgstr "L'extension <b>WPeMatico</b> doit être activé!"
 
 #: wpematico_fullcontent/wpematico_fullcontent.php:239
 #: wpematico_professional/wpematicopro.php:394
 msgid "Go to Activate Now"
-msgstr ""
+msgstr "L'extension <b>"
 
 #: wpematico_fullcontent/wpematico_fullcontent.php:244
 msgid ""
@@ -6681,19 +6688,19 @@ msgstr ""
 
 #: wpematico_professional/includes/campaign_edit.php:110
 msgid "Get Date from xml tag."
-msgstr ""
+msgstr "Avoir la date de la balise xml."
 
 #: wpematico_professional/includes/campaign_edit.php:123
 msgid "Author"
-msgstr ""
+msgstr "Auteur"
 
 #: wpematico_professional/includes/campaign_edit.php:131
 msgid "Use campaign Author"
-msgstr ""
+msgstr "Utiliser la campagne de l'auteur"
 
 #: wpematico_professional/includes/campaign_edit.php:132
 msgid "Use feed Author"
-msgstr ""
+msgstr "Utiliser le Flux d'auteur"
 
 #: wpematico_professional/includes/campaign_edit.php:299
 #: wpematico_professional/includes/campaign_edit.php:593
@@ -8551,41 +8558,45 @@ msgstr ""
 
 #: wpematico_professional/wpematicopro.php:2323
 msgid "Applying Image Filters."
-msgstr ""
+msgstr "Application les filtres d'image."
 
 #: wpematico_professional/wpematicopro.php:2336
 #: wpematico_professional/wpematicopro.php:2373
 msgid "Don't works filters with: "
-msgstr ""
+msgstr "Les filtres ne fonctionne pas avec: "
 
 #: wpematico_professional/wpematicopro.php:2346
 #: wpematico_professional/wpematicopro.php:2383
 msgid "Filter: "
-msgstr ""
+msgstr "Filtre: "
 
 #: wpematico_professional/wpematicopro.php:2360
 msgid "Filtering Featured Image."
-msgstr ""
+msgstr "Filtrage de l'image mise en avant."
 
 #: wpematico_professional/wpematicopro.php:2389
 msgid "First featured image meets filters: "
-msgstr ""
+msgstr "La première image mise en avant remplis les filtres:"
 
 #: wpematico_professional/wpematicopro.php:2492
 msgid "Inserting default Image Into Post."
-msgstr ""
+msgstr "Insérer une image par défaut dans la publication."
 
 #: wpematico_professional/wpematicopro.php:2576
 msgid ""
 "There's an error in Keyword include filter: You must check at least one "
 "search option."
 msgstr ""
+"Une erreur s'est produite dans le filtre d'inclusion des mots clés: vous "
+"devez cocher au moins une option de recherche."
 
 #: wpematico_professional/wpematicopro.php:2583
 msgid ""
 "There's an error in Keyword exclude filter: You must check at least one "
 "search option."
 msgstr ""
+"Une erreur s'est produite dans le filtre d'exclusion des mots clés: vous "
+"devez cocher au moins une option de recherche."
 
 #: wpematico_professional/wpematicopro.php:2589
 #, php-format
@@ -8593,6 +8604,8 @@ msgid ""
 "There's an error with the supplied RegEx expression in Keyword include "
 "filter: %s"
 msgstr ""
+"Il y a une erreur avec l'expression RegEx fournie dans le filtre d'inclusion "
+"de mot-clé: %s"
 
 #: wpematico_professional/wpematicopro.php:2595
 #, php-format
@@ -8600,3 +8613,5 @@ msgid ""
 "There's an error with the supplied RegEx expression in Keyword exclude "
 "filter: %s"
 msgstr ""
+"Il y a une erreur avec l'expression RegEx fournie dans le filtre d'exclusion "
+"de mot-clé: %s"
