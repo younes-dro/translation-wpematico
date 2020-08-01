@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 17:59-0300\n"
-"PO-Revision-Date: 2020-07-31 01:10+0100\n"
+"PO-Revision-Date: 2020-08-01 15:38+0100\n"
 "Language-Team: NetMdP <esteban@netmdp.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3427,11 +3427,11 @@ msgstr "L'environement PHP"
 
 #: wpematico/app/debug_page.php:786
 msgid "PHP Post Max Size:"
-msgstr ""
+msgstr "Taille maximale d'article autorisée par PHP :"
 
 #: wpematico/app/debug_page.php:791
 msgid "PHP Max Input Vars:"
-msgstr ""
+msgstr "Nombre maximum de champs d'un formulaire PHP:"
 
 #: wpematico/app/debug_page.php:797
 #, php-format
@@ -3440,10 +3440,13 @@ msgid ""
 "POST data such as menus. See: <a href=\"%s\" target=\"_blank\">Increasing "
 "max input vars limit.</a>"
 msgstr ""
+"%s - Valeur recommandée: %s.<br />Le nombre Max de champs de formulaire va "
+"tronquer les données comme les menus. Voir: <a href=\"%s\" target=\"_blank"
+"\">Augmentation la limitation des variables d'entrée</a>"
 
 #: wpematico/app/debug_page.php:804
 msgid "PHP Time Limit:"
-msgstr ""
+msgstr "Temps d'exécution de script PHP:"
 
 #: wpematico/app/debug_page.php:808
 #, php-format
@@ -3453,16 +3456,24 @@ msgid ""
 "of max execution time is required.<br />See: <a href=\"%s\" target=\"_blank"
 "\">Increasing max execution to PHP</a>"
 msgstr ""
+"%s - Nous vous recommandons de définir la durée d'exécution maximale sur au "
+"moins 180. <br /> Pour donner à une campagne 5 minutes pour s'exécuter sans "
+"délai d'expiration, <strong> 300 </strong> secondes de temps d'exécution "
+"maximum sont nécessaires. <br /> Voir : <a href=\"%s\" target=\"_blank\"> "
+"Augmentation de l'exécution maximale vers PHP </a>"
 
 #: wpematico/app/debug_page.php:812
 msgid ""
 "Current time limit is sufficient, but if you want to give 5 minutes to run "
 "without timeouts to each campaign, the required time is <strong>300</strong>."
 msgstr ""
+"La limite de temps actuelle est suffisante, mais si vous souhaitez donner 5 "
+"minutes pour s'exécuter sans délai d'expiration pour chaque campagne, la "
+"durée requise est de <strong> 300 </strong>."
 
 #: wpematico/app/debug_page.php:818
 msgid "PHP Memory Limit:"
-msgstr ""
+msgstr "Valeur maximale de mémoire qu'un script PHP est autorisé à consommer:"
 
 #: wpematico/app/debug_page.php:822
 #, php-format
@@ -3470,10 +3481,13 @@ msgid ""
 "%s - We recommend setting memory to at least <strong>128MB</strong>. <br /> "
 "Please define memory limit in <strong>php.ini</strong> file."
 msgstr ""
+"%s - Nous vous recommandons de définir la mémoire sur au moins <strong> 128 "
+"Mo </strong>. <br /> Veuillez définir la limite de mémoire dans le fichier "
+"<strong> php.ini </strong>."
 
 #: wpematico/app/debug_page.php:829
 msgid "PHP Safe Mode:"
-msgstr ""
+msgstr "Mode de sécurité de PHP:"
 
 #: wpematico/app/debug_page.php:833
 #, php-format
@@ -3481,10 +3495,12 @@ msgid ""
 "We recommend turn safe_mode <strong>Off</strong>. <br /> See: <a href=\"%s\" "
 "target=\"_blank\">PHP: Safe Mode.</a>."
 msgstr ""
+"Nous vous recommandons de désactiver le safe_mode <strong> Off </strong>. "
+"<br /> Voir: <a href=\"%s\" target=\"_blank\"> PHP: Mode sans échec. </a>."
 
 #: wpematico/app/debug_page.php:840
 msgid "Allow URL fopen:"
-msgstr ""
+msgstr "Autoriser la fopen URL:"
 
 #: wpematico/app/debug_page.php:846
 #, php-format
@@ -3492,10 +3508,13 @@ msgid ""
 "We recommend turn Allow URL fopen <strong>On</strong>. <br /> See: <a href="
 "\"%s\" target=\"_blank\">PHP: Allow URL fopen.</a>."
 msgstr ""
+"Nous vous recommandons d'activer l'option Autoriser l'ouverture d'URL sur "
+"<strong> Activé </strong>. <br /> Voir: <a href=\"%s\" target=\"_blank\"> "
+"PHP: Autoriser l'ouverture d'URL. </a>."
 
 #: wpematico/app/debug_page.php:851
 msgid "ini_set:"
-msgstr ""
+msgstr "ini_set:"
 
 #: wpematico/app/debug_page.php:857
 #, php-format
@@ -3503,22 +3522,24 @@ msgid ""
 "We recommend to activate <strong>set_ini()</strong> in your server. <br /> "
 "See: <a href=\"%s\" target=\"_blank\">PHP: ini_set.</a>."
 msgstr ""
+"Nous vous recommandons d'activer <strong> set_ini () </strong> sur votre "
+"serveur. <br /> Voir: <a href=\"%s\" target=\"_blank\"> PHP: ini_set. </a>."
 
 #: wpematico/app/debug_page.php:862
 msgid "PHP Disabled Functions:"
-msgstr ""
+msgstr "Fonctions PHP désactivées:"
 
 #: wpematico/app/debug_page.php:867
 msgid "PHP Display Errors:"
-msgstr ""
+msgstr "Afficher les erreurs PHP:"
 
 #: wpematico/app/debug_page.php:869
 msgid "On"
-msgstr ""
+msgstr "On"
 
 #: wpematico/app/debug_page.php:874
 msgid "PHP Current error_reporting levels:"
-msgstr ""
+msgstr "Les niveaux des erreurs error_reporting PHP:"
 
 #: wpematico/app/debug_page.php:885
 msgid "cURL (php.net/curl):"
@@ -3529,6 +3550,8 @@ msgid ""
 "A version lower than 7.10 will work fine, but will generate a PHP Warning "
 "each time it is used."
 msgstr ""
+"Une version inférieure à 7.10 fonctionnera bien, mais générera un "
+"avertissement PHP à chaque fois qu'elle est utilisée."
 
 #: wpematico/app/debug_page.php:890
 msgid "ZipArchive:"
