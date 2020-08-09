@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 17:59-0300\n"
-"PO-Revision-Date: 2020-08-01 16:29+0100\n"
+"PO-Revision-Date: 2020-08-09 20:17+0100\n"
 "Language-Team: NetMdP <esteban@netmdp.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3757,29 +3757,29 @@ msgstr "Visiter la page d'accueille de l'extension"
 #: wpematico/app/debug_page.php:1229 wpematico/app/debug_page.php:1271
 #, php-format
 msgid "(needs update - %s)"
-msgstr ""
+msgstr "(Besoins de mise à jour - %s)"
 
 #: wpematico/app/debug_page.php:1232 wpematico/app/debug_page.php:1274
 #, php-format
 msgctxt "by author"
 msgid "by %s"
-msgstr ""
+msgstr "par %s"
 
 #: wpematico/app/debug_page.php:1242 wpematico/app/debug_page.php:1246
 msgid "Active Plugins"
-msgstr ""
+msgstr "Extensions activées"
 
 #: wpematico/app/debug_page.php:1283 wpematico/app/debug_page.php:1287
 msgid "Cron Schedules"
-msgstr ""
+msgstr "Tâches planifiées"
 
 #: wpematico/app/debug_page.php:1291 wpematico/app/debug_page.php:1538
 msgid "Next due"
-msgstr ""
+msgstr "Prochain dû"
 
 #: wpematico/app/debug_page.php:1293 wpematico/app/debug_page.php:1540
 msgid "Schedule"
-msgstr ""
+msgstr "Tâche planifiée"
 
 #: wpematico/app/debug_page.php:1295 wpematico/app/debug_page.php:1542
 msgid "Hook"
@@ -3787,17 +3787,19 @@ msgstr "Crochet"
 
 #: wpematico/app/debug_page.php:1329
 msgid "Actions to Uninstall saved."
-msgstr ""
+msgstr "Actions de désinstallation enregistrées."
 
 #: wpematico/app/debug_page.php:1329
 msgid "The actions are executed when the plugin is uninstalled."
-msgstr ""
+msgstr "Les actions sont exécutées lorsque l'extension est désinstallée."
 
 #: wpematico/app/lib/EDD_SL_Plugin_Updater.php:239
 #, php-format
 msgid ""
 "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
 msgstr ""
+"Une nouvelle version de %1$s est disponible. %2$s Voir les détails %4$s de "
+"la version %3$s."
 
 #: wpematico/app/lib/EDD_SL_Plugin_Updater.php:247
 #, php-format
@@ -3805,19 +3807,21 @@ msgid ""
 "There is a new version of %1$s available. %2$sView version %3$s details%4$s "
 "or %5$supdate now%6$s."
 msgstr ""
+"Une nouvelle version de %1$s est disponible. %2$s Afficher les détails de la "
+"version %3$s %4$s ou %5$s mettre à jour maintenant %6$s."
 
 #: wpematico/app/lib/EDD_SL_Plugin_Updater.php:490
 msgid "You do not have permission to install plugin updates"
-msgstr ""
+msgstr "Vous n'êtes pas autorisé à installer les mises à jour de l'extension"
 
 #: wpematico/app/lib/EDD_SL_Plugin_Updater.php:490
 msgid "Error"
-msgstr ""
+msgstr "Erreur"
 
 #: wpematico/app/lib/licenses_handlers.php:454
 #: wpematico/app/lib/licenses_handlers.php:614
 msgid "Check License"
-msgstr ""
+msgstr "Vérifier la license"
 
 #: wpematico/app/lib/licenses_handlers.php:494
 #: wpematico/app/settings_page.php:93
@@ -3825,11 +3829,13 @@ msgid ""
 "This is where you would enter the license keys for one of our premium "
 "plugins, should you activate one."
 msgstr ""
+"C'est ici que vous saisissez les clés de licence de l'un de nos extensions "
+"premium, si vous en activez un."
 
 #: wpematico/app/lib/licenses_handlers.php:495
 #: wpematico/app/settings_page.php:94
 msgid "See some of the WPeMatico Add-ons in the"
-msgstr ""
+msgstr "Voir quelques modules complémentaire de WPeMatico dans"
 
 #: wpematico/app/lib/licenses_handlers.php:527
 msgid "Valid"
@@ -3837,7 +3843,7 @@ msgstr "Valide"
 
 #: wpematico/app/lib/licenses_handlers.php:529
 msgid "Deactivate License"
-msgstr ""
+msgstr "Désactiver la licence"
 
 #: wpematico/app/lib/licenses_handlers.php:531
 msgid "Invalid"
@@ -3845,11 +3851,11 @@ msgstr "Invalide"
 
 #: wpematico/app/lib/licenses_handlers.php:533
 msgid "Expired"
-msgstr ""
+msgstr "Expiré"
 
 #: wpematico/app/lib/licenses_handlers.php:537
 msgid "Activate License"
-msgstr ""
+msgstr "Activer la licence"
 
 #: wpematico/app/lib/licenses_handlers.php:545
 msgid " License"
@@ -3861,21 +3867,25 @@ msgstr "La clé de la licence"
 
 #: wpematico/app/lib/licenses_handlers.php:555
 msgid "Enter your license key"
-msgstr ""
+msgstr "Saisir la clé de la licence"
 
 #: wpematico/app/lib/licenses_handlers.php:568
 msgid "Lifetime"
-msgstr ""
+msgstr "Durée de vie"
 
 #: wpematico/app/lib/licenses_handlers.php:575
 msgid ""
 "No activations left. Click here to manage the sites you've activated "
 "licenses on."
 msgstr ""
+"Aucune activation restante. Cliquez ici pour gérer les sites sur lesquels "
+"vous avez activé les licences."
 
 #: wpematico/app/lib/licenses_handlers.php:581
 msgid "Renew your license to continue receiving updates and support."
 msgstr ""
+"Renouvelez votre licence pour continuer à recevoir des mises à jour et une "
+"assistance."
 
 #: wpematico/app/lib/licenses_handlers.php:585
 msgid "Activations"
@@ -3887,12 +3897,12 @@ msgstr "Expire à"
 
 #: wpematico/app/lib/licenses_handlers.php:591
 msgid "Registered to"
-msgstr ""
+msgstr "Enregistré à"
 
 #: wpematico/app/lib/licenses_handlers.php:600
 #: wpematico/app/lib/licenses_handlers.php:610
 msgid "Activated for updates"
-msgstr ""
+msgstr "Activé pour les mises à jour"
 
 #: wpematico/app/lib/welcome.php:55
 msgid "Welcome to WPeMatico"
@@ -3908,7 +3918,7 @@ msgstr "Journal des modifications de WPeMatico"
 
 #: wpematico/app/lib/welcome.php:73 wpematico/app/lib/welcome.php:74
 msgid "Getting started with WPeMatico"
-msgstr ""
+msgstr "Premier pas avec WPeMatico"
 
 #: wpematico/app/lib/welcome.php:82 wpematico/app/lib/welcome.php:83
 msgid "WPeMatico Privacy"
@@ -3919,6 +3929,8 @@ msgid ""
 "WPeMatico could not update the version in your database. Please if your "
 "website has an object cache disable it."
 msgstr ""
+"WPeMatico n'a pas pu mettre à jour la version dans votre base de données. "
+"S'il vous plaît, si votre site Web a un cache d'objets, désactivez-le."
 
 #: wpematico/app/lib/welcome.php:178
 msgid "Thank you for updating to the latest version!"
@@ -4157,21 +4169,23 @@ msgstr ""
 
 #: wpematico/app/lib/welcome.php:346
 msgid "More Tweaks and Improvements."
-msgstr ""
+msgstr "Plus de modifications et d'améliorations."
 
 #: wpematico/app/lib/welcome.php:349
 msgid "Better speed on uploading files."
-msgstr ""
+msgstr "Meilleure vitesse de téléchargement des fichiers."
 
 #: wpematico/app/lib/welcome.php:350
 msgid ""
 "We've improved the functions and the ways used for pull the images and "
 "attach to the published post."
 msgstr ""
+"Nous avons amélioré les fonctions et les méthodes utilisées pour extraire "
+"les images et les joindre à l'article publié."
 
 #: wpematico/app/lib/welcome.php:352
 msgid "Better control on running campaigns manually."
-msgstr ""
+msgstr "Meilleur contrôle sur l'exécution manuelle des campagnes."
 
 #: wpematico/app/lib/welcome.php:353
 msgid ""
@@ -4179,10 +4193,13 @@ msgid ""
 "campaign would hangs up, but from now when fails, it will show an alert with "
 "the error message."
 msgstr ""
+"Jusqu'à présent, si vous exécutez une campagne et donnez une erreur dans "
+"l'exécution, la campagne se bloque, mais à partir de maintenant, en cas "
+"d'échec, elle affichera une alerte avec le message d'erreur."
 
 #: wpematico/app/lib/welcome.php:355
 msgid "More icons and cosmetics things."
-msgstr ""
+msgstr "Plus d'icônes et d'ajout cosmétiques."
 
 #: wpematico/app/lib/welcome.php:356
 msgid ""
@@ -4190,39 +4207,53 @@ msgid ""
 "also get more and better helps with examples and tips in the campaign "
 "editing or other screens."
 msgstr ""
+"Nous optimisons les écrans pour les rendre plus lisibles par les humains, et "
+"obtenons également de plus en plus d'aide avec des exemples et des astuces "
+"dans l'édition de la campagne ou d'autres pages."
 
 #: wpematico/app/lib/welcome.php:357
 msgid ""
 "Find tips by clicking in the <em>Help</em> tab in the top-right corner "
 "inside Wordpress admin screens."
 msgstr ""
+"Trouvez des conseils en cliquant sur l'onglet <em> Aide </em> dans le coin "
+"supérieur droit des pages d'administration de WordPress."
 
 #: wpematico/app/lib/welcome.php:360
 msgid "WPeMatico Addons"
-msgstr ""
+msgstr "Modules complémentaires de WPeMatico"
 
 #: wpematico/app/lib/welcome.php:367 wpematico/app/lib/welcome.php:377
 #: wpematico/app/lib/welcome.php:387 wpematico/app/lib/welcome.php:397
 msgid "The"
-msgstr ""
+msgstr "Le"
 
 #: wpematico/app/lib/welcome.php:368
 msgid ""
 "contains the five preferred add-Ons with the most wanted features for "
 "autoblogging with WordPress in a very easy professional way."
 msgstr ""
+"contient les cinq modules complémentaires préférés avec les fonctionnalités "
+"les plus recherchées pour l'auto-blogging avec WordPress d'une manière "
+"professionnelle très simple."
 
 #: wpematico/app/lib/welcome.php:378
 msgid ""
 "extends the Campaign Preview functionality to every feed individually and "
 "allows you to review and insert each item, one by one or in bulk mode."
 msgstr ""
+"étend la fonctionnalité d'aperçu de la campagne à chaque flux "
+"individuellement et vous permet d'examiner et d'insérer chaque élément, un "
+"par un ou en mode groupé."
 
 #: wpematico/app/lib/welcome.php:388
 msgid ""
 "uses eBay products in your site and publish them as posts or WooCommerce "
 "products by relating your eBay Parter Network Campaigns IDs."
 msgstr ""
+"utilise les produits eBay de votre site et les publier sous forme de "
+"publications ou de produits WooCommerce en associant vos IDs de campagnes "
+"eBay Partner Network."
 
 #: wpematico/app/lib/welcome.php:398
 msgid ""
@@ -4230,18 +4261,21 @@ msgid ""
 "WPeMatico in order to create custom behavior in the execution of your "
 "campaigns."
 msgstr ""
+"est un add-on GRATUIT qui vous permet d'exécuter des actions et des filtres "
+"fournis par WPeMatico afin de créer un comportement personnalisé dans "
+"l'exécution de vos campagnes."
 
 #: wpematico/app/lib/welcome.php:402
 msgid "Starter Packages."
-msgstr ""
+msgstr "Forfaits de démarrage."
 
 #: wpematico/app/lib/welcome.php:403
 msgid "All available Addons"
-msgstr ""
+msgstr "Tous les add-ons disponibles"
 
 #: wpematico/app/lib/welcome.php:410
 msgid "Even More Developer Happiness"
-msgstr ""
+msgstr "Encore plus de bonheur pour les développeurs"
 
 #: wpematico/app/lib/welcome.php:412
 msgid "JavaScript hooks"
@@ -4286,17 +4320,19 @@ msgstr ""
 
 #: wpematico/app/lib/welcome.php:426
 msgid "Nags updates individually for extensions"
-msgstr ""
+msgstr "Alerter individuellement les mise à jour pour les extensions"
 
 #: wpematico/app/lib/welcome.php:427
 msgid ""
 "A more clear nag update was added for the addons in the WPeMatico Extensions "
 "and Addons menu items."
 msgstr ""
+"Une mise à jour plus claire a été ajoutée pour les Add-Ons dans les éléments "
+"de menu WPeMatico d'Extensions and Add-ons."
 
 #: wpematico/app/lib/welcome.php:430
 msgid "Hidden Options in Settings->Writing"
-msgstr ""
+msgstr "Cacher les Options dans Réglages->écritures"
 
 #: wpematico/app/lib/welcome.php:431
 msgid ""
@@ -4304,10 +4340,14 @@ msgid ""
 "plugin, we've put there a WPeMatico Section, to try to avoid weird behaviors "
 "made by some thirds plugins."
 msgstr ""
+"Si vous avez un problème avec le menu des éléments WPeMatico, la page "
+"Paramètres ou si vous avez perdu une extension, nous y avons mis une section "
+"WPeMatico, pour essayer d'éviter les comportements étranges créés par "
+"certaines extensions tierses."
 
 #: wpematico/app/lib/welcome.php:434 wpematico/app/smart_notifications.php:81
 msgid "Rate 5 stars on Wordpress"
-msgstr ""
+msgstr "Notez 5 étoiles sur WordPress"
 
 #: wpematico/app/lib/welcome.php:435
 msgid ""
@@ -4315,14 +4355,17 @@ msgid ""
 "published on the bottom of the website and besides it will help making the "
 "plugin better."
 msgstr ""
+"Nous avons besoin de votre note positive de 5 étoiles dans WordPress. Votre "
+"commentaire sera publié en bas du site Web et en plus cela aidera à "
+"améliorer l'extension."
 
 #: wpematico/app/lib/welcome.php:467
 msgid "Full Changelog"
-msgstr ""
+msgstr "Journal complet"
 
 #: wpematico/app/lib/welcome.php:481 wpematico/app/lib/welcome.php:523
 msgid "Go to WPeMatico Settings"
-msgstr ""
+msgstr "Accédez aux paramètres WPeMatico"
 
 #: wpematico/app/lib/welcome.php:509
 msgid "Privacy terms"
@@ -4335,12 +4378,19 @@ msgid ""
 "autoblogging plugin. Organized into campaigns, it publishes your posts "
 "automatically from the RSS/Atom feeds of your choice."
 msgstr ""
+"Blog Automatique en un clin d'œil! Sur le pilote automatique complet "
+"WpeMatico reçoit régulièrement du nouveau contenu pour votre site! WPeMatico "
+"est une extension d'autoblogging très facile à utiliser. Organisé en "
+"campagnes, il publie automatiquement vos articles à partir des flux RSS / "
+"Atom de votre choix."
 
 #: wpematico/app/lib/welcome.php:550
 msgid ""
 "Use the tips below to get started using WPeMatico. You will be up and "
 "running in no time!"
 msgstr ""
+"Utilisez les conseils ci-dessous pour commencer à utiliser WPeMatico. Vous "
+"serez opérationnel en un rien de temps!"
 
 #: wpematico/app/lib/welcome.php:564
 msgid "Fill in the Settings"
@@ -4575,55 +4625,57 @@ msgstr ""
 
 #: wpematico/app/lib/welcome.php:756
 msgid "Stay Informed!"
-msgstr ""
+msgstr "Rester informé!"
 
 #: wpematico/app/lib/welcome.php:757
 msgid "Subscribe to our Newsletter and be the first to receive our news."
 msgstr ""
+"Abonnez-vous à notre newsletter et soyez le premier à recevoir nos "
+"actualités."
 
 #: wpematico/app/lib/welcome.php:758
 msgid "We send around 4 or 5 emails per year. Really."
-msgstr ""
+msgstr "Nous envoyons environ 4 à 5 e-mails par an. Vraiment."
 
 #: wpematico/app/lib/welcome.php:764
 #: wpematico_professional/includes/campaign_edit.php:90
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: wpematico/app/lib/welcome.php:765
 msgid "First Name"
-msgstr ""
+msgstr "Prénom"
 
 #: wpematico/app/lib/welcome.php:768
 msgid "Last Name"
-msgstr ""
+msgstr "Nom de famille"
 
 #: wpematico/app/lib/welcome.php:773 wpematico/app/lib/welcome.php:774
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: wpematico/app/lib/welcome.php:778
 msgid "Subscribe"
-msgstr ""
+msgstr "Souscrire"
 
 #: wpematico/app/lib/welcome.php:796
 #: wpematico_fullcontent/inc/functions.php:192
 #: wpematico_professional/includes/prosettingsextra.php:158
 #: wpematico_professional/includes/prosettingsextra.php:302
 msgid "Security check"
-msgstr ""
+msgstr "Vérification de sécurité"
 
 #: wpematico/app/lib/welcome.php:821
 msgid "Subscription saved"
-msgstr ""
+msgstr "Abonnement enregistré"
 
 #: wpematico/app/lib/welcome.php:838 wpematico/app/lib/welcome.php:945
 msgid "No valid changelog was found."
-msgstr ""
+msgstr "Aucun journal des modifications valide n'a été trouvé."
 
 #: wpematico/app/lib/wp_ratings.php:31
 msgid "Can\\t connect to Wordpress Site"
-msgstr ""
+msgstr "Impossible de se connecter au site WordPress"
 
 #: wpematico/app/notification_traslate.php:226
 #, php-format
@@ -6662,7 +6714,7 @@ msgstr ""
 #: wpematico_fullcontent/wpematico_fullcontent.php:211
 #: wpematico_professional/wpematicopro.php:310
 msgid "etruel Store"
-msgstr "Boutique etruel"
+msgstr "boutique etruel"
 
 #: wpematico_fullcontent/wpematico_fullcontent.php:237
 msgid "You are using WPeMatico Full Content."
@@ -8576,7 +8628,7 @@ msgstr "Filtrage de l'image mise en avant."
 
 #: wpematico_professional/wpematicopro.php:2389
 msgid "First featured image meets filters: "
-msgstr "La première image mise en avant remplis les filtres:"
+msgstr "La première image mise en avant remplis les filtres: "
 
 #: wpematico_professional/wpematicopro.php:2492
 msgid "Inserting default Image Into Post."
