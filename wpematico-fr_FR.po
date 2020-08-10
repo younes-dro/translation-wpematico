@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 17:59-0300\n"
-"PO-Revision-Date: 2020-08-09 20:17+0100\n"
+"PO-Revision-Date: 2020-08-10 05:19+0100\n"
 "Language-Team: NetMdP <esteban@netmdp.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4394,7 +4394,7 @@ msgstr ""
 
 #: wpematico/app/lib/welcome.php:564
 msgid "Fill in the Settings"
-msgstr ""
+msgstr "Remplissez les paramètres"
 
 #: wpematico/app/lib/welcome.php:566
 msgid "RSS"
@@ -4411,20 +4411,31 @@ msgid ""
 "the news in one place. The aggregator checks your favorite websites in "
 "search of new content and features directly without any effort on your part."
 msgstr ""
+"RSS est une technologie pour faciliter la diffusion d'informations de "
+"manière centralisée. En général, visitez quotidiennement plusieurs sites Web "
+"pour voir s'il y a quelque chose de nouveau dans nos endroits préférés. Le "
+"principe fondamental derrière RSS est que \"le récepteur n'est plus à la "
+"recherche d'informations, c'est l'information qui part à la recherche du "
+"récepteur\". Si vous utilisez un agrégateur RSS pas besoin de visiter chacun "
+"de ces sites car ils reçoivent toutes les nouvelles en un seul endroit. "
+"L'agrégateur vérifie vos sites Web préférés à la recherche de nouveaux "
+"contenus et fonctionnalités directement sans aucun effort de votre part."
 
 #: wpematico/app/lib/welcome.php:568
 msgid ""
 "Blogs contain in its main page a XML file. In the case of blogs on WordPress "
 "the feed is defined as follows:"
 msgstr ""
+"Les blogs contiennent dans sa page principale un fichier XML. Dans le cas "
+"des blogs sur WordPress, le flux est défini comme suit:"
 
 #: wpematico/app/lib/welcome.php:569
 msgid "We have to add this URL to the RSS field to receive the items."
-msgstr ""
+msgstr "Nous devons ajouter cette URL au champ RSS pour recevoir les éléments."
 
 #: wpematico/app/lib/welcome.php:575
 msgid "WPeMatico &rarr; Settings"
-msgstr ""
+msgstr "Paramètres &rarr; WPeMatico"
 
 #: wpematico/app/lib/welcome.php:576
 msgid ""
@@ -4450,19 +4461,22 @@ msgid ""
 "Set to an external or internal Wordpress CRON scheduler and look at for the "
 "configuration tabs of all plugin extensions and Add-ons."
 msgstr ""
+"Définissez un planificateur WordPress CRON externe ou interne et recherchez "
+"les onglets de configuration de toutes les extensions de plug-in et modules "
+"complémentaires."
 
 #: wpematico/app/lib/welcome.php:584
 msgid "Testing SimplePie library"
-msgstr ""
+msgstr "Test de la bibliothèque SimplePie"
 
 #: wpematico/app/lib/welcome.php:599
 msgid "Creating Your First Campaign"
-msgstr ""
+msgstr "Créer votre première Campagne"
 
 #: wpematico/app/lib/welcome.php:601
 #, php-format
 msgid "%s &rarr; Add New"
-msgstr ""
+msgstr "%s &rarr; Nouveau"
 
 #: wpematico/app/lib/welcome.php:603
 msgid ""
@@ -4471,14 +4485,20 @@ msgid ""
 "as posts or any Custom Post Type. To create your first campaign, simply "
 "click Add New and then fill out the campaign details."
 msgstr ""
+"Le menu Toutes les campagnes de &rarr; WPeMatico est votre point d'accès "
+"pour tous les aspects de la création et de la configuration de vos campagnes "
+"de flux pour récupérer les éléments et les insérer en tant que publications "
+"ou tout type de publication personnalisé. Pour créer votre première "
+"campagne, cliquez simplement sur Ajouter nouveau, puis remplissez les "
+"détails de la campagne."
 
 #: wpematico/app/lib/welcome.php:609
 msgid "Need Help?"
-msgstr ""
+msgstr "Besoin d'aide?"
 
 #: wpematico/app/lib/welcome.php:611
 msgid "Inline Documentation"
-msgstr ""
+msgstr "Documentaton on ligne"
 
 #: wpematico/app/lib/welcome.php:613
 msgid ""
@@ -4488,10 +4508,15 @@ msgid ""
 "with each feature. These tips sometimes even provide basic, recommended "
 "settings."
 msgstr ""
+"Ces petites phrases et / ou phrases que vous voyez à côté ou en dessous sont-"
+"elles une fonctionnalité de WPeMatico qui donnent une explication courte "
+"mais très utile de ce qu'est la fonctionnalité et servent de conseils "
+"d'orientation correspondant à chaque fonctionnalité. Ces conseils "
+"fournissent parfois même des paramètres de base recommandés."
 
 #: wpematico/app/lib/welcome.php:615
 msgid "Help Tab"
-msgstr ""
+msgstr "Onglet Aide"
 
 #: wpematico/app/lib/welcome.php:617
 msgid ""
@@ -4501,6 +4526,12 @@ msgid ""
 "a lot of text providing documentation relevant to the page you are currently "
 "viewing on your Dashboard."
 msgstr ""
+"En plus de la documentation en ligne que vous voyez dispersée dans le "
+"tableau de bord, vous trouverez un onglet utile dans le coin supérieur droit "
+"de votre tableau de bord intitulé Aide. Cliquez sur cet onglet et un panneau "
+"déroulant contient beaucoup de texte fournissant une documentation "
+"pertinente à la page que vous consultez actuellement sur votre tableau de "
+"bord."
 
 #: wpematico/app/lib/welcome.php:619
 msgid ""
@@ -4510,18 +4541,25 @@ msgid ""
 "down documentation with topics relevant to the settings and features you "
 "find on the Add New Campaign page within your Dashboard."
 msgstr ""
+"Par exemple, si vous affichez la page Paramètres WPeMatico, l'onglet Aide "
+"affiche la documentation relative à la page Paramètres WPeMatico. De même, "
+"si vous affichez la page Ajouter une nouvelle campagne, cliquez sur l'onglet "
+"Aide pour afficher la documentation avec des sujets relatifs aux paramètres "
+"et fonctionnalités que vous trouverez sur la page Ajouter une nouvelle "
+"campagne de votre tableau de bord."
 
 #: wpematico/app/lib/welcome.php:621
 msgid "Just click the Help tab again to close the Help panel."
 msgstr ""
+"Cliquez simplement à nouveau sur l'onglet Aide pour fermer le panneau d'aide."
 
 #: wpematico/app/lib/welcome.php:635
 msgid "Need more Help?"
-msgstr ""
+msgstr "Besoin plus d'aide?"
 
 #: wpematico/app/lib/welcome.php:637
 msgid "Phenomenal Support"
-msgstr ""
+msgstr "Soutien phénoménal"
 
 #: wpematico/app/lib/welcome.php:638
 msgid ""
@@ -4529,10 +4567,14 @@ msgid ""
 "problem or have a question, simply open a ticket using our <a target=\"_blank"
 "\" href=\"https://etruel.com/my-account/support\">support form</a>."
 msgstr ""
+"Nous faisons de notre mieux pour fournir le meilleur soutien possible. Si "
+"vous rencontrez un problème ou avez une question, ouvrez simplement un "
+"ticket à l'aide de notre <a target=\"_blank\" href=\"https://etruel.com/my-"
+"account/support\"> formulaire d'assistance </a>."
 
 #: wpematico/app/lib/welcome.php:641
 msgid "Need Even Better Support?"
-msgstr ""
+msgstr "Besoin d'un meilleur support?"
 
 #: wpematico/app/lib/welcome.php:642
 msgid ""
@@ -4540,14 +4582,17 @@ msgid ""
 "\">Premium Support</a> system is there for customers that need faster and/or "
 "more in-depth assistance."
 msgstr ""
+"Notre système <a target=\"_blank\" href=\"https://etruel.com/downloads/"
+"premium-support/\">Assistance Premium</a> est là pour les clients qui ont "
+"besoin d'une assistance plus rapide et / ou plus approfondie."
 
 #: wpematico/app/lib/welcome.php:646
 msgid "Stay Up to Date"
-msgstr ""
+msgstr "Rester à jour"
 
 #: wpematico/app/lib/welcome.php:648
 msgid "Get Notified of Extension Releases"
-msgstr ""
+msgstr "Soyez notifié des nouvelles réalisations d'extension"
 
 #: wpematico/app/lib/welcome.php:649
 msgid ""
@@ -4556,10 +4601,15 @@ msgid ""
 "latest releases. <a href=\"http://eepurl.com/bX2ANz\" target=\"_blank\">Sign "
 "up now</a> to ensure you do not miss a release!"
 msgstr ""
+"De nouvelles extensions qui rendent WPeMatico encore plus puissant sont "
+"publiées presque chaque semaine. Abonnez-vous à la newsletter pour rester au "
+"courant de nos dernières versions. <a href=\"http://eepurl.com/bX2ANz\" "
+"target=\"_blank\">Inscrivez-vous maintenant</a> pour vous assurer de ne "
+"manquer aucune nouvelle réalisation!"
 
 #: wpematico/app/lib/welcome.php:652
 msgid "Get Alerted About New Tutorials"
-msgstr ""
+msgstr "Soyez averti des nouveaux tutoriels"
 
 #: wpematico/app/lib/welcome.php:653
 msgid ""
@@ -4567,10 +4617,13 @@ msgid ""
 "hear about the latest tutorial releases that explain how to take WPeMatico "
 "further."
 msgstr ""
+"<a href=\"http://eepurl.com/bX2ANz\" target=\"_blank\">Inscrivez-vous "
+"maintenant</a> pour découvrir les dernières tutoriels des nouvelles "
+"réalisations qui expliquent comment faire progresser WPeMatico."
 
 #: wpematico/app/lib/welcome.php:659
 msgid "Extend the plugin features"
-msgstr ""
+msgstr "Étendre les fonctionnalités de l'extension"
 
 #: wpematico/app/lib/welcome.php:660
 msgid ""
@@ -4579,10 +4632,15 @@ msgid ""
 "the feed contents, The Full Content add-on to scratch the source webpage "
 "looking to get the entire article, and many more."
 msgstr ""
+"Des extensions complémentaires sont disponibles qui étendent "
+"considérablement les fonctionnalités par défaut de WPeMatico. Il existe une "
+"extension Professional pour étendre les analyseurs du contenu du flux, le "
+"module complémentaire Full Content pour gratter la page Web source cherchant "
+"à obtenir l'article entier, et bien d'autres."
 
 #: wpematico/app/lib/welcome.php:663
 msgid "Visit the Extension Store"
-msgstr ""
+msgstr "Visiter la boutique de l'extension"
 
 #: wpematico/app/lib/welcome.php:664
 msgid ""
@@ -4591,10 +4649,15 @@ msgid ""
 "Worpdress plugins, some of them for free. Including convenient category "
 "filters so you can find exactly what you are looking for."
 msgstr ""
+"<a href=\"https://etruel.com/downloads\" target=\"_blank\"> La boutique "
+"etruel </a> a une liste de toutes les extensions disponibles pour WPeMatico, "
+"ainsi que d'autres extensions WorPdress, dont certains sont gratuits. Y "
+"compris des filtres de catégorie pratiques pour que vous puissiez trouver "
+"exactement ce que vous recherchez."
 
 #: wpematico/app/lib/welcome.php:745
 msgid "Last News in This Version!"
-msgstr ""
+msgstr "Dernières nouvelles de cette version!"
 
 #: wpematico/app/lib/welcome.php:746
 msgid ""
@@ -4602,12 +4665,17 @@ msgid ""
 "include new features in order to improve the user experience and cover all "
 "their needs."
 msgstr ""
+"WPeMatico continue de s'améliorer et d'innover à chaque mise à jour, une "
+"fois de plus, nous incluons de nouvelles fonctionnalités afin d'améliorer "
+"l'expérience utilisateur et de couvrir tous leurs besoins."
 
 #: wpematico/app/lib/welcome.php:747
 msgid ""
 "Choose which media files will be uploaded to your website by allowing or not "
 "their extension!"
 msgstr ""
+"Choisissez quels fichiers multimédias seront téléchargés sur votre site Web "
+"en autorisant ou non leur extension!"
 
 #: wpematico/app/lib/welcome.php:748
 msgid ""
@@ -4615,6 +4683,9 @@ msgid ""
 "website? With this new version it&#39;s now possible! What are you waiting "
 "for to test it?"
 msgstr ""
+"Pouvez-vous imaginer utiliser les images présentées sans les stocker sur "
+"votre propre site Web? Avec cette nouvelle version c&#39;est désormais "
+"possible! Qu&#39;attendez-vous pour le tester?"
 
 #: wpematico/app/lib/welcome.php:750
 msgid ""
@@ -4622,6 +4693,10 @@ msgid ""
 "the description tag of the items in the feed and you can even force the use "
 "of the original date of each post!"
 msgstr ""
+"En plus de cela, dans cette nouvelle version, vous pouvez également créer "
+"des extraits en utilisant la balise de description des éléments du fil et "
+"vous pouvez même forcer l'utilisation de la date d'origine de chaque "
+"publication!"
 
 #: wpematico/app/lib/welcome.php:756
 msgid "Stay Informed!"
@@ -4685,6 +4760,10 @@ msgid ""
 "complete and to fix any errors. Please register at %4$s to help complete the "
 "translation to %1$s!"
 msgstr ""
+"Comme vous pouvez le voir, il existe une traduction de cette extension dans "
+"%1$s. Cette traduction est actuellement terminée à %3$d%%. Nous avons besoin "
+"de votre aide pour la compléter et pour corriger les erreurs. Veuillez vous "
+"inscrire à %4$s pour aider à terminer la traduction en %1$s!"
 
 #: wpematico/app/notification_traslate.php:228
 #, php-format
@@ -8349,47 +8428,47 @@ msgstr ""
 
 #: wpematico_professional/wpematicopro.php:955
 msgid "Custom Title Options"
-msgstr ""
+msgstr "Options de titre personnalisé"
 
 #: wpematico_professional/wpematicopro.php:957
 msgid "Keywords Filters"
-msgstr ""
+msgstr "Filtre de mots clés"
 
 #: wpematico_professional/wpematicopro.php:959
 msgid "Word Count Filters"
-msgstr ""
+msgstr "Filtres le nombre de mot"
 
 #: wpematico_professional/wpematicopro.php:963
 msgid "Custom Fields"
-msgstr ""
+msgstr "Champs personnalisés"
 
 #: wpematico_professional/wpematicopro.php:966
 msgid "Custom Feed Tags"
-msgstr ""
+msgstr "Balises de fil personnalisés"
 
 #: wpematico_professional/wpematicopro.php:969
 msgid "Filter Per Author"
-msgstr ""
+msgstr "Filtrer par auteur"
 
 #: wpematico_professional/wpematicopro.php:1119
 #: wpematico_professional/wpematicopro.php:1122
 msgid "Cancel Import"
-msgstr ""
+msgstr "Annuler l'import"
 
 #: wpematico_professional/wpematicopro.php:1120
 #: wpematico_professional/wpematicopro.php:1238
 msgid "Import feed list"
-msgstr ""
+msgstr "Importer la liste des flux"
 
 #: wpematico_professional/wpematicopro.php:1168
 #: wpematico_professional/wpematicopro.php:1536
 msgid "Feed Tag:"
-msgstr ""
+msgstr "Balise de Flux:"
 
 #: wpematico_professional/wpematicopro.php:1169
 #: wpematico_professional/wpematicopro.php:1540
 msgid "Template:"
-msgstr ""
+msgstr "Modèle:"
 
 #: wpematico_professional/wpematicopro.php:1223
 msgid ""
@@ -8401,11 +8480,11 @@ msgstr ""
 
 #: wpematico_professional/wpematicopro.php:1300
 msgid "Limit tags quantity to:"
-msgstr ""
+msgstr "Limiter la quantité de tags à:"
 
 #: wpematico_professional/wpematicopro.php:1304
 msgid "Bad Tags:"
-msgstr ""
+msgstr "Mauvaises balises:"
 
 #: wpematico_professional/wpematicopro.php:1330
 msgid "Phrases or keywords (one per line, case-insensitive):"
@@ -8413,19 +8492,19 @@ msgstr "Phrases ou mots-clés (un par ligne, insensible à la casse):"
 
 #: wpematico_professional/wpematicopro.php:1364
 msgid "Flip Paragraphs."
-msgstr ""
+msgstr "Inverser les paragraphes."
 
 #: wpematico_professional/wpematicopro.php:1372
 msgid "Activate Flip Paragraphs."
-msgstr ""
+msgstr "Activez les paragraphes inversés."
 
 #: wpematico_professional/wpematicopro.php:1398
 msgid "HTML tag:"
-msgstr ""
+msgstr "Balise HTML:"
 
 #: wpematico_professional/wpematicopro.php:1399
 msgid "(example: div, p, span, etc.)"
-msgstr ""
+msgstr "(exemple: div, p, span, etc.)"
 
 #: wpematico_professional/wpematicopro.php:1414
 msgid ""
@@ -8438,150 +8517,152 @@ msgstr ""
 
 #: wpematico_professional/wpematicopro.php:1419
 msgid "Greater than:"
-msgstr ""
+msgstr "Supérieur à:"
 
 #: wpematico_professional/wpematicopro.php:1422
 #: wpematico_professional/wpematicopro.php:1443
 #: wpematico_professional/wpematicopro.php:1456
 msgid "words."
-msgstr ""
+msgstr "Mots."
 
 #: wpematico_professional/wpematicopro.php:1422
 #: wpematico_professional/wpematicopro.php:1443
 #: wpematico_professional/wpematicopro.php:1456
 msgid "letters."
-msgstr ""
+msgstr "Lettres."
 
 #: wpematico_professional/wpematicopro.php:1445
 msgid "if greater."
-msgstr ""
+msgstr "si plus grand."
 
 #: wpematico_professional/wpematicopro.php:1453
 msgid "Discard post is less than:"
-msgstr ""
+msgstr "Supprimer la publication inférieure à:"
 
 #: wpematico_professional/wpematicopro.php:1481
 #: wpematico_professional/wpematicopro.php:1495
 msgid "Search in Title"
-msgstr ""
+msgstr "Rechercher dans le titre"
 
 #: wpematico_professional/wpematicopro.php:1482
 #: wpematico_professional/wpematicopro.php:1496
 msgid "Search in Content"
-msgstr ""
+msgstr "Rechercher dans le cotenu"
 
 #: wpematico_professional/wpematicopro.php:1483
 #: wpematico_professional/wpematicopro.php:1497
 msgid "Search in Categories"
-msgstr ""
+msgstr "Rechercher dans les catégories"
 
 #: wpematico_professional/wpematicopro.php:1484
 #: wpematico_professional/wpematicopro.php:1498
 msgid "Any of these words"
-msgstr ""
+msgstr "Un de ces mots"
 
 #: wpematico_professional/wpematicopro.php:1485
 #: wpematico_professional/wpematicopro.php:1499
 msgid "All of these words"
-msgstr ""
+msgstr "Tous ces mots"
 
 #: wpematico_professional/wpematicopro.php:1525
 msgid "Add custom feed tags to use on template or custom fields"
 msgstr ""
+"Ajouter des balises de flux personnalisées à utiliser sur des modèles ou des "
+"champs personnalisés"
 
 #: wpematico_professional/wpematicopro.php:1584
 msgid "Name:"
-msgstr ""
+msgstr "Nom:"
 
 #: wpematico_professional/wpematicopro.php:1588
 msgid "Value:"
-msgstr ""
+msgstr "Valeur:"
 
 #: wpematico_professional/wpematicopro.php:1625
 msgid "Select a page"
-msgstr ""
+msgstr "Sélectionner une page"
 
 #: wpematico_professional/wpematicopro.php:1652
 #, php-format
 msgid "Assigning author %1s to %2s"
-msgstr ""
+msgstr "Affectation de l'auteur %1s à %2s"
 
 #: wpematico_professional/wpematicopro.php:1690
 #, php-format
 msgid "Assigning Taxonomies %1s"
-msgstr ""
+msgstr "Attribution des taxonomies %1s"
 
 #: wpematico_professional/wpematicopro.php:1729
 #: wpematico_professional/wpematicopro.php:1778
 #, php-format
 msgid "Cutting the title at %1s"
-msgstr ""
+msgstr "Couper le titre à %1s"
 
 #: wpematico_professional/wpematicopro.php:1785
 #, php-format
 msgid "Changing title to %1s"
-msgstr ""
+msgstr "Changement du titre en %1s"
 
 #: wpematico_professional/wpematicopro.php:1795
 #, php-format
 msgid "Counting Words on %1s"
-msgstr ""
+msgstr "Compter les mots sur %1s"
 
 #: wpematico_professional/wpematicopro.php:1798
 #: wpematico_professional/wpematicopro.php:1864
 #, php-format
 msgid "Found %1s words with %2s letters in content."
-msgstr ""
+msgstr "%1s mots avec %2s lettres dans le contenu."
 
 #: wpematico_professional/wpematicopro.php:1811
 #, php-format
 msgid "Skipping: %1s"
-msgstr ""
+msgstr "Sauter: %1s"
 
 #: wpematico_professional/wpematicopro.php:1861
 #, php-format
 msgid "Processing Words count Filters %1s"
-msgstr ""
+msgstr "Traitement de nombre de mots des Filtres %1s"
 
 #: wpematico_professional/wpematicopro.php:1878
 #, php-format
 msgid "Greater than %1s To Cat_id %2s"
-msgstr ""
+msgstr "Supérieur à %1s du Cat_id %2s"
 
 #: wpematico_professional/wpematicopro.php:1894
 #, php-format
 msgid "Cutting at %1s"
-msgstr ""
+msgstr "Couper à %1s"
 
 #: wpematico_professional/wpematicopro.php:1902
 #, php-format
 msgid "Strip HTML tags from title %1s"
-msgstr ""
+msgstr "Supprimer les balises HTML du titre %1s"
 
 #: wpematico_professional/wpematicopro.php:1917
 msgid "Adding tags from feed to post."
-msgstr ""
+msgstr "Ajout des balises du Flux à l'article."
 
 #: wpematico_professional/wpematicopro.php:1932
 msgid "Adding custom tags to post."
-msgstr ""
+msgstr "Ajout des balises personnalisées à la publication."
 
 #: wpematico_professional/wpematicopro.php:1947
 msgid "Adding tags automatically to post."
-msgstr ""
+msgstr "Ajout automatique des balises à la publication."
 
 #: wpematico_professional/wpematicopro.php:1984
 msgid "Parsing Custom fields values."
-msgstr ""
+msgstr "Parseur des valeurs des champs personnalisés."
 
 #: wpematico_professional/wpematicopro.php:2083
 #: wpematico_professional/wpematicopro.php:2102
 msgid "No image in content -> skipping"
-msgstr ""
+msgstr "Pas d'image dans le contenu -> Sauter"
 
 #: wpematico_professional/wpematicopro.php:2159
 msgid "Deleting image with incorrect content:"
-msgstr ""
+msgstr "Suppression de l'image sans contenu correcte:"
 
 #: wpematico_professional/wpematicopro.php:2271
 #: wpematico_professional/wpematicopro.php:2279
@@ -8591,22 +8672,22 @@ msgstr ""
 #: wpematico_professional/wpematicopro.php:2474
 #, php-format
 msgid "Getting enclosure link: %s"
-msgstr ""
+msgstr "Obtention du line de la clôture: %s"
 
 #: wpematico_professional/wpematicopro.php:2285
 #, php-format
 msgid "Enclosure type not accepted: %s"
-msgstr ""
+msgstr "Type de clôture non accepté: %s"
 
 #: wpematico_professional/wpematicopro.php:2301
 #, php-format
 msgid "Getting image tag: %s"
-msgstr ""
+msgstr "Obtention de la balise d'image: %s"
 
 #: wpematico_professional/wpematicopro.php:2309
 #, php-format
 msgid "Featured image from enclosure: %s"
-msgstr ""
+msgstr "Image mise en avant du clôture: %s"
 
 #: wpematico_professional/wpematicopro.php:2323
 msgid "Applying Image Filters."
