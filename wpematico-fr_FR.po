@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 17:59-0300\n"
-"PO-Revision-Date: 2020-08-11 04:08+0100\n"
+"PO-Revision-Date: 2020-08-11 05:33+0100\n"
 "Language-Team: NetMdP <esteban@netmdp.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5087,20 +5087,25 @@ msgid ""
 "If not enabled all videos will be linked to the video owner's server, but "
 "also make your website faster for your visitors."
 msgstr ""
+"Si elle n'est pas activée, toutes les vidéos seront liées au serveur du "
+"propriétaire de la vidéo, mais rendront également votre site Web plus rapide "
+"pour vos visiteurs."
 
 #: wpematico/app/settings_help.php:111
 msgid "Caching all videos"
-msgstr ""
+msgstr "Mettre toutes les vidéos en cache"
 
 #: wpematico/app/settings_help.php:116
 msgid "Video Attaching"
-msgstr ""
+msgstr "Joindre une vidéo"
 
 #: wpematico/app/settings_help.php:117
 msgid ""
 "When Uploads videos to Wordpress (and everything is working fine), every "
 "video attached is added to the Wordpress Media."
 msgstr ""
+"Quand vous téléchargez des vidéos sur WordPress (et que tout fonctionne "
+"correctement), chaque vidéo jointe est ajoutée à WordPress Media."
 
 #: wpematico/app/settings_help.php:118
 msgid ""
