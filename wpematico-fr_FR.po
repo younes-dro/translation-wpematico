@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 17:59-0300\n"
-"PO-Revision-Date: 2020-08-10 05:19+0100\n"
+"PO-Revision-Date: 2020-08-11 04:08+0100\n"
 "Language-Team: NetMdP <esteban@netmdp.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4772,6 +4772,9 @@ msgid ""
 "%3$d%%, it's not been shipped with the plugin yet. You can help! Register at "
 "%4$s to help complete the translation to %1$s!"
 msgstr ""
+"Vous utilisez WordPress dans %1$s. Tant que %2$s est traduit à %1$s pour %3$d"
+"%%, Il n'est pas encore expédié encore avec l'extension. Vous pouvez aider! "
+"inscrivez-vous à %4$s pour améliorer la translation à %1$s!"
 
 #: wpematico/app/notification_traslate.php:230
 #, php-format
@@ -4780,18 +4783,22 @@ msgid ""
 "%2$s to be translated in that language too, but unfortunately, it isn't "
 "right now. You can change that! Register at %4$s to help translate it!"
 msgstr ""
+"Vous utilisez WordPress dans une langue que nous ne prenons pas encore en "
+"charge. Nous aimerions que %2$s soit également traduit dans cette langue, "
+"mais malheureusement, ce n'est pas le cas pour le moment. Vous pouvez "
+"changer cela! Inscrivez-vous à %4$s pour aider à le traduire!"
 
 #: wpematico/app/plugin_functions.php:80
 msgid "None."
-msgstr ""
+msgstr "Aucune."
 
 #: wpematico/app/plugin_functions.php:84
 msgid "Installed Extensions:"
-msgstr ""
+msgstr "Extensions installées:"
 
 #: wpematico/app/plugin_functions.php:101
 msgid "Load WPeMatico Settings Page"
-msgstr ""
+msgstr "charger les paramètres de la page WPeMatico"
 
 #: wpematico/app/plugin_functions.php:101 wpematico/app/settings_tabs.php:17
 #: wpematico/wpematico_class.php:277 wpematico/wpematico_class.php:278
@@ -4799,43 +4806,45 @@ msgstr ""
 #: wpematico_professional/includes/prosettings.php:11
 #: wpematico_professional/wpematicopro.php:291
 msgid "Settings"
-msgstr ""
+msgstr "Paramètres"
 
 #: wpematico/app/plugin_functions.php:102
 msgid "Take a look at the all bundled Addons"
-msgstr ""
+msgstr "Jetez un œil à tous les modules complémentaires"
 
 #: wpematico/app/plugin_functions.php:102
 msgid "Go Perfect"
-msgstr ""
+msgstr "Passer au mieux"
 
 #: wpematico/app/plugin_functions.php:124
 #: wpematico_fullcontent/wpematico_fullcontent.php:213
 #: wpematico_professional/wpematicopro.php:312
 msgid "Rate Plugin"
-msgstr ""
+msgstr "Noter l'extension"
 
 #: wpematico/app/plugin_functions.php:125
 msgid "Take a look at the PRO version features"
-msgstr ""
+msgstr "Voir les fonctionnalités de la version PRO"
 
 #: wpematico/app/plugin_functions.php:125
 msgid "Go PRO"
-msgstr ""
+msgstr "Passer à la version PRO"
 
 #: wpematico/app/settings_help.php:19
 msgid "Global Settings For Images."
-msgstr ""
+msgstr "Paramètres généraux des images"
 
 #: wpematico/app/settings_help.php:20
 msgid ""
 "Set this features for all campaigns and can be overridden inside any "
 "campaign."
 msgstr ""
+"Définissez ces fonctionnalités pour toutes les campagnes et peuvent être "
+"remplacées dans n'importe quelle campagne."
 
 #: wpematico/app/settings_help.php:23
 msgid "Store images locally. (Uploads)"
-msgstr ""
+msgstr "Enregistrer les images localement. (Téléversement)"
 
 #: wpematico/app/settings_help.php:24
 msgid ""
@@ -4843,16 +4852,23 @@ msgid ""
 "every feed item (only in &lt;img&gt; tags) is downloaded to the Wordpress "
 "UPLOADS Dir."
 msgstr ""
+"Quand la sauvegarde locale des images est activée, Une copie pour toute "
+"image trouvée dans le contenu de tout les éléments du flux ( Seulement dans "
+"la balise HTML &lt;img&gt; ) est téléversée dans le dossier de "
+"téléchargement WordPress."
 
 #: wpematico/app/settings_help.php:25
 msgid ""
 "If not enabled all images will be linked to the image owner's server, but "
 "also make your website faster for your visitors."
 msgstr ""
+"Si elle n'est pas activée, toutes les images seront liées au serveur du "
+"propriétaire de l'image, mais rendront également votre site Web plus rapide "
+"pour vos visiteurs."
 
 #: wpematico/app/settings_help.php:26
 msgid "Caching all images"
-msgstr ""
+msgstr "Mise en cache de toutes les images"
 
 #: wpematico/app/settings_help.php:27 wpematico/app/settings_help.php:81
 #: wpematico/app/settings_help.php:112
@@ -4860,33 +4876,43 @@ msgid ""
 "This featured in the general Settings section, will be overridden for the "
 "campaign-specific options."
 msgstr ""
+"Cette option figurant dans la section Paramètres généraux sera remplacée "
+"pour les options spécifiques à la campagne."
 
 #: wpematico/app/settings_help.php:31
 msgid "Image Attaching"
-msgstr ""
+msgstr "Pièce jointe d'image"
 
 #: wpematico/app/settings_help.php:32
 msgid ""
 "When Uploads images to Wordpress (and everything is working fine), every "
 "image attached is added to the Wordpress Media."
 msgstr ""
+"Lorsque télécharge des images sur Wordpress (et que tout fonctionne "
+"correctement), chaque image jointe est ajoutée à WordPress Média."
 
 #: wpematico/app/settings_help.php:33
 msgid ""
 "If enable this feature all the images will be attached to its owner post in "
 "WP media library."
 msgstr ""
+"Si vous activez cette fonctionnalité, toutes les images seront jointes à "
+"leurs publication d'origine dans la médiathèque WP."
 
 #: wpematico/app/settings_help.php:34 wpematico/app/settings_help.php:88
 #: wpematico/app/settings_help.php:119
 msgid ""
 "If you see that the job process is too slowly you can deactivate this here."
 msgstr ""
+"Si vous constatez que le processus de travail est trop lent, vous pouvez le "
+"désactiver ici."
 
 #: wpematico/app/settings_help.php:35 wpematico/app/settings_help.php:89
 #: wpematico/app/settings_help.php:120
 msgid "This feature may not work if you use the Custom Function for Uploads."
 msgstr ""
+"Cette fonctionnalité peut ne pas fonctionner si vous utilisez la fonction "
+"personnalisée pour les téléchargements."
 
 #: wpematico/app/settings_help.php:39 wpematico/app/settings_help.php:41
 #: wpematico/app/settings_help.php:46 wpematico/app/settings_help.php:48
@@ -4901,18 +4927,25 @@ msgid ""
 "img&gt; HTML tag from the content. Check this to don't link images from "
 "external sites."
 msgstr ""
+"Si est sélectionné et que le téléchargement d'image donne une erreur, alors "
+"cela supprimera la balise HTML &lt;img&gt; du contenu. Cochez cette case "
+"pour ne pas lier les images de sites externes."
 
 #: wpematico/app/settings_help.php:42
 msgid ""
 "If the image are inside &lt;a&gt; tags, then the link is also removed from "
 "content."
 msgstr ""
+"Si l'image se trouve à l'intérieur des balises &lt;a&gt;, le lien est "
+"également supprimé du contenu."
 
 #: wpematico/app/settings_help.php:49
 msgid ""
 "If the srcset attribute does not exist the image processing will work "
 "normally."
 msgstr ""
+"Si l'attribut srcset n'existe pas, le traitement d'image fonctionnera "
+"normalement."
 
 #: wpematico/app/settings_help.php:54
 msgid "Post Thumbnails"
@@ -4923,28 +4956,37 @@ msgid ""
 "Note if that plugin is not activated, WPeMatico will still save the meta "
 "fields in each post without any other consequences."
 msgstr ""
+"Notez que si cette extension n'est pas activé, WPeMatico enregistrera "
+"toujours les champs méta dans chaque message sans aucune autre conséquence."
 
 #: wpematico/app/settings_help.php:65
 msgid ""
 "Useful if you have double image in your posts pages or if you don't want to "
 "show the image in content for any reason."
 msgstr ""
+"Utile si vous avez une double image dans vos pages de messages ou si vous ne "
+"souhaitez pas afficher l'image dans le contenu pour une raison quelconque."
 
 #: wpematico/app/settings_help.php:71
 msgid ""
 "Try it at your own risk, if you see that the images are not loading, uncheck "
 "it."
 msgstr ""
+"Essayez-le à votre responsabilité , si vous constatez que les images ne se "
+"chargent pas, décochez-le."
 
 #: wpematico/app/settings_help.php:72
 msgid ""
 "Also uncheck this if you need all sizes of wordpress images. The WP process "
 "can take too much resources if many images are uploaded at a time."
 msgstr ""
+"Décochez également cette option si vous avez besoin de toutes les tailles "
+"d'images WordPress. Le processus WP peut prendre trop de ressources si de "
+"nombreuses images sont téléchargées à la fois."
 
 #: wpematico/app/settings_help.php:77
 msgid "Store audios locally. (Uploads)"
-msgstr ""
+msgstr "Stockez les audios localement. (Téléversement)"
 
 #: wpematico/app/settings_help.php:78
 msgid ""
@@ -4952,32 +4994,43 @@ msgid ""
 "every feed item (only in &lt;audio&gt; tags) is downloaded to the Wordpress "
 "UPLOADS Dir."
 msgstr ""
+"Lorsque e stockage les audios localement est activé, une copie de chaque "
+"audio trouvé dans le contenu de chaque élément de fil (uniquement dans les "
+"balises &lt;audio&gt;) est téléchargée dans le répertoire de téléchargement "
+"de WordPress."
 
 #: wpematico/app/settings_help.php:79
 msgid ""
 "If not enabled all audios will be linked to the audio owner's server, but "
 "also make your website faster for your visitors."
 msgstr ""
+"S'il n'est pas activé, tous les audios seront liés au serveur du "
+"propriétaire de l'audio, mais rendront également votre site Web plus rapide "
+"pour vos visiteurs."
 
 #: wpematico/app/settings_help.php:80
 msgid "Caching all audios"
-msgstr ""
+msgstr "Mise en cache de tous les audios"
 
 #: wpematico/app/settings_help.php:85
 msgid "Audio Attaching"
-msgstr ""
+msgstr "Attachement audio"
 
 #: wpematico/app/settings_help.php:86
 msgid ""
 "When Uploads audios to Wordpress (and everything is working fine), every "
 "audio attached is added to the Wordpress Media."
 msgstr ""
+"Lorsque télécharge des audios sur WordPress (et que tout fonctionne "
+"correctement), chaque audio joint est ajouté au médiathèque WordPress."
 
 #: wpematico/app/settings_help.php:87
 msgid ""
 "If enable this feature all the audios will be attached to its owner post in "
 "WP media library."
 msgstr ""
+"Si vous activez cette fonctionnalité, toutes les audios seront attachées à "
+"sa publication d'origine dans la médiathèque WP."
 
 #: wpematico/app/settings_help.php:94
 msgid ""
@@ -4985,28 +5038,38 @@ msgid ""
 "audio&gt; HTML tag from the content. Check this to don't link audio from "
 "external sites."
 msgstr ""
+"Si est sélectionné et que le téléchargement audio donne une erreur, alors "
+"supprimera la balise HTML &lt;audio&gt; du contenu. Cochez cette case pour "
+"ne pas lier l'audio de sites externes."
 
 #: wpematico/app/settings_help.php:96
 msgid ""
 "If the audio are inside &lt;a&gt; tags, then the link is also removed from "
 "content."
 msgstr ""
+"Si l'audio se trouve à l'intérieur d'une balise&lt;a&gt; , le lien est "
+"également supprimé du contenu."
 
 #: wpematico/app/settings_help.php:102
 msgid ""
 "Try it at your own risk, if you see that the audios are not loading, uncheck "
 "it."
 msgstr ""
+"Essayez-le à vos risques et périls, si vous constatez que les audios ne se "
+"chargent pas, décochez-le."
 
 #: wpematico/app/settings_help.php:103
 msgid ""
 "Also uncheck this if you need all sizes of wordpress audios. The WP process "
 "can take too much resources if many audios are uploaded at a time."
 msgstr ""
+"Décochez également cette option si vous avez besoin de toutes les tailles "
+"d'audios WordPress. Le processus WP peut prendre trop de ressources si "
+"plusieurs audios sont téléchargés à la fois."
 
 #: wpematico/app/settings_help.php:108
 msgid "Store videos locally. (Uploads)"
-msgstr ""
+msgstr "Stockez les vidéos localement. (Téléchargements)"
 
 #: wpematico/app/settings_help.php:109
 msgid ""
@@ -5014,6 +5077,10 @@ msgid ""
 "every feed item (only in &lt;video&gt; tags) is downloaded to the Wordpress "
 "UPLOADS Dir."
 msgstr ""
+"Lorsque le stockage des vidéos localement est activé, une copie de chaque "
+"vidéo trouvée dans le contenu de chaque élément de fil (uniquement dans les "
+"balises&lt;video&gt;) est téléchargée dans le répertoire UPLOADS de "
+"Wordpress."
 
 #: wpematico/app/settings_help.php:110
 msgid ""
@@ -8375,56 +8442,56 @@ msgstr ""
 
 #: wpematico_professional/wpematicopro.php:651
 msgid "Underflow or the modes mismatch"
-msgstr ""
+msgstr "Dépassement inférieur ou non-concordance des modes"
 
 #: wpematico_professional/wpematicopro.php:654
 msgid "Unexpected control character found"
-msgstr ""
+msgstr "Erreur de syntaxe, JSON malformé"
 
 #: wpematico_professional/wpematicopro.php:657
 msgid "Syntax error, malformed JSON"
-msgstr ""
+msgstr "Erreur de syntaxe, JSON malformé"
 
 #: wpematico_professional/wpematicopro.php:660
 msgid "Malformed UTF-8 characters, possibly incorrectly encoded"
-msgstr ""
+msgstr "Caractères UTF-8 mal formés, éventuellement mal encodage"
 
 #: wpematico_professional/wpematicopro.php:663
 msgid "Unknown error"
-msgstr ""
+msgstr "Erreur inconnue"
 
 #: wpematico_professional/wpematicopro.php:734
 msgid "Campaigns Imported."
-msgstr ""
+msgstr "Campagnes importées."
 
 #: wpematico_professional/wpematicopro.php:738
 msgid "Export campaigns"
-msgstr ""
+msgstr "Exporter des campagnes"
 
 #: wpematico_professional/wpematicopro.php:766
 msgid "Initiating Ramdom Rewrites Process."
-msgstr ""
+msgstr "Lancement du processus de réécriture aléatoire."
 
 #: wpematico_professional/wpematicopro.php:848
 #, php-format
 msgid "Words replaced by Ramdom Rewrites: %s."
-msgstr ""
+msgstr "Mots remplacés par des réécritures aléatoires: %s."
 
 #: wpematico_professional/wpematicopro.php:866
 msgid "Upload & import a Campaign"
-msgstr ""
+msgstr "Télécharger et importer une campagne"
 
 #: wpematico_professional/wpematicopro.php:866
 msgid "Import campaign"
-msgstr ""
+msgstr "Importer une campagne"
 
 #: wpematico_professional/wpematicopro.php:943
 msgid "Parent Page"
-msgstr ""
+msgstr "Page parente"
 
 #: wpematico_professional/wpematicopro.php:947
 msgid "Custom Content Parsers"
-msgstr ""
+msgstr "Analyseurs de contenu personnalisés"
 
 #: wpematico_professional/wpematicopro.php:955
 msgid "Custom Title Options"
