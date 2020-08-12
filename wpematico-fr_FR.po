@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 17:59-0300\n"
-"PO-Revision-Date: 2020-08-12 00:40+0100\n"
+"PO-Revision-Date: 2020-08-12 01:06+0100\n"
 "Language-Team: NetMdP <esteban@netmdp.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6078,44 +6078,50 @@ msgid ""
 "<i>\"app/wpe-cron.php\"</i> WAS DEPRECATED and removed from WPeMatico for "
 "reasons beyond our control."
 msgstr ""
+"<i> \"app / wpe-cron.php\" </i> A ÉTÉ DÉCONSEILLÉ et supprimé de WPeMatico "
+"pour des raisons au-delà de notre volonté."
 
 #: wpematico/app/settings_page.php:636
 msgid "Please change and use the URL below in all your cronjobs."
 msgstr ""
+"Veuillez modifier et utiliser l'URL ci-dessous dans tous vos tâches "
+"planifiées."
 
 #: wpematico/app/settings_page.php:638
 msgid "URL:"
-msgstr ""
+msgstr "URL:"
 
 #: wpematico/app/settings_page.php:646
 msgid "Set a password to access the external CRON"
-msgstr ""
+msgstr "Définissez un mot de passe pour accéder aux tâche planifiées externes"
 
 #: wpematico/app/settings_page.php:649
 msgid "Set a password to use the external CRON"
-msgstr ""
+msgstr "Définissez un mot de passe pour utiliser une tâche planifiées externes"
 
 #: wpematico/app/settings_page.php:651
 msgid "Paste a generated a ramdon string."
-msgstr ""
+msgstr "Coller et générer une chaîne de caractère aléatoire."
 
 #: wpematico/app/settings_page.php:652
 msgid "See text."
-msgstr ""
+msgstr "Voir le texte."
 
 #: wpematico/app/settings_page.php:659
 msgid "Disable all WP_Cron"
-msgstr ""
+msgstr "Désactiver tous les WP_Cron"
 
 #: wpematico/app/settings_page.php:661
 msgid ""
 "To run the wordpress cron with external cron you can set up a cron job that "
 "calls:"
 msgstr ""
+"Pour exécuter le cron WordPress avec cron externe, vous pouvez configurer un "
+"travail cron qui appelle:"
 
 #: wpematico/app/settings_page.php:663
 msgid "or URL:"
-msgstr ""
+msgstr "ou l'URL:"
 
 #: wpematico/app/settings_page.php:666
 msgid ""
@@ -6528,41 +6534,54 @@ msgstr ""
 
 #: wpematico/wpematico_class.php:198
 msgid "See local Addons in plugin list"
-msgstr ""
+msgstr "Voir les modules complémentaires locaux dans la liste des extensions"
 
 #: wpematico/wpematico_class.php:204
 msgid ""
 "Activate this setting if you have problems with the addons page to see them "
 "in your plugin page like any other plugin."
 msgstr ""
+"Activez ce paramètre si vous rencontrez des problèmes avec la page des "
+"modules complémentaires pour les voir dans votre page d'extension comme "
+"n'importe quel autre extension."
 
 #: wpematico/wpematico_class.php:209
 msgid "Hide Reviews on Settings"
-msgstr ""
+msgstr "Masquer les avis sur les paramètres"
 
 #: wpematico/wpematico_class.php:215
 msgid ""
 "Activate this setting if you don't see the WPeMatico Settings page complete "
 "or can't read externals URLs."
 msgstr ""
+"Activez ce paramètre si vous ne voyez pas la page Paramètres WPeMatico "
+"complète ou si vous ne pouvez pas lire les URL externes."
 
 #: wpematico/wpematico_class.php:255
 msgid ""
 "If you don't see the WPeMatico Menu may be another plugin or a custom menu "
 "added by your theme are \"overwritten\" the WPeMatico menu position."
 msgstr ""
+"Si vous ne voyez pas le menu WPeMatico, il se peut qu'un autre extension ou "
+"un menu personnalisé ajouté par votre thème soit \"écrasé\" la position du "
+"menu WPeMatico."
 
 #: wpematico/wpematico_class.php:256
 msgid ""
 "Click the checkbox \"Reset Menu Position\" to show the menu on last position "
 "in your Wordpress menu."
 msgstr ""
+"Cliquez sur la case à cocher \"Réinitialiser la position du menu\" pour "
+"afficher le menu à la dernière position dans votre menu WordPress."
 
 #: wpematico/wpematico_class.php:258
 msgid ""
 "If you can't see well the WPeMatico Settings page is probable that you are "
 "having problems to read external wordpress web pages from your server."
 msgstr ""
+"Si vous ne voyez pas bien la page Paramètres WPeMatico, il est probable que "
+"vous rencontriez des problèmes pour lire les pages Web WordPress externes à "
+"partir de votre serveur."
 
 #: wpematico/wpematico_class.php:259
 msgid ""
