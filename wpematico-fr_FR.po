@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 17:59-0300\n"
-"PO-Revision-Date: 2020-08-13 00:27+0100\n"
+"PO-Revision-Date: 2020-08-13 00:33+0100\n"
 "Language-Team: NetMdP <esteban@netmdp.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6132,7 +6132,7 @@ msgstr ""
 "Cela définit <code>DISABLE_WP_CRON</code>à<code>true</code>, puis le  <a "
 "href=\"https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/"
 "cron.php#L314\" target=\"_blank\">le processus de tâche planifiée actuel "
-"doit être stoppé</a>"
+"doit être stoppé</a>."
 
 #: wpematico/app/settings_page.php:668
 msgid ""
@@ -6184,7 +6184,7 @@ msgstr ""
 #: wpematico_professional/includes/prosettingsextra.php:161
 #: wpematico_professional/includes/prosettingsextra.php:350
 msgid "Settings saved."
-msgstr "Paramètres sauvegardés"
+msgstr "Paramètres sauvegardés."
 
 #: wpematico/app/settings_tabs.php:20
 msgid "Licenses"
@@ -6212,7 +6212,7 @@ msgid ""
 "for <strong>autoblogging</strong>."
 msgstr ""
 "L'<strong>équipe WPeMatico</strong>travaille dure pour vous offrir un outil "
-"excellent pour l'<strong>Auto-Blog</strong>"
+"excellent pour l'<strong>Auto-Blog</strong>."
 
 #: wpematico/app/smart_notifications.php:90
 #, php-format
@@ -6302,7 +6302,7 @@ msgstr "Récupération effectuée dans %1s s."
 
 #: wpematico/app/wp-backend-helpers.php:265
 msgid "Next Scheduled Campaigns:"
-msgstr "Prochaine campagne planifiée"
+msgstr "Prochaine campagne planifiée:"
 
 #: wpematico/app/wpematico_functions.php:92
 #: wpematico_professional/includes/functions.php:235
@@ -6335,7 +6335,7 @@ msgstr "Vous utilisez une ancienne version professionnelle de WPeMatico."
 
 #: wpematico/app/wpematico_functions.php:608
 msgid "Must install at least <b>WPeMatico Professional</b> "
-msgstr "Vous devez installer au minimum <b>WPeMatico Professionnelle</b>"
+msgstr "Vous devez installer au minimum <b>WPeMatico Professionnelle</b> "
 
 #: wpematico/app/wpematico_functions.php:609
 msgid "Go to upgrade Now"
@@ -6786,7 +6786,7 @@ msgstr "Définir la bande"
 
 #: wpematico_fullcontent/inc/fulljs.php:24
 msgid "FULLJS-ERROR: your lisence is have a invalid status: "
-msgstr "FULLJS-ERROR: votre licence a un état invalide:"
+msgstr "FULLJS-ERROR: votre licence a un état invalide: "
 
 #: wpematico_fullcontent/inc/fulljs.php:44
 msgid "FULLJS-ERROR: wp_remote_post error:"
@@ -7064,11 +7064,11 @@ msgstr "Enregistrer le fichier"
 
 #: wpematico_fullcontent/inc/settings.php:185
 msgid "Inspect the test_url to get the right body content."
-msgstr "Inspectez test_url pour obtenir le bon contenu du body"
+msgstr "Inspectez test_url pour obtenir le bon contenu du body."
 
 #: wpematico_fullcontent/inc/settings.php:187
 msgid "Inspector"
-msgstr "inspecteur"
+msgstr "Inspecteur"
 
 #: wpematico_fullcontent/inc/settings.php:214
 msgid "Sample html code obtained and parsed from test_url"
@@ -7100,7 +7100,7 @@ msgid ""
 "\"etruel.com\"."
 msgstr ""
 "Le fichier n'existe pas. S'il vous plait taper un nom de domaine correcte "
-"sans le schéma, ex: \"etruel.com\""
+"sans le schéma, ex: \"etruel.com\"."
 
 #: wpematico_fullcontent/inc/settings.php:273
 msgid "Can't save file!"
@@ -7190,7 +7190,7 @@ msgstr "Sélectionnez un terme"
 #: wpematico_professional/includes/campaign_edit.php:300
 #: wpematico_professional/includes/campaign_edit.php:850
 msgid "Change Image"
-msgstr "changer l'image"
+msgstr "Changer l'image"
 
 #: wpematico_professional/includes/campaign_edit.php:319
 msgid "Open Feed advanced Options"
@@ -7281,7 +7281,7 @@ msgstr ""
 
 #: wpematico_professional/includes/campaign_edit.php:536
 msgid "Feed Chrset."
-msgstr "Jeu de caractères d'alimentation"
+msgstr "Jeu de caractères d'alimentation."
 
 #: wpematico_professional/includes/campaign_edit.php:545
 msgid ""
@@ -7293,7 +7293,7 @@ msgstr ""
 
 #: wpematico_professional/includes/campaign_edit.php:567
 msgid " Ignore Words to Tax in Settings"
-msgstr "Ignorer les mots à taxer dans les paramètres"
+msgstr " Ignorer les mots à taxer dans les paramètres"
 
 #: wpematico_professional/includes/campaign_edit.php:574
 #: wpematico_professional/includes/prosettingsextra.php:269
@@ -7313,7 +7313,7 @@ msgstr "Ignorez les articles contenant des mots au nom de l'auteur."
 #: wpematico_professional/includes/campaign_edit.php:656
 #: wpematico_professional/wpematicopro.php:1479
 msgid "Must contain"
-msgstr "doit contenir"
+msgstr "Doit contenir"
 
 #: wpematico_professional/includes/campaign_edit.php:658
 #: wpematico_professional/includes/campaign_edit.php:666
@@ -7434,7 +7434,7 @@ msgstr "Obtenez également des images de RSS"
 #: wpematico_professional/includes/core_settings.php:118
 #: wpematico_professional/includes/core_settings.php:199
 msgid "Also enclosure and media RSS tags."
-msgstr "Également des balises RSS de clôture et de média"
+msgstr "Également des balises RSS de clôture et de média."
 
 #: wpematico_professional/includes/campaign_edit.php:759
 msgid "Only if no images on content."
@@ -7720,7 +7720,7 @@ msgstr "Mots"
 
 #: wpematico_professional/includes/campaign_fetch.php:201
 msgid "Assigning date from feed item tag. "
-msgstr "Attribution de la date à partir de la balise d'élément de fil."
+msgstr "Attribution de la date à partir de la balise d'élément de fil. "
 
 #: wpematico_professional/includes/campaign_fetch.php:203
 msgid "Invalid Date format in feed item tag:"
@@ -7894,11 +7894,11 @@ msgstr "Suppression depuis la phrase: %1s"
 
 #: wpematico_professional/includes/campaign_fetch.php:1200
 msgid "Striped all &#x3C;audio&#x3E; tags from content. "
-msgstr "Supprimer toutes les balises &#x3C;audio&#x3E; du contenu."
+msgstr "Supprimer toutes les balises &#x3C;audio&#x3E; du contenu. "
 
 #: wpematico_professional/includes/campaign_fetch.php:1211
 msgid "Striped all &#x3C;video&#x3E; tags from content. "
-msgstr "Supprimer toutes les balises &#x3C;video&#x3E; du contenu."
+msgstr "Supprimer toutes les balises &#x3C;video&#x3E; du contenu. "
 
 #: wpematico_professional/includes/campaign_fetch.php:1298
 #, php-format
@@ -8575,7 +8575,7 @@ msgstr ""
 
 #: wpematico_professional/includes/prohelps.php:456
 msgid "Import feed list."
-msgstr "Importer la liste des flux"
+msgstr "Importer la liste des flux."
 
 #: wpematico_professional/includes/prohelps.php:457
 msgid ""
@@ -8592,7 +8592,8 @@ msgstr ""
 "les paramètres PRO. S'il n'existe pas, les utilisateurs seront ajoutés aux "
 "utilisateurs de WordPress. Sinon, prenez l'auteur de la campagne.\n"
 "\t\t\t\t\t\t\t<br /> www.yourfeed.com/feed, admin <br /> www.otherfeed.com/"
-"rss, visituser <br /> www.thirthfeed.com/atom, wpuser <br />"
+"rss, visituser <br /> www.thirthfeed.com/atom, wpuser <br />\n"
+"\t\t\t\t\t\t\t"
 
 #: wpematico_professional/includes/prohelps.php:467
 #: wpematico_professional/wpematicopro.php:997
@@ -8618,7 +8619,7 @@ msgstr "Nombre maximum de mots à remplacer dans le contenu de chaque article."
 
 #: wpematico_professional/includes/prohelps.php:479
 msgid "Words to Rewrite."
-msgstr "Mots à Réécriture de liens"
+msgstr "Mots à Réécriture de liens."
 
 #: wpematico_professional/includes/prohelps.php:480
 msgid ""
