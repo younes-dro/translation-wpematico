@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-13 14:48-0300\n"
-"PO-Revision-Date: 2020-08-14 03:04+0100\n"
+"PO-Revision-Date: 2020-08-14 04:24+0100\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -1820,9 +1820,9 @@ msgid ""
 "min. of margin on WP-cron schedules.  If you set up an external cron en "
 "WPeMatico Settings, you'll get better preciseness."
 msgstr ""
-"يمكنك تحديد هنا على ما الأوقات التي يريد جلب هذه الأعلاف. هذا وقد 5 دقيقة. "
-"الهامش على WP-كرون جداول. إذا قمت بإعداد خارجي كرون ar WPeMatico إعدادات, "
-"سوف تحصل على أفضل والدقة."
+"يمكنك تحديد الأوقات التي تريد جلب هذه الخلاصات. هناك 5 دقائق هامش على WP-"
+"وظائف المهام المجدولة (cron). إذا قمت بإعداد وظائف المهام المجدولة (cron) "
+"خارجي في إعدادت WPeMatico , سوف تحصل على دقة أفضل."
 
 #: wpematico/app/campaign_help.php:125
 msgid "You can see some examples here:"
@@ -1830,7 +1830,7 @@ msgstr "يمكنك ان ترى بعض الأمثلة هنا:"
 
 #: wpematico/app/campaign_help.php:125
 msgid "How to use the CRON scheduling ?"
-msgstr "كيفية استخدام كرون جدولة ?"
+msgstr "كيفية وظائف المهام المجدولة (cron)؟"
 
 #: wpematico/app/campaign_help.php:129
 msgid ""
@@ -1841,7 +1841,8 @@ msgstr ""
 
 #: wpematico/app/campaign_help.php:130
 msgid "This is also used frecuently as startpoint to define a cron schedule."
-msgstr "ويستخدم هذا أيضا frecuently كما startpoint لتحديد كرون الجدول الزمني."
+msgstr ""
+"ويستخدم هذا أيضا عادة كنقطة بداية لتعريف وظائف المهام المجدولة (cron) ."
 
 #: wpematico/app/campaign_help.php:131
 msgid ""
@@ -3573,7 +3574,7 @@ msgstr "WP كرون:"
 
 #: wpematico/app/debug_page.php:1178
 msgid "WP Cron Lock Timeout:"
-msgstr "WP كرون قفل مهلة:"
+msgstr "توقيت قفل وظائف المهام المجدولة (cron)  :"
 
 #: wpematico/app/debug_page.php:1188
 msgid "Alternate WP Cron:"
@@ -3604,7 +3605,7 @@ msgstr "نشط الإضافات"
 
 #: wpematico/app/debug_page.php:1283 wpematico/app/debug_page.php:1287
 msgid "Cron Schedules"
-msgstr "كرون جداول"
+msgstr "وظائف المهام المجدولة (cron)"
 
 #: wpematico/app/debug_page.php:1291 wpematico/app/debug_page.php:1538
 msgid "Next due"
@@ -4254,8 +4255,8 @@ msgid ""
 "Set to an external or internal Wordpress CRON scheduler and look at for the "
 "configuration tabs of all plugin extensions and Add-ons."
 msgstr ""
-"مجموعة خارجي أو داخلي وورد كرون جدولة والنظر في تكوين علامات التبويب من كل "
-"البرنامج المساعد ملحقات وإضافات."
+"تحديد مجموعةوظائف المهام المجدولة (cron) خارجي أو داخلي , والنظر في تكوين "
+"علامات التبويب لكل  الملحقات والإضافات."
 
 #: wpematico/app/lib/welcome.php:584
 msgid "Testing SimplePie library"
@@ -5099,7 +5100,7 @@ msgstr "تعطيل WPeMatico schedulings."
 
 #: wpematico/app/settings_help.php:226
 msgid "This option deactivate WPeMatico plugin cron schedules."
-msgstr "هذا الخيار تعطيل WPeMatico المساعد كرون جداول."
+msgstr "هذا الخيار يعطيل وظائف المهام المجدولة (cron) WPeMatico ."
 
 #: wpematico/app/settings_help.php:227
 msgid ""
@@ -5118,8 +5119,8 @@ msgid ""
 "Activate a code to allow or avoid the use of the external cron file.  "
 "Deactivated by default to backward compatibility, but strongly recommended."
 msgstr ""
-"تفعيل قانون للسماح أو تجنب استخدام الخارجي كرون الملف. تعطيل بشكل افتراضي "
-"إلى التوافق ، ولكن يوصى بشدة."
+"تفعيل كود للسماح أو تجنب استخدام ملف وظائف المهام المجدولة (cron) خارجي . "
+"تعطيل بشكل افتراضي للتوافق ، ولكن يوصى بشدة."
 
 #: wpematico/app/settings_help.php:233
 msgid "If this field is not checked the password will be ignored."
@@ -5147,8 +5148,9 @@ msgid ""
 "itself and all other plugins.  Not recommended unless you want to use an "
 "external Cron for your wordpress."
 msgstr ""
-"تحقق هذا إلى تعطيل جميع وورد كرون جداول. يؤثر على وورد نفسه وجميع الإضافات "
-"الأخرى. لا ينصح إلا إذا كنت ترغب في استخدام خارجي كرون وورد الخاص بك."
+"رشم هذا لتعطيل جميع .وظائف المهام المجدولة (cron). هذا يؤثر على ووردبريس "
+"نفسه وجميع الإضافات الأخرى. لا ينصح إلا إذا كنت ترغب في استخداموظائف المهام "
+"المجدولة (cron) كرون ووردبريس الخاص بك."
 
 #: wpematico/app/settings_help.php:246
 msgid "Use ALTERNATE_WP_CRON."
@@ -5231,8 +5233,8 @@ msgid ""
 "Check this if you don't want to display the widget dashboard.  Anyway, only "
 "admins will see it."
 msgstr ""
-"حدد هذا الخيار إذا كنت لا ترغب في عرض القطعة لوحة القيادة. على أي حال, فقط "
-"مدراء سوف نرى ذلك."
+"حدد هذا الخيار إذا كنت لا ترغب في عرض ودجت لوحة التحكم. على أي حال, فقط "
+"المدير من يرى هذا."
 
 #: wpematico/app/settings_help.php:281
 msgid "Disable Check Feeds before Save."
@@ -5739,7 +5741,7 @@ msgstr ""
 
 #: wpematico/app/settings_page.php:614
 msgid "Cron and Scheduler Settings"
-msgstr "كرون و جدولة الإعدادات"
+msgstr "إعدادات وظائف المهام المجدولة (cron)"
 
 #: wpematico/app/settings_page.php:618
 msgid "Use ALTERNATE_WP_CRON"
@@ -5751,7 +5753,7 @@ msgstr "تعطيل WPeMatico schedulings"
 
 #: wpematico/app/settings_page.php:632
 msgid "You must set up a cron job that calls:"
-msgstr "يجب إعداد وظيفة كرون أن يدعو:"
+msgstr "يجب إعداد وظائف المهام المجدولة (cron) الذي يدعو:"
 
 #: wpematico/app/settings_page.php:635
 msgid ""
@@ -5768,11 +5770,11 @@ msgstr "URL:"
 
 #: wpematico/app/settings_page.php:646
 msgid "Set a password to access the external CRON"
-msgstr "تعيين كلمة مرور للوصول إلى الخارجية كرون"
+msgstr "تعيين كلمة مرور لدخول إلى وظائف المهام المجدولة (cron) الخارجية"
 
 #: wpematico/app/settings_page.php:649
 msgid "Set a password to use the external CRON"
-msgstr "تعيين كلمة مرور لاستخدام الخارجية كرون"
+msgstr "تعيين كلمة مرور لاستخدام وظائف المهام المجدولة (cron) الخارجية"
 
 #: wpematico/app/settings_page.php:651
 msgid "Paste a generated a ramdon string."
@@ -5810,7 +5812,7 @@ msgstr "ثم "
 
 #: wpematico/app/settings_page.php:666
 msgid "current cron process should be killed"
-msgstr "الحالي كرون يجب أن تكون عملية قتل"
+msgstr "يجب إيقاف الكرون الحالي"
 
 #: wpematico/app/settings_page.php:668
 msgid ""
@@ -5818,7 +5820,7 @@ msgid ""
 "external crons:"
 msgstr ""
 "يمكنك العثور على مزيد من المعلومات حول WP كرون و أيضا بعض الخطوات لتكوين "
-"الخارجية crons:"
+"كرون خارجي :"
 
 #: wpematico/app/settings_page.php:669
 msgid "here"
@@ -5826,7 +5828,7 @@ msgstr "هنا"
 
 #: wpematico/app/settings_page.php:674
 msgid "Log file for external Cron"
-msgstr "ملف سجل الخارجية كرون"
+msgstr "ملف سجل كرون خارجي"
 
 #: wpematico/app/settings_page.php:684
 msgid "WordPress Backend Tools"
