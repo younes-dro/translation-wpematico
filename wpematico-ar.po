@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-13 14:48-0300\n"
-"PO-Revision-Date: 2020-08-14 04:24+0100\n"
+"PO-Revision-Date: 2020-08-14 05:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -809,21 +809,21 @@ msgstr "شريط "
 
 #: wpematico/app/campaign_edit_functions.php:765
 msgid "If you do not select any option will take as if you selected all."
-msgstr "إذا لم تقم بتحديد أي خيار كما إذا قمت بتحديد كافة."
+msgstr "إذا لم تقم بتحديد أي خيار, فكما إذا قمت بتحديد كافة الخيارات."
 
 #: wpematico/app/campaign_edit_functions.php:774
 #: wpematico/app/campaign_help.php:85
 msgid "Post Content Unfiltered."
-msgstr "نشر محتوى لم تتم تصفيتها."
+msgstr "محتوى المقال لم يتم تصفيتها."
 
 #: wpematico/app/campaign_edit_functions.php:779
 #: wpematico/app/campaign_help.php:40
 msgid "Post title links to source."
-msgstr "عنوان آخر وصلات إلى المصدر."
+msgstr "ربط عنوان المقال بالمصدر."
 
 #: wpematico/app/campaign_edit_functions.php:780
 msgid "Feature deactivated on Settings. Needs Metadata."
-msgstr "ميزة تعطيل في إعدادات. يحتاج الفوقية."
+msgstr "تعطيل الميزة في إعدادات. يحتاج إلى بيانات وصفية."
 
 #: wpematico/app/campaign_edit_functions.php:784
 #: wpematico/app/campaign_help.php:45
@@ -832,7 +832,7 @@ msgstr "نسخ الرابط الثابت من المصدر."
 
 #: wpematico/app/campaign_edit_functions.php:790
 msgid "Avoid search redirection to source permalink."
-msgstr "تجنب البحث إعادة توجيه إلى مصدر الرابط الثابت."
+msgstr "تجنب إعادة توجيه البحث إلى مصدر الرابط الثابت."
 
 #: wpematico/app/campaign_edit_functions.php:804
 msgid "Every 5 minutes"
@@ -864,12 +864,12 @@ msgstr "كل يوم عند الساعة 3"
 
 #: wpematico/app/campaign_edit_functions.php:888
 msgid "Activate scheduling"
-msgstr "تفعيل جدولة"
+msgstr "تفعيل الجدولة"
 
 #: wpematico/app/campaign_edit_functions.php:891
 #, php-format
 msgid "Working as %s job schedule:"
-msgstr "يعمل %s وظيفة الجدول الزمني:"
+msgstr "%s يعمل وظيفة الجدول الزمني:"
 
 #: wpematico/app/campaign_edit_functions.php:893
 msgid "Next runtime:"
@@ -878,11 +878,11 @@ msgstr "وقت التشغيل التالي:"
 #: wpematico/app/campaign_edit_functions.php:898
 #: wpematico/app/campaign_help.php:128
 msgid "Preselected schedules."
-msgstr "انتقاؤه جداول."
+msgstr "انتقاء أولي للجداول."
 
 #: wpematico/app/campaign_edit_functions.php:902
 msgid "Select an option to change the values."
-msgstr "حدد خيار لتغيير القيم."
+msgstr "تحديث خيار لتغيير القيم."
 
 #: wpematico/app/campaign_edit_functions.php:915
 msgid "Minutes: "
@@ -994,7 +994,7 @@ msgstr "تحديث حملة لإنقاذ يغذي النظام"
 
 #: wpematico/app/campaign_edit_functions.php:1050
 msgid "Check if this feed works"
-msgstr "تحقق مما إذا كان هذا البث يعمل"
+msgstr "تحقق مما إذا كان هذه الخلاصة تعمل"
 
 #: wpematico/app/campaign_edit_functions.php:1062
 msgid "Add Feed"
@@ -1002,7 +1002,7 @@ msgstr "إضافة تغذية"
 
 #: wpematico/app/campaign_edit_functions.php:1063
 msgid "Check all feeds"
-msgstr "تحقق من كل يغذي"
+msgstr "تحقق من كل الخلاصات Feeds"
 
 #: wpematico/app/campaign_edit_functions.php:1067
 msgid "Displaying"
@@ -1010,15 +1010,15 @@ msgstr "عرض"
 
 #: wpematico/app/campaign_edit_functions.php:1068
 msgid "Display all feeds"
-msgstr "عرض جميع الأعلاف"
+msgstr "عرض جميع الخلاصات"
 
 #: wpematico/app/campaign_edit_functions.php:1068
 msgid "Scroll feeds list."
-msgstr "انتقل يغذي قائمة."
+msgstr "تمرير قائمة الخلاصات ."
 
 #: wpematico/app/campaign_edit_functions.php:1107
 msgid "Use [embed] WP shortcode instead Youtube shared iframe."
-msgstr "استخدام [أنا] الفسفور الابيض رمز قصير بدلا يوتيوب مشترك iframe."
+msgstr "استخدام [embed] كود قصير بدلا الإطارات مشتركة iframeيوتيب  ."
 
 #: wpematico/app/campaign_edit_functions.php:1108
 msgid "Change the sizes of the video frames."
@@ -1042,7 +1042,7 @@ msgstr "صورة"
 
 #: wpematico/app/campaign_edit_functions.php:1117
 msgid "Use only as featured image"
-msgstr "استخدم فقط كما ظهرت صورة"
+msgstr "استخدم فقط كصورة بارزة"
 
 #: wpematico/app/campaign_edit_functions.php:1119
 msgid "Hide description"
@@ -1062,17 +1062,16 @@ msgid ""
 "\" page, \"Add New\", then install and activate the bbPress Plugin from "
 "Automattic."
 msgstr ""
-"إذا كنت ترغب في تثبيت المنتديات الإضافات في الموقع الخاص بك الذهاب إلى "
-"\"الإضافات\" الصفحة \"إضافة جديد\" ، ثم تثبيت وتفعيل البرنامج المساعد "
-"bbPress من Automattic."
+"إذا كنت ترغب في تثبيت المنتديات في الموقع الخاص بك الذهاب إلى صفحة \"الإضافات"
+"\" ,\"إضافة جديد\" ، ثم تثبيت وتفعيل الإمتداد bbPress من Automattic."
 
 #: wpematico/app/campaign_edit_functions.php:1134
 msgid ""
 "If you do not select a forum, this will create new forums. Otherwise, this "
 "will create new topics in the selected forum."
 msgstr ""
-"إذا كنت لا اختر منتدى, وهذا خلق جديد المنتديات. وإلا سيؤدي هذا إلى إنشاء "
-"مواضيع جديدة في اختيار المنتدى."
+"إذا لم تختر منتدى, سوف يخلق منتديات جديدة. وإلا سيؤدي هذا إلى إنشاء مواضيع "
+"جديدة في المنتدى المختار."
 
 #: wpematico/app/campaign_edit_functions.php:1136
 #: wpematico/app/campaign_edit_functions.php:1137
@@ -1098,19 +1097,19 @@ msgstr "البريد الإلكتروني-العنوان:"
 
 #: wpematico/app/campaign_edit_functions.php:1190
 msgid "Send only E-Mail on errors."
-msgstr "فقط إرسال البريد الإلكتروني على الأخطاء."
+msgstr "فقط إرسال البريد الإلكتروني في حالة أخطاء."
 
 #: wpematico/app/campaign_edit_functions.php:1200
 msgid "Tags:"
-msgstr "Tags:"
+msgstr "أوسمة"
 
 #: wpematico/app/campaign_edit_functions.php:1202
 msgid "Enter comma separated list of Tags."
-msgstr "أدخل مفصولة بفواصل قائمة العلامات."
+msgstr "أدخل لائحة أوسمة مفصولة بفواصل."
 
 #: wpematico/app/campaign_edit_functions.php:1226
 msgid "Add auto Categories"
-msgstr "إضافة فئات السيارات"
+msgstr "إضافة تصنيفات تلقائية"
 
 #: wpematico/app/campaign_edit_functions.php:1230
 msgid "Parent category to auto categories"
@@ -1763,7 +1762,8 @@ msgstr "استخدام [أنا]"
 msgid ""
 "Use [embed] WordPress shortcode instead Youtube shared iframe html code."
 msgstr ""
-"استخدام [أنا] وورد رمز قصير بدلا يوتيوب مشترك iframe التعليمات البرمجية html."
+"استخدام [embed] وورد رمز قصير بدلا يوتيوب مشترك iframe التعليمات البرمجية "
+"html."
 
 #: wpematico/app/campaign_help.php:104
 msgid ""
