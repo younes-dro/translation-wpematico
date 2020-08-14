@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-13 14:48-0300\n"
-"PO-Revision-Date: 2020-08-14 02:05+0100\n"
+"PO-Revision-Date: 2020-08-14 03:04+0100\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -82,7 +82,7 @@ msgstr "تذهب لشراء على etruel متجر"
 #: wpematico/app/addons_page.php:311
 #, php-format
 msgid "Go to %s WebPage"
-msgstr "انتقل إلى الصفحة s%"
+msgstr "انتقل إلى الصفحة %s"
 
 #: wpematico/app/addons_page.php:311
 #, php-format
@@ -242,7 +242,7 @@ msgstr "لا يمكن تحليل التغذية %s . (SimplePie أرسل: %s)"
 #: wpematico/app/campaign_edit.php:422
 #, php-format
 msgid "Feed %s could not be parsed because has an space in url."
-msgstr "لا يمكن أن تحليل الخلاصة %s  لأن لديها مساحة  في الرابط url"
+msgstr "لا يمكن أن تحليل الخلاصة %s  لأن لديها مساحة  في الرابط url."
 
 #: wpematico/app/campaign_edit_functions.php:23
 #: wpematico/app/campaigns_list.php:144 wpematico/app/campaigns_list.php:648
@@ -730,28 +730,28 @@ msgstr ""
 #: wpematico/app/campaign_edit_functions.php:661
 #: wpematico/app/settings_page.php:590
 msgid "Allow duplicates titles."
-msgstr "تسمح التكرارات الألقاب."
+msgstr "يسمح تكرار العناوين."
 
 #: wpematico/app/campaign_edit_functions.php:662
 #: wpematico/app/settings_page.php:591
 msgid "Allow duplicates hashes. (Not Recommended)"
-msgstr "تسمح التكرارات التجزئة. (لا ينصح به)"
+msgstr "تسمح تكرارات التشفير. (لا ينصح به)"
 
 #: wpematico/app/campaign_edit_functions.php:666
 #: wpematico/app/campaign_help.php:247 wpematico/app/settings_help.php:219
 #: wpematico/app/settings_page.php:595
 msgid "Add an extra duplicate filter by source permalink in meta field value."
-msgstr "إضافة إضافية مكررة تصفية حسب مصدر الرابط الثابت في مجال ميتا القيمة."
+msgstr "إضافة فلتر مكرر حسب مصدر الرابط الثابت في البيانات الوصفية."
 
 #: wpematico/app/campaign_edit_functions.php:671
 #: wpematico/app/campaign_help.php:241 wpematico/app/settings_help.php:204
 #: wpematico/app/settings_page.php:600
 msgid "Continue Fetching if found duplicated items."
-msgstr "مواصلة جلب إذا وجد تكرار العناصر."
+msgstr "مواصلة الجلب إذا وجدت عناصر مكررة."
 
 #: wpematico/app/campaign_edit_functions.php:705
 msgid "Max items to create on each fetch."
-msgstr "ماكس العناصر لخلق على كل الجلب."
+msgstr "أقصى عدد العناصر لخلقها في كل جلب."
 
 #: wpematico/app/campaign_edit_functions.php:709
 #: wpematico/app/campaign_help.php:24
@@ -761,36 +761,36 @@ msgstr "من أجل تغذية العناصر حسب التاريخ قبل ال�
 #: wpematico/app/campaign_edit_functions.php:713
 #: wpematico/app/campaign_help.php:28
 msgid "Use feed item date."
-msgstr "استخدام الأعلاف البند الآن."
+msgstr "استخدام تاريخ عنصر الخلاصة."
 
 #: wpematico/app/campaign_edit_functions.php:716
 #: wpematico/app/campaign_help.php:36
 msgid "Force item date."
-msgstr "قوة البند الآن."
+msgstr "إجبار تاريخ العنصر."
 
 #: wpematico/app/campaign_edit_functions.php:723
 #: wpematico/app/campaign_help.php:55
 msgid "Pingbacks y trackbacks."
-msgstr "والتنبيهات y تركبكس."
+msgstr "التنبيهات \"PingBacks\" والتعقيبات \"Trackbacks\"."
 
 #: wpematico/app/campaign_edit_functions.php:728
 #: wpematico/app/campaign_help.php:59
 msgid "Convert character encoding to UTF-8."
-msgstr "تحويل حرف الترميز إلى UTF-8."
+msgstr "تحويل ترميز الأحرف إلى UTF-8."
 
 #: wpematico/app/campaign_edit_functions.php:732
 msgid "Comments options:"
-msgstr "تعليقات خيارات:"
+msgstr "خيارات التعليقات :"
 
 #: wpematico/app/campaign_edit_functions.php:740
 #: wpematico/app/campaigns_list.php:863
 msgid "Author:"
-msgstr "المؤلف:"
+msgstr "الكاتب:"
 
 #: wpematico/app/campaign_edit_functions.php:746
 #: wpematico/app/campaign_help.php:71
 msgid "Fill Excerpt with item description field."
-msgstr "ملء مقتطفات مع وصف البند المجال."
+msgstr "ملء المقتطفات بوصف الحقل."
 
 #: wpematico/app/campaign_edit_functions.php:750
 msgid "Strip All HTML Tags"
@@ -799,13 +799,13 @@ msgstr "تجريد كل علامات HTML"
 #: wpematico/app/campaign_edit_functions.php:756
 #: wpematico/app/campaign_help.php:81
 msgid "Strip links from content."
-msgstr "غزة الروابط من المحتوى."
+msgstr "تجريد الروابط من المحتوى."
 
 #: wpematico/app/campaign_edit_functions.php:759
 #: wpematico/app/campaign_edit_functions.php:761
 #: wpematico/app/campaign_edit_functions.php:763
 msgid "Strip "
-msgstr "غزة "
+msgstr "شريط "
 
 #: wpematico/app/campaign_edit_functions.php:765
 msgid "If you do not select any option will take as if you selected all."
@@ -4283,7 +4283,7 @@ msgstr ""
 
 #: wpematico/app/lib/welcome.php:609
 msgid "Need Help?"
-msgstr "تحتاج إلى مساعدة ؟ "
+msgstr "تحتاج إلى مساعدة ؟"
 
 #: wpematico/app/lib/welcome.php:611
 msgid "Inline Documentation"
@@ -4340,7 +4340,7 @@ msgstr "فقط انقر فوق علامة التبويب تعليمات مرة �
 
 #: wpematico/app/lib/welcome.php:635
 msgid "Need more Help?"
-msgstr "بحاجة الى مزيد من المساعدة ؟ "
+msgstr "بحاجة الى مزيد من المساعدة ؟"
 
 #: wpematico/app/lib/welcome.php:637
 msgid "Phenomenal Support"
@@ -4360,7 +4360,7 @@ msgstr "شكل دعم"
 
 #: wpematico/app/lib/welcome.php:641
 msgid "Need Even Better Support?"
-msgstr "حتى بحاجة إلى دعم أفضل ؟ "
+msgstr "حتى بحاجة إلى دعم أفضل ؟"
 
 #: wpematico/app/lib/welcome.php:642
 msgid "Our "
@@ -4471,7 +4471,7 @@ msgid ""
 "to test it?"
 msgstr ""
 "يمكنك أن تتخيل باستخدام صور مميزة دون تخزينها على موقع الويب الخاص بك ؟ مع "
-"هذا الإصدار الجديد من الممكن الآن! ماذا تنتظرون أن الاختبار ؟ "
+"هذا الإصدار الجديد من الممكن الآن! ماذا تنتظرون أن الاختبار ؟"
 
 #: wpematico/app/lib/welcome.php:750
 msgid ""
@@ -8752,7 +8752,7 @@ msgstr "تحليل الحقول المخصصة القيم."
 #: wpematico_professional/wpematicopro.php:2083
 #: wpematico_professional/wpematicopro.php:2102
 msgid "No image in content - skipping"
-msgstr "لا صورة في المحتوى تخطي"
+msgstr "لا صورة في المحتوى- تخطي"
 
 #: wpematico_professional/wpematicopro.php:2159
 msgid "Deleting image with incorrect content:"
@@ -8766,12 +8766,12 @@ msgstr "حذف صورة غير صحيحة المحتوى:"
 #: wpematico_professional/wpematicopro.php:2474
 #, php-format
 msgid "Getting enclosure link: %s"
-msgstr "الحصول على الضميمة الرابط: %s"
+msgstr "الحصول على رابط الضميمة: %s"
 
 #: wpematico_professional/wpematicopro.php:2285
 #, php-format
 msgid "Enclosure type not accepted: %s"
-msgstr "الضميمة نوع لا يقبل: %s"
+msgstr "نوع الضميمة لا تقبل: %s"
 
 #: wpematico_professional/wpematicopro.php:2301
 #, php-format
@@ -8781,7 +8781,7 @@ msgstr "الحصول على صورة الوسم: %s"
 #: wpematico_professional/wpematicopro.php:2309
 #, php-format
 msgid "Featured image from enclosure: %s"
-msgstr "صورة مميزة من العلبة: %s"
+msgstr "صورة بارزة من العلبة: %s"
 
 #: wpematico_professional/wpematicopro.php:2323
 msgid "Applying Image Filters."
@@ -8790,7 +8790,7 @@ msgstr "تطبيق مرشحات الصور."
 #: wpematico_professional/wpematicopro.php:2336
 #: wpematico_professional/wpematicopro.php:2373
 msgid "Don't works filters with: "
-msgstr "لا يعمل المرشحات: "
+msgstr "لا يعمل المرشحات مع: "
 
 #: wpematico_professional/wpematicopro.php:2346
 #: wpematico_professional/wpematicopro.php:2383
@@ -8799,29 +8799,30 @@ msgstr "عامل التصفية: "
 
 #: wpematico_professional/wpematicopro.php:2360
 msgid "Filtering Featured Image."
-msgstr "تصفية صورة مميزة."
+msgstr "تصفية صورة بارزة."
 
 #: wpematico_professional/wpematicopro.php:2389
 msgid "First featured image meets filters: "
-msgstr "أول صورة مميزة تلبي المرشحات: "
+msgstr "أول صورة بارزة تلبي المرشحات: "
 
 #: wpematico_professional/wpematicopro.php:2492
 msgid "Inserting default Image Into Post."
-msgstr "إدراج الصورة الافتراضية في ما بعد."
+msgstr "إدراج الصورة الافتراضية في المقالة."
 
 #: wpematico_professional/wpematicopro.php:2576
 msgid ""
 "There's an error in Keyword include filter: You must check at least one "
 "search option."
 msgstr ""
-"هناك خطأ في الكلمة تشمل التصفية: يجب أن تحقق واحد على الأقل خيار البحث."
+"هناك خطأ في الكلمة تشمل التصفية: يجب أن تحقق واحد على الأقل في خيار البحث."
 
 #: wpematico_professional/wpematicopro.php:2583
 msgid ""
 "There's an error in Keyword exclude filter: You must check at least one "
 "search option."
 msgstr ""
-"هناك خطأ في الكلمة استبعاد مرشح: يجب أن تحقق واحد على الأقل خيار البحث."
+"هناك خطأ في الكلمة المفتاح استبعاد فلتر: يجب أن تحقق واحد على الأقل في خيار "
+"البحث."
 
 #: wpematico_professional/wpematicopro.php:2589
 #, php-format
@@ -8835,4 +8836,4 @@ msgstr "هناك خطأ مع الموردة RegEx التعبير في الكلم
 msgid ""
 "There's an error with the supplied RegEx expression in Keyword exclude "
 "filter: %s"
-msgstr "هناك خطأ مع الموردة RegEx التعبير في الكلمة استبعاد مرشح: %s"
+msgstr "هناك خطأ مع الموردة RegEx في الكلمة المفتاح استبعاد التصفية: %s"
