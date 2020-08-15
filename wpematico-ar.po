@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-13 14:48-0300\n"
-"PO-Revision-Date: 2020-08-15 06:10+0100\n"
+"PO-Revision-Date: 2020-08-15 07:09+0100\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -1099,7 +1099,7 @@ msgstr "فقط إرسال البريد الإلكتروني في حالة أخط
 
 #: wpematico/app/campaign_edit_functions.php:1200
 msgid "Tags:"
-msgstr "أوسمة"
+msgstr "أوسمة:"
 
 #: wpematico/app/campaign_edit_functions.php:1202
 msgid "Enter comma separated list of Tags."
@@ -1154,7 +1154,7 @@ msgstr "القادم"
 #: wpematico/app/campaign_fetch.php:92
 #, php-format
 msgid "PHP Safe Mode is on!!! Max exec time is %1$d sec."
-msgstr "PHP Safe Mode مفعل!!! توقيت الأقصى هو %1$d ثانية"
+msgstr "PHP Safe Mode مفعل!!! توقيت الأقصى هو %1$d ثانية."
 
 #: wpematico/app/campaign_fetch.php:96
 #, php-format
@@ -1168,7 +1168,7 @@ msgstr ""
 #: wpematico/app/campaign_fetch.php:106
 #, php-format
 msgid "Ending feed, reached running timeout at %1$d sec."
-msgstr "نهاية الخلاصة, نفاذ الوقت %1$d ثانية"
+msgstr "نهاية الخلاصة, نفاذ الوقت %1$d ثانية."
 
 #: wpematico/app/campaign_fetch.php:147
 #, php-format
@@ -1209,7 +1209,7 @@ msgstr "سعة جلب الحملة الحد الذي تم التوصل إليه 
 #: wpematico/app/campaign_fetch.php:261
 #, php-format
 msgid "Reached running timeout at %1$d sec."
-msgstr "وقت تشغيل الجلب في %1$d ثانية"
+msgstr "وقت تشغيل الجلب في %1$d ثانية."
 
 #: wpematico/app/campaign_fetch.php:288
 #, php-format
@@ -1300,7 +1300,7 @@ msgstr "حملة المنال في %s ثانية."
 
 #: wpematico/app/campaign_fetch.php:897
 msgid "WPeMatico Log "
-msgstr "سجل WPeMatico"
+msgstr "سجل WPeMatico "
 
 #: wpematico/app/campaign_fetch.php:900
 msgid "Campaign Name:"
@@ -1408,7 +1408,7 @@ msgstr "تحميل وسائط ..."
 #: wpematico/app/campaign_fetch_functions.php:1003
 #: wpematico/app/campaign_fetch_functions.php:1155
 msgid "Upload file failed:"
-msgstr " فشلتحميل الملف :"
+msgstr "فشلتحميل الملف :"
 
 #: wpematico/app/campaign_fetch_functions.php:476
 #: wpematico/app/campaign_fetch_functions.php:1010
@@ -1560,7 +1560,7 @@ msgstr "القيم الموصى بها هي بين 3 و 5 في كل جلب لك�
 
 #: wpematico/app/campaign_help.php:21
 msgid "Set it to 0 for unlimited."
-msgstr " القيمة 0 تمكن من جلب غير محدود."
+msgstr "القيمة 0 تمكن من جلب غير محدود."
 
 #: wpematico/app/campaign_help.php:25
 msgid ""
@@ -1892,6 +1892,8 @@ msgid ""
 "If selected and image upload get error, then delete the 'src' attribute of "
 "the &lt;img&gt;. Check this for don't link images from external sites."
 msgstr ""
+"إذا تم تحديد وتحميل الصورة يسبب خطأ,ثم احذف السمة \"src\" لصورة &lt;img&gt;."
+"تحقق من هذا لعدم ربط الصور من المواقع الخارجية."
 
 #: wpematico/app/campaign_help.php:152
 #, php-format
@@ -2017,6 +2019,8 @@ msgid ""
 "If selected and audio upload get error, then delete the 'src' attribute of "
 "the &lt;audio&gt;. Check this for don't link audios from external sites."
 msgstr ""
+"إذا تم تحديده وتحميل الصوت خطأ,ثم احذف السمة \"src\" الخاصة بـ &lt;audio&gt;. "
+"تحقق من هذا لعدم ربط الصوتيات من المواقع الخارجية."
 
 #: wpematico/app/campaign_help.php:198 wpematico/app/settings_help.php:99
 msgid "Custom Uploads for Audios."
@@ -2279,6 +2283,13 @@ msgid ""
 "line breaks because by default use the entire text field. If you want Case "
 "insensitive on RegEx, you must check the 'Case sensitive' checkbox below."
 msgstr ""
+"بالنسبة للمستخدمين المتقدمين ، يتم دعم التعبيرات العادية. سيسمح لك استخدام "
+"هذا بإجراء بدائل أكثر قوة. خذ استبدالات متعددة للكلمات على سبيل المثال. بدلاً "
+"من استخدام العديد من مربعات Word2Cat لتخصيص المحرك والسيارة للمحركات ، يمكنك "
+"استخدام | عامل التشغيل: (motor | car) ، يقبل الحقل أيضًا التعبيرات العادية "
+"بدون معلمات ، يجب ألا تشير إلى فواصل الأسطر أو فواصل الأسطر لأن استخدام حقل "
+"النص بالكامل افتراضيًا. إذا كنت تريد حساسًا لحالة الأحرف في RegEx ، فيجب تحديد "
+"مربع الاختيار \"حساس لحالة الأحرف\" أدناه."
 
 #: wpematico/app/campaign_help.php:314 wpematico/app/settings_help.php:147
 msgid "Content Rewrites."
@@ -2357,6 +2368,10 @@ msgid ""
 "example. Instead of using many rewriting boxes to replace ass and arse with "
 "butt, you can use the | operator: (ass|arse)."
 msgstr ""
+"بالنسبة للمستخدمين المتقدمين ، يتم دعم التعبيرات العادية. سيسمح لك استخدام "
+"هذا بإجراء بدائل أكثر قوة. خذ استبدالات متعددة للكلمات على سبيل المثال. بدلاً "
+"من استخدام العديد من مربعات إعادة الكتابة لاستبدال المؤخرة والمؤخرة ، يمكنك "
+"استخدام | عامل التشغيل: (ass | ass)."
 
 #: wpematico/app/campaign_help.php:330
 msgid "Campaign Categories."
@@ -3605,7 +3620,7 @@ msgstr "الإجراءات التي يتم تنفيذها عندما المسا�
 #, php-format
 msgid ""
 "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
-msgstr ""
+msgstr "يتوفر إصدار جديد م %1$s.  ,%2$s.  الإصدار %3$s., عرض تفاصيل %4$s."
 
 #: wpematico/app/lib/EDD_SL_Plugin_Updater.php:247
 #, php-format
@@ -4099,7 +4114,7 @@ msgstr ""
 
 #: wpematico/app/lib/welcome.php:430
 msgid "Hidden Options in Settings -> Writing"
-msgstr ""
+msgstr "الخيارات المخفية في الإعدادات -> الكتابة"
 
 #: wpematico/app/lib/welcome.php:431
 msgid ""
@@ -6302,6 +6317,9 @@ msgid ""
 "Do not add the og:image as featured and at the beginning of the post, "
 "<strong>if there are images in the content</strong>."
 msgstr ""
+"لا تضف og:image كما هي واردة في بداية المشاركة ، <strong> إذا كانت هناك صور "
+"في المحتوى < /\n"
+"strong>."
 
 #: wpematico_fullcontent/inc/campaign_edit.php:91
 msgid "Searches for multi-page articles"
@@ -6502,7 +6520,7 @@ msgstr "Meta تويتر:صورة:src لم يتم العثور على."
 #: wpematico_fullcontent/inc/getcontent.php:311
 #, php-format
 msgid "Got title from full article: %1s"
-msgstr ""
+msgstr "تم الحصول على العنوان من المقالة الكاملة: s1%"
 
 #: wpematico_fullcontent/inc/getcontent.php:318
 msgid "Assigning original date from full article to the post."
@@ -6519,7 +6537,7 @@ msgstr "تجهيز متعدد الصفحات."
 #: wpematico_fullcontent/inc/getcontent.php:366
 #, php-format
 msgid "--Processing next page: %1s"
-msgstr ""
+msgstr "- تجهيز الصفحة التالية: s1%"
 
 #: wpematico_fullcontent/inc/getcontent.php:380
 msgid "--Failed to extract content"
@@ -6528,12 +6546,12 @@ msgstr "--فشل في استخراج المحتوى"
 #: wpematico_fullcontent/inc/getcontent.php:383
 #, php-format
 msgid "--URL already processed: %1s"
-msgstr ""
+msgstr "- عنوان URL تمت معالجته بالفعل: s1%"
 
 #: wpematico_fullcontent/inc/getcontent.php:386
 #, php-format
 msgid "--Failed to resolve against: %1s"
-msgstr ""
+msgstr "- فشل الحل ضد: s1%"
 
 #: wpematico_fullcontent/inc/getcontent.php:394
 msgid ""
@@ -7818,6 +7836,9 @@ msgid ""
 "skip because you don&apos;t want posts about motors, simply type \"motor\" in "
 "the \"Words\" field (1 per line)."
 msgstr ""
+"مثال: إذا كان محتوى المنشور يحتوي على كلمة \"motor\" ثم تريد التخطي لأنك لا "
+"تريد منشورات عن المحركات ، فقم ببساطة بكتابة \"محرك\" في حقل \"الكلمات\" (1 "
+"لكل سطر)."
 
 #: wpematico_professional/includes/prohelps.php:201
 msgid ""
@@ -7827,6 +7848,11 @@ msgid ""
 "can use the | operator: (motor|car). If you want Case insensitive on RegEx, "
 "add \"/i\" at the end of RegEx."
 msgstr ""
+"بالنسبة للمستخدمين المتقدمين ، يتم دعم التعبيرات العادية. سيسمح لك استخدام "
+"هذا بعمل مرشحات أكثر قوة. خذ تصفية الكلمات المتعددة على سبيل المثال. بدلاً من "
+"استخدام العديد من صفوف الكلمات لتخصيص محرك وسيارة لمحركات ، يمكنك استخدام | "
+"المشغل: (motor | car). إذا كنت تريد حساسًا لحالة الأحرف في RegEx ، أضف \"/ i\" "
+"في نهاية RegEx."
 
 #: wpematico_professional/includes/prohelps.php:208
 msgid ""
@@ -7850,6 +7876,8 @@ msgid ""
 "because you don&apos;t want jose's posts, simply type \"jose\" in the \"Words"
 "\" field (1 per line)."
 msgstr ""
+"إذا كان اسم مؤلف المنشور يحتوي على كلمة \"jose\" ثم تريد التخطي لأنك لا تريد "
+"مشاركات jose ، فاكتب ببساطة \"jose\" في حقل \"Words\" (1 في كل سطر)."
 
 #: wpematico_professional/includes/prohelps.php:213
 msgid ""
@@ -7859,6 +7887,11 @@ msgid ""
 "| operator: (jose|maria). If you want Case insensitive on RegEx, add \"/i\" "
 "at the end of RegEx."
 msgstr ""
+"بالنسبة للمستخدمين المتقدمين ، يتم دعم التعبيرات العادية. سيسمح لك استخدام "
+"هذا بعمل مرشحات أكثر قوة. خذ تصفية الكلمات المتعددة على سبيل المثال. بدلاً من "
+"استخدام العديد من صفوف الكلمات لتعيين jose و maria ، يمكنك استخدام | المشغل: "
+"(jose | maria). إذا كنت تريد حساسًا لحالة الأحرف في RegEx ، أضف \"/ i\" في "
+"نهاية RegEx."
 
 #: wpematico_professional/includes/prohelps.php:221
 msgid "Strip the queries variables in images URls"
@@ -8141,6 +8174,8 @@ msgid ""
 "\t\t\t\t\t\t\tIf the text contains the word \"woman\" will be replaced by "
 "\"lady\", \"female\" or \"girl\" ramdomly."
 msgstr ""
+"\n"
+"<>\t\t\t\t\t\t\t"
 
 #: wpematico_professional/includes/prosettings.php:107
 msgid "Professional"
