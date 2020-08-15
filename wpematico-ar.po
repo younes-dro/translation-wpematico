@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-13 14:48-0300\n"
-"PO-Revision-Date: 2020-08-15 02:14+0100\n"
+"PO-Revision-Date: 2020-08-15 06:10+0100\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -475,7 +475,7 @@ msgstr "انقر فوق إظهار/إخفاء الأمثلة"
 
 #: wpematico/app/campaign_edit_functions.php:417
 msgid "Click here to see more info of the template feature."
-msgstr "انقر هنا لمعرفة المزيد من المعلومات من القالب الميزة."
+msgstr "انقر هنا لمعرفة المزيد من المعلومات عن ميزات القالب."
 
 #: wpematico/app/campaign_edit_functions.php:421
 #: wpematico/app/campaign_help.php:275
@@ -653,7 +653,7 @@ msgstr "استخدام صورة بارزة من URL."
 #: wpematico/app/campaign_edit_functions.php:510
 #: wpematico/app/campaign_help.php:166
 msgid "Enable featured image selector."
-msgstr "تفعيل محدد صورة بارزة ."
+msgstr "تفعيل محدد Selector صورة بارزة ."
 
 #: wpematico/app/campaign_edit_functions.php:512
 msgid "Index to featured"
@@ -667,7 +667,7 @@ msgstr "إذا لا يجود مؤشر"
 #: wpematico/app/campaign_help.php:171 wpematico/app/settings_help.php:63
 #: wpematico/app/settings_page.php:351
 msgid "Remove Featured Image from content."
-msgstr "إزالة الصورة مميزة من المحتوى."
+msgstr "إزالة الصورة البارزة من المحتوى."
 
 #: wpematico/app/campaign_edit_functions.php:526
 #: wpematico/app/campaign_edit_functions.php:575
@@ -754,7 +754,7 @@ msgstr "أقصى عدد العناصر لخلقها في كل جلب."
 #: wpematico/app/campaign_edit_functions.php:709
 #: wpematico/app/campaign_help.php:24
 msgid "Order feed items by Date before process."
-msgstr "من أجل تغذية العناصر حسب التاريخ قبل العملية."
+msgstr "ترتيب عناصر المقالات حسب التاريخ قبل المعالجة."
 
 #: wpematico/app/campaign_edit_functions.php:713
 #: wpematico/app/campaign_help.php:28
@@ -826,7 +826,7 @@ msgstr "تعطيل الميزة في إعدادات. يحتاج إلى بيان�
 #: wpematico/app/campaign_edit_functions.php:784
 #: wpematico/app/campaign_help.php:45
 msgid "Copy the permalink from the source."
-msgstr "نسخ الرابط الثابت من المصدر."
+msgstr "نسخ الرابط الدائم من المصدر."
 
 #: wpematico/app/campaign_edit_functions.php:790
 msgid "Avoid search redirection to source permalink."
@@ -1551,52 +1551,52 @@ msgstr "ماكس البنود في الجلب."
 
 #: wpematico/app/campaign_help.php:19
 msgid "Items to fetch PER every feed above."
-msgstr "البنود جلب في كل تغذية أعلاه."
+msgstr "عدد العناصر لجلبها في كل تغذية أعلاه."
 
 #: wpematico/app/campaign_help.php:20
 msgid ""
 "Recommended values are between 3 and 5 fetching more times to not lose items."
-msgstr "القيم الموصى بها هي بين 3 و 5 في جلب أكثر من مرة أن لا تفقد العناصر."
+msgstr "القيم الموصى بها هي بين 3 و 5 في كل جلب لكي لا تفقد العناصر."
 
 #: wpematico/app/campaign_help.php:21
 msgid "Set it to 0 for unlimited."
-msgstr "تعيين إلى 0 غير محدود."
+msgstr " القيمة 0 تمكن من جلب غير محدود."
 
 #: wpematico/app/campaign_help.php:25
 msgid ""
 "Recommended to use only if the feeds are not ordered by date. The campaign "
 "can lose some items if the feed are not ordered by date from newest to oldest."
 msgstr ""
-"المستحسن أن تستخدم فقط إذا كان يغذي لم يؤمر قبل التاريخ. الحملة يمكن أن تفقد "
-"بعض العناصر إذا الخلاصة هي لم يؤمر قبل التاريخ من الأحدث إلى الأقدم."
+"يستحسن أن تستخدم هذا الخيار فقط إذا كانت الخلاصات غير مرتبة حسب التاريخ . "
+"الحملة يمكن أن تفقد بعض العناصر إذا كانت الخلاصة غير مرتبة حسب التاريخ من "
+"الأحدث إلى الأقدم."
 
 #: wpematico/app/campaign_help.php:29
 msgid ""
 "Use the original date from the post instead of the time the post is created "
 "by WPeMatico."
 msgstr ""
-"استخدام التاريخ الأصلي من هذا المنصب بدلا من وقت آخر يتم إنشاؤه من قبل "
-"WPeMatico."
+"استخدام التاريخ الأصلي من المقال بدلا من تاريخ الإنشاء من طرف WPeMatico."
 
 #: wpematico/app/campaign_help.php:30
 msgid ""
 "To avoid incoherent dates due to lousy setup feeds, WPeMatico will use the "
 "feed date only if these conditions are met:"
 msgstr ""
-"لتجنب غير متماسكة المواعيد بسبب رديء إعداد الأعلاف, WPeMatico استخدام الأعلاف "
-"التاريخ فقط إذا تم استيفاء هذه الشروط:"
+"لتجنب تواريخ غير متناسقة بسبب رداءة إعدادات الخلاصات . WPeMatico يستخد تاريخ "
+"الخلاصات فقط إذا تم استيفاء هذه الشروط:"
 
 #: wpematico/app/campaign_help.php:32
 msgid ""
 "The feed item date is not too far in the past (specifically, as much time as "
 "the campaign frequency)."
 msgstr ""
-"تغذية البند التاريخ ليس بعيدا جدا في الماضي (على وجه التحديد ، كما الكثير من "
-"الوقت كما الحملة التردد)."
+"تاريخ عنصر الخلاصة ليس بعيدا جدا في الماضي (على وجه التحديد ،بقدر وقت تردد "
+"الحملة )."
 
 #: wpematico/app/campaign_help.php:33
 msgid "The fetched feed item date is not in the future."
-msgstr "المنال تغذية البند تاريخ في المستقبل."
+msgstr "تاريخ عنصر الخلاصة المجلوب ليس في تاريخ المستقبل."
 
 #: wpematico/app/campaign_help.php:37
 msgid ""
@@ -1608,18 +1608,18 @@ msgstr ""
 
 #: wpematico/app/campaign_help.php:41
 msgid "This option make the title permalink to original URL."
-msgstr "هذا الخيار جعل العنوان permalink to URL الأصلي."
+msgstr "هذا الخيار يوجه الرابط الدائم permalink إلى العنوان URL الأصلي."
 
 #: wpematico/app/campaign_help.php:42
 msgid ""
 "This feature will be ignored if you deactivate Campaign Custom Fields on "
 "settings."
 msgstr ""
-"هذه الميزة سيتم تجاهل إذا قمت بإلغاء تنشيط الحملة الحقول المخصصة في الإعدادات."
+"هذه الميزة سيتم تجاهلها إذا قمت بإلغاء تنشيط حقول الحملة المخصصة في الإعدادات."
 
 #: wpematico/app/campaign_help.php:46
 msgid "This option allows to use the exact permalink of the source"
-msgstr "يسمح هذا الخيار لاستخدام نفس الرابط الثابت من المصدر"
+msgstr "يسمح هذا الخيار بإستخدام نفس الرابط الدائم من المصدر"
 
 #: wpematico/app/campaign_help.php:49
 msgid "Avoid Search redirection to source permalink."
@@ -1630,8 +1630,8 @@ msgid ""
 "This feature allow follow or not redirections of URLs on permalinks to try to "
 "get the original source permalink."
 msgstr ""
-"هذه الميزة تسمح تتبع أو لا إعادة توجيه عناوين url على الروابط الثابتة "
-"permalinks في محاولة للحصول على المصدر الأصلي الرابط الثابت."
+"هذه الميزة تسمح بتتبع , أو عدم إعادة توجيه عناوين url على الروابط الدائمة "
+"permalinks في محاولة للحصول على المصدر الأصلي لرابط الدائم."
 
 #: wpematico/app/campaign_help.php:51
 msgid ""
@@ -1647,15 +1647,17 @@ msgstr "حدد هذا الخيار لتحسين جلب السرعة والأدا
 
 #: wpematico/app/campaign_help.php:56
 msgid "Allows pinbacks and trackbacks in the posts created by this campaign."
-msgstr "يسمح pinbacks و تركبكس في المشاركات التي تم إنشاؤها بواسطة هذه الحملة."
+msgstr ""
+"السماح لتنبيهات pinbacks والتعقيبات trackbacks في المقالات التي تم إنشاؤها "
+"بواسطة هذه الحملة."
 
 #: wpematico/app/campaign_help.php:60
 msgid ""
 "This feature convert character encoding of content and title to UTF-8 if they "
 "have different character encoding."
 msgstr ""
-"هذه الميزة تحويل ترميز الأحرف من المحتوى و العنوان إلى UTF-8 إذا كان لديهم "
-"مختلفة ترميز الأحرف."
+"هذه الميزة تمكن من تحويل ترميز أحرف المحتوى و العنوان إلى UTF-8 إذا كان لديهم "
+"ترميز الأحرف مختلف."
 
 #: wpematico/app/campaign_help.php:63
 msgid "Discussion options."
@@ -1663,7 +1665,7 @@ msgstr "مناقشة الخيارات."
 
 #: wpematico/app/campaign_help.php:64
 msgid "Comments options to these posts."
-msgstr "تعليقات الخيارات إلى هذه الوظائف."
+msgstr "خيارات التعليقات لهذه المقالات."
 
 #: wpematico/app/campaign_help.php:67
 msgid "Author."
@@ -1671,7 +1673,7 @@ msgstr "المؤلف."
 
 #: wpematico/app/campaign_help.php:68
 msgid "The posts created by this campaign will be assigned to this author."
-msgstr "الوظائف التي تم إنشاؤها بواسطة هذه الحملة سيتم تعيين هذا الكاتب."
+msgstr "المقالات التي تم إنشاؤها بواسطة هذه الحملة سيتم تعيين هذا الكاتب."
 
 #: wpematico/app/campaign_help.php:72
 msgid ""
@@ -1679,8 +1681,8 @@ msgid ""
 "but check this option if you want to fill in the excerpt field with the "
 "description tag of the item. "
 msgstr ""
-"وورد التخلف يبذلون مقتطفات \"على الطاير\" من محتويات آخر ، ولكن حدد هذا "
-"الخيار إذا كنت ترغب في ملء الحقل مقتطفات مع وصف الوسم من هذا البند. "
+"ووردبريس بشكل إفتراضي يعمل مقتطفات \"على الطاير\" من محتويات المقال ، حدد هذا "
+"الخيار إذا كنت ترغب في ملء حقل المقتطفات بوصف الوسم. "
 
 #: wpematico/app/campaign_help.php:73
 msgid ""
@@ -1696,17 +1698,17 @@ msgstr "تجريد كل علامات HTML."
 
 #: wpematico/app/campaign_help.php:77
 msgid "Remove all HTML from original content"
-msgstr "إزالة كافة HTML من المحتوى الأصلي"
+msgstr "إزالة كافة علامات HTML من المحتوى الأصلي"
 
 #: wpematico/app/campaign_help.php:78
 #, php-format
 msgid "NOTE that also strip images %s and links %s"
-msgstr "علما أنه أيضا شريط الصور %s والروابط %s"
+msgstr "ملحوظة: هذا ايضا يزيل الصور %s والروابط: %s"
 
 #: wpematico/app/campaign_help.php:82
 msgid ""
 "This option take out clickable links from content, leaving just the text."
-msgstr "هذا الخيار تأخذ بها روابط يمكن النقر عليها من المحتوى ، وترك فقط النص."
+msgstr "هذا الخيار يعطل خاصية النقر على الروابط من المحتوى ، وترك فقط النص."
 
 #: wpematico/app/campaign_help.php:86
 msgid "Skip the Wordpress post content filters."
@@ -1851,7 +1853,7 @@ msgstr "حملة خيارات الصور."
 msgid ""
 "These features will override the general Settings options only for this "
 "campaign."
-msgstr "هذه الميزات تجاوز الإعدادات العامة الخيارات فقط من أجل هذه الحملة."
+msgstr "هذه الميزات تلغي خيارات الإعدادات العامة لهذه الحملة فقط."
 
 #: wpematico/app/campaign_help.php:140
 msgid "Cache images."
@@ -1864,8 +1866,8 @@ msgid ""
 "Upload Folder and replaced urls in content. Otherwise remains links to source "
 "hosting server."
 msgstr ""
-"جميع الصور الموجودة في %s الكلمات في المحتوى سيتم تحميل الحالي WP تحميل "
-"المجلد استبدال عناوين المواقع في المحتوى. وإلا تبقى روابط المصدر استضافة خادم."
+"جميع الصور الموجودة في %s في المحتوى سيتم تحميلها الى المجلد WP . استبدال "
+"عناوين URLالمواقع في المحتوى. وإلا تبقى روابط المصدر موجهة الى خادم."
 
 #: wpematico/app/campaign_help.php:144 wpematico/app/settings_help.php:30
 msgid "Attach Images to post."
@@ -1914,14 +1916,15 @@ msgid ""
 "Check this to set first image found on every content to be uploaded, attached "
 "and made Featured."
 msgstr ""
-"تحقق هذا إلى تعيين أول صورة وجدت على كل المحتوى ليتم تحميلها تعلق وجعل مميزة."
+"ضع علامة في هذا الاختيار لتعيين أول صورة في كل محتوى ليتم تحميلها وجعلها صورة "
+"بارزة."
 
 #: wpematico/app/campaign_help.php:161 wpematico/app/settings_help.php:58
 msgid ""
 "Check this to use Featured Image from URL plugin. Be sure it is installed and "
 "activated."
 msgstr ""
-"يمكنك استخدام صورة مميزة من رابط البرنامج المساعد. تأكد من تثبيته و تفعيله."
+"يمكنك استخدام صورة بارزة من رابط الإمتداد Plugin. تأكد من تثبيته و تفعيله."
 
 #: wpematico/app/campaign_help.php:162 wpematico/app/settings_help.php:54
 #: wpematico/app/settings_help.php:59
@@ -1949,12 +1952,12 @@ msgid ""
 "Check this to select a featured image, it doesn't matter what order it have "
 "in the content. You can choice the first, second or third image."
 msgstr ""
-"الاختيار هذا لتحديد صورة مميزة ، لا يهم ما من أجل ذلك يكون في المحتوى. يمكنك "
-"الاختيار الأول أو الثاني أو الثالث صورة."
+"فعل هذا الاختيار لتحديد صورة بارزة ، لا يهم ترتيبها في المحتوى. يمكنك "
+"الاختيار أول أو ثاني أو ثالث صورة."
 
 #: wpematico/app/campaign_help.php:172 wpematico/app/settings_help.php:64
 msgid "Check this to strip the Featured Image from the post content."
-msgstr "تحقق هذا على قطاع صورة مميزة من المحتوى آخر."
+msgstr "فعل هذا الاختيار لتجريد المحتوى من الصورة البارزة."
 
 #: wpematico/app/campaign_help.php:175 wpematico/app/settings_help.php:68
 msgid "Custom Uploads for Images."
@@ -2101,16 +2104,14 @@ msgid ""
 "because assume that all followed posts, are also duplicates.  You can disable "
 "these controls here."
 msgstr ""
-"عند تشغيل حملة وجدت تكرار آخر عملية انقطاع لأن نفترض أن جميع تليها الوظائف "
-"أيضا مكررة. يمكنك تعطيل هذه الضوابط هنا."
+"عندما تجد الحملة المشغلة مقالات مكررة, يتم توقيف معالجة الحملة بإفتراض ان كل "
+"المقالات مكررة أيضا. يمكنك تعطيل هذه الضوابط هنا."
 
 #: wpematico/app/campaign_help.php:236 wpematico/app/settings_help.php:199
 msgid ""
 "Duplicates checking by hash is a boost to checking for duplicates by title, "
 "which may fail many times."
-msgstr ""
-"التكرارات التحقق من التجزئة هو دفعة إلى التحقق من التكرارات من خلال العنوان "
-"الذي قد تفشل مرات عديدة."
+msgstr "التحقق من التكرارات بتشفير hash من خلال العنوان .الذي قد تفشل عدة مرات."
 
 #: wpematico/app/campaign_help.php:237 wpematico/app/settings_help.php:200
 msgid "Allowing duplicated posts"
@@ -2131,9 +2132,9 @@ msgid ""
 "duplicate and continues reading the feed searching more new items. NOT "
 "RECOMMENDED."
 msgstr ""
-"إلا أنها المرة الأولى عندما يجد مكررة ، وهو ما يعني أن كل البنود التالية كانت "
-"تقرأ من قبل. هذا الخيار يتجنب ويسمح القفز كل مكررة ويستمر في القراءة تغذية "
-"البحث عن المزيد من العناصر الجديدة. لا ينصح."
+"مادام أنها المرة الأولى ، عندما تجد تكرارات ، وهو ما يعني أن كل المقالات "
+"التالية كانت تقرأ من قبل. هذا الخيار يتجنب ويسمح القفز كل تكرار ويستمر في "
+"قراءة الخلاصة Feed و البحث عن المزيد من العناصر الجديدة. لا ينصح بها."
 
 #: wpematico/app/campaign_help.php:243 wpematico/app/settings_help.php:206
 msgid "How it works:"
@@ -2165,8 +2166,9 @@ msgid ""
 "This option is ONLY recommended if you continues with duplicates problems in "
 "your site. This can be given by some non-standards feeds.  NOT RECOMMENDED."
 msgstr ""
-"هذا الخيار هو الوحيد الموصى به إذا كنت لا تزال مع التكرارات مشاكل في الموقع "
-"الخاص بك. هذا يمكن أن تعطى بعض المعايير الأعلاف. لا ينصح."
+"هذا الخيار هو الوحيد الموصى به, إذا كنت لا تزال تجد مشاكل مع التكرارات في "
+"الموقع الخاص بك. هذا يمكن أن تعطى بعض الخلاصات ذات معايير غير قياسية. لا ينصح "
+"بهذا."
 
 #: wpematico/app/campaign_help.php:256
 msgid ""
@@ -2221,8 +2223,8 @@ msgid ""
 "information, such as text, images, campaign data, etc. before save it as post "
 "content."
 msgstr ""
-"حملة قالب آخر يسمح لتعديل المحتوى المنال من خلال إضافة المزيد من المعلومات "
-"مثل النصوص, الصور, حملة البيانات ، إلخ. قبل حفظه كما نشر المحتوى."
+"قالب مقال الحملة يسمح بتعديل المحتوى المجلوب من خلال إضافة المزيد من "
+"المعلومات الإضافية مثل النصوص, الصور, بيانات الحملة ، إلخ. قبل حفظ محتوى نشر ."
 
 #: wpematico/app/campaign_help.php:274
 msgid ""
@@ -2363,7 +2365,7 @@ msgstr "حملة الفئات."
 #: wpematico/app/campaign_help.php:331
 msgid ""
 "Add categories from the source post and/or assign already existing categories."
-msgstr "إضافة فئات من مصدر آخر و/أو تعيين بالفعل الفئات الموجودة."
+msgstr "إضافة تصنيفات من مصدر آخر و/أو تعيين فئات موجودة سلفا."
 
 #: wpematico/app/campaign_help.php:334
 msgid "Add auto Categories."
@@ -2374,8 +2376,8 @@ msgid ""
 "If categories are found on source item, these categories will be added to the "
 "post; If category does not exist, then will be created."
 msgstr ""
-"إذا فئات الاطلاع على البند مصدر هذه الفئات سوف تضاف إلى آخر. إن فئة لا وجود "
-"لها ، ثم سيتم إنشاؤه."
+"إذا وجدت تصنيفات من مصدر , هذه الفئات سوف تضاف إلى المقال. إن تصنيف لا "
+"يوجود ، سيتم إنشاؤه."
 
 #: wpematico/app/campaign_help.php:338
 msgid "Parent category to auto categories."
@@ -2419,9 +2421,9 @@ msgid ""
 "filter the emails only if an error occurred or left blank to not send emails "
 "of this campaign."
 msgstr ""
-"سيتم إرسال رسالة بالبريد الإلكتروني مع أحداث الحملة المنال. يمكنك أيضا تصفية "
-"رسائل البريد الإلكتروني فقط إذا حدث خطأ أو تركها فارغة إلى عدم إرسال رسائل "
-"البريد الإلكتروني من هذه الحملة."
+"سيتم إرسال رسالة بالبريد الإلكتروني مع أحداث الحملة. يمكنك أيضا تصفية رسائل "
+"البريد الإلكتروني فقط إذا حدث خطأ أو تركها فارغة إلى عدم إرسال رسائل البريد "
+"الإلكتروني من هذه الحملة."
 
 #: wpematico/app/campaign_log.php:67
 #, php-format
