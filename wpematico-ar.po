@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPeMatico 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-13 14:48-0300\n"
-"PO-Revision-Date: 2020-08-14 17:05+0100\n"
+"PO-Revision-Date: 2020-08-15 02:14+0100\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -1361,12 +1361,12 @@ msgstr "تحليل قالب المقال."
 
 #: wpematico/app/campaign_fetch_functions.php:98
 msgid "Can't find the featured image to add to the content."
-msgstr "لا يمكن العثور على صورة بارزة لإضافة المحتوى."
+msgstr "لا يمكن العثور على صورة بارزة لإضافتها إلى المحتوى."
 
 #: wpematico/app/campaign_fetch_functions.php:210
 #, php-format
 msgid "Processing Words to Category %s"
-msgstr "معالجة الكلمات الفئة %s"
+msgstr "معالجة الكلمات الى الصنف %s"
 
 #: wpematico/app/campaign_fetch_functions.php:239
 #, php-format
@@ -1381,17 +1381,17 @@ msgstr "لم يتم العثور على كلمة %s"
 
 #: wpematico/app/campaign_fetch_functions.php:250
 msgid "Searching the category with more words."
-msgstr "البحث في الفئة مع أكثر من الكلمات."
+msgstr "البحث عن الصنف مع أكثر من كلمة."
 
 #: wpematico/app/campaign_fetch_functions.php:265
 #, php-format
 msgid "The category with more words in content: %s"
-msgstr "الفئة مع المزيد من الكلمات في المحتوى: %s"
+msgstr "الصنف مع المزيد من الكلمات في المحتوى: %s"
 
 #: wpematico/app/campaign_fetch_functions.php:271
 #, php-format
 msgid "Assign the first category: %s"
-msgstr "تعيين الفئة الأولى: %s"
+msgstr "تعيين الصنف الأولى: %s"
 
 #: wpematico/app/campaign_fetch_functions.php:412
 msgid "Looking for images in content."
@@ -1401,14 +1401,14 @@ msgstr "أبحث عن الصور في المحتوى."
 #: wpematico/app/campaign_fetch_functions.php:956
 #: wpematico/app/campaign_fetch_functions.php:1107
 msgid "Uploading media..."
-msgstr "تحميل وسائل الإعلام..."
+msgstr "تحميل وسائط ..."
 
 #: wpematico/app/campaign_fetch_functions.php:452
 #: wpematico/app/campaign_fetch_functions.php:467
 #: wpematico/app/campaign_fetch_functions.php:1003
 #: wpematico/app/campaign_fetch_functions.php:1155
 msgid "Upload file failed:"
-msgstr "تحميل ملف فشلت:"
+msgstr " فشلتحميل الملف :"
 
 #: wpematico/app/campaign_fetch_functions.php:476
 #: wpematico/app/campaign_fetch_functions.php:1010
@@ -1420,11 +1420,11 @@ msgstr "امتداد غير مسموح بها: "
 #: wpematico/app/campaign_fetch_functions.php:1012
 #: wpematico/app/campaign_fetch_functions.php:1164
 msgid "Stripped src."
-msgstr "جردت src."
+msgstr "إزالة src."
 
 #: wpematico/app/campaign_fetch_functions.php:489
 msgid "Using remotely linked images in content. No changes."
-msgstr "استخدام عن بعد ربط الصور في المحتوى. أي تغييرات."
+msgstr "استخدام روابط الصور عن بعدفي المحتوى.ﻻ توجد حزم تغييرات."
 
 #: wpematico/app/campaign_fetch_functions.php:524
 #: wpematico_professional/includes/functions.php:320
@@ -1434,11 +1434,11 @@ msgstr "إرفاق ملف:"
 #: wpematico/app/campaign_fetch_functions.php:527
 #: wpematico_professional/includes/functions.php:323
 msgid "Sorry, your attach could not be inserted. Something wrong happened."
-msgstr "آسف يا إرفاق لا يمكن إدراجها. خطأ ما حدث."
+msgstr "آسف, المرفق لا يمكن إدراجه. خطأ ما حدث."
 
 #: wpematico/app/campaign_fetch_functions.php:561
 msgid "Executing featured image selector..."
-msgstr "تنفيذ صورة مميزة محدد..."
+msgstr "تنفيذ محدد الصورة البارزة ..."
 
 #: wpematico/app/campaign_fetch_functions.php:564
 #, php-format
@@ -1447,27 +1447,27 @@ msgstr "صورة بارزة  \"%s\": %s"
 
 #: wpematico/app/campaign_fetch_functions.php:567
 msgid "No image was found according to the selected index."
-msgstr "لا صورة تم العثور على حسب اختيار مؤشر."
+msgstr "لا توجد صورة بناءا على المؤشر المختار."
 
 #: wpematico/app/campaign_fetch_functions.php:572
 msgid "The first image was not found in the content."
-msgstr "الصورة الأولى لم يتم العثور على في المحتوى."
+msgstr "الصورة الأولى لم يتم العثور عليها في المحتوى."
 
 #: wpematico/app/campaign_fetch_functions.php:574
 msgid "Using first image as the featured image."
-msgstr "باستخدام أول صورة مثل صورة مميزة."
+msgstr "إستخدام أول صورة كصورة بارزة."
 
 #: wpematico/app/campaign_fetch_functions.php:580
 msgid "The last image was not found in the content."
-msgstr "آخر صورة لم يتم العثور على في المحتوى."
+msgstr "آخر صورة تم العثور عليها في المحتوى."
 
 #: wpematico/app/campaign_fetch_functions.php:582
 msgid "Using last image as the featured image."
-msgstr "باستخدام آخر صورة مثل صورة مميزة."
+msgstr "استخدام آخر صورة كصورة بارزة."
 
 #: wpematico/app/campaign_fetch_functions.php:654
 msgid "Getting srcset attribute..."
-msgstr "الحصول على srcset السمة..."
+msgstr "الحصول على الخاصية srcset ..."
 
 #: wpematico/app/campaign_fetch_functions.php:680
 #, php-format
